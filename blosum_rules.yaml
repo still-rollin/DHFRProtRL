@@ -1,0 +1,14 @@
+thresholds:
+  high:    1     # >=1 strongly favored in evolution -> small bonus
+  neutral: 0     # 0..0.9: near-neutral
+  low:    -1     # -1..-1.9: disfavored
+  very_low: -2   # <= -2 strongly disfavored
+
+scores:
+  "high":        bonus_small      # e.g., +0.05
+  "neutral":     none
+  "low":         mild_penalty
+  "moderate":    moderate_penalty
+  "severe":      severe_penalty
+
+notes: "Clip extreme negatives to avoid overwhelming all other signals."

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+wandb/
+tb_log/
+slurm/
+policy/
+saved/
+*.pt
+ckpt/esm2*
+*.npy
+results/*/*.npy
+# keep the small oracle checkpoints
+!ckpt/DHFR/*.ckpt

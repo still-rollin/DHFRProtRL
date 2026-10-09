@@ -1,0 +1,115 @@
+
+# Size and Shape Rules for Amino Acid Substitutions
+# Based on physicochemical properties (Volume, Polarity)
+
+# Small / Tiny
+G:
+  no_cost: [A, S]
+  mild: [T, C, P, V]
+  moderate: [D, N, L, I]
+  severe: [F, Y, W, R, K, H, E, Q]
+A:
+  no_cost: [G, S, C]
+  mild: [V, T, P]
+  moderate: [L, I, M, D, N]
+  severe: [F, Y, W, R, K, H, E, Q]
+S:
+  no_cost: [A, G, C, T]
+  mild: [N, D, V, P]
+  moderate: [E, Q, L, I, M]
+  severe: [F, Y, W, R, K, H]
+
+# Hydrophobic / Aliphatic
+V:
+  no_cost: [I, L, M]
+  mild: [A, T, C]
+  moderate: [F, Y, S, P, G]
+  severe: [D, E, K, R, H, W, N, Q]
+I: 
+  no_cost: [L, V, M]
+  mild: [F, Y]
+  moderate: [A, T, C, W]
+  severe: [D, E, K, R, H, G, P, S, N, Q]
+L:
+  no_cost: [I, V, M]
+  mild: [F, Y]
+  moderate: [W, A, T, C]
+  severe: [D, E, K, R, H, G, P, S, N, Q]
+M:
+  no_cost: [L, I, V]
+  mild: [F, Y, C]
+  moderate: [W, A, T]
+  severe: [D, E, K, R, H, G, P, S, N, Q]
+
+# Aromatic
+F:
+  no_cost: [Y, W]
+  mild: [L, I, M]
+  moderate: [H, V]
+  severe: [G, A, S, P, D, E, K, R, N, Q, C, T]
+Y:
+  no_cost: [F, W]
+  mild: [L, I, M, H]
+  moderate: [V, T]
+  severe: [G, A, S, P, D, E, K, R, N, Q, C]
+W:
+  no_cost: [F, Y]
+  mild: [L, I, M]
+  moderate: [H, V]
+  severe: [G, A, S, P, D, E, K, R, N, Q, C, T]
+
+# Acidic / Amide
+D:
+  no_cost: [E, N]
+  mild: [Q, S, T]
+  moderate: [K, R, H]
+  severe: [L, I, V, M, F, Y, W, G, A, P, C]
+E:
+  no_cost: [D, Q]
+  mild: [N, K, R, H]
+  moderate: [S, T]
+  severe: [L, I, V, M, F, Y, W, G, A, P, C]
+N:
+  no_cost: [D, Q, S]
+  mild: [E, T, H]
+  moderate: [K, R]
+  severe: [L, I, V, M, F, Y, W, G, A, P, C]
+Q:
+  no_cost: [E, N]
+  mild: [D, H, K, R]
+  moderate: [S, T, M]
+  severe: [L, I, V, F, Y, W, G, A, P, C]
+
+# Basic
+K:
+  no_cost: [R]
+  mild: [H, Q, E]
+  moderate: [N, D, S, T]
+  severe: [L, I, V, M, F, Y, W, G, A, P, C]
+R:
+  no_cost: [K]
+  mild: [H, Q, E]
+  moderate: [N, D, S, T]
+  severe: [L, I, V, M, F, Y, W, G, A, P, C]
+H:
+  no_cost: [K, R]
+  mild: [Q, N, Y, F]
+  moderate: [E, D, S, T]
+  severe: [L, I, V, M, W, G, A, P, C]
+
+# Special
+C:
+  no_cost: [A, S]
+  mild: [V, T]
+  moderate: [M, L, I]
+  severe: [F, Y, W, R, K, H, D, E, N, Q, G, P]
+P:
+  no_cost: []
+  mild: [G, A]
+  moderate: [S, T, V]
+  severe: [L, I, M, F, Y, W, R, K, H, D, E, N, Q, C]
+T:
+  no_cost: [S, V]
+  mild: [A, C, I]
+  moderate: [L, M, N, D]
+  severe: [F, Y, W, R, K, H, E, Q, G, P]
