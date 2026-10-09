@@ -78,7 +78,7 @@ The project's earlier working notes and write-up are not included here. Where th
 | Oracle "relative accuracy 73.66%" (share of predictions within 10% error) | Reproduces exactly, but the script divides by the raw target without taking its absolute value, so every variant with a negative target (48.3% of the data) counts as correct regardless of error. With the absolute value it is 45.3% |
 | Top mutations at positions "~57, ~104, ~150, ~190" (`Findings.docx`) | Those are approximate. In the data's numbering the recurring changes are K106, V116, V160 and Y196; position 57 is the reference residue |
 | Round tables report "Avg Fitness (Top-128) ≈ −4.4" next to a 0–1 global best | Two different scales in one table; the evaluator's average, diversity and novelty columns are not usable for DHFR |
-| Fitness scores 1.50 / 1.94 / 2.24, "~0.3 = wild type" | A different, undocumented scale; not comparable with this README |
+| Fitness scores 1.50 / 1.94 / 2.24, "~0.3 = wild type" | A different, undocumented scale; not comparable with the numbers here |
 | Constraints are "biologically grounded safeguards" | Soft heuristics; stability benefit unverified |
 
 ## What would make this a result

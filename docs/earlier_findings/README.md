@@ -1,6 +1,6 @@
 # Earlier findings (from the "New Findings" folder)
 
-Early-stage outputs and the first write-up. Kept for the record; read the top-level README for the checked results.
+Early-stage outputs and the first write-up. Kept for the record; read ../findings.md for the checked results.
 
 | File | What it is | Checked |
 |--|--|--|
