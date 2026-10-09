@@ -1,0 +1,103 @@
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in ~/basework/LatProtRL/wandb/offline-run-20260408_052154-933or3rc
+
+================================================================================
+MODE: Entropy=True, Size=True, BLOSUM=True
+================================================================================
+
+📊 Calibrating DHFROracle predictions...
+  ✅ Calibration: target = 0.969678 * pred + -0.0438 (R²=0.8507)
+[BUFFER] Initializing with sequences from 10th percentile
+[BUFFER] Fitness range: [0.2798, 0.3113]
+[BUFFER] Using sequences at indices 3680-3808 out of 4161
+Using cuda:0 device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+🔍 Loading oracle checkpoint from: ckpt/DHFR/oracle.ckpt
+✅ Oracle model loaded successfully!
+[DEBUG] Starting learn() for 40960 timesteps...
+
+================================================================================
+STEP 0 SNAPSHOT
+================================================================================
+Initial Maximum Fitness: 0.311339
+================================================================================
+
+[BUFFER] New global best! Fitness=0.285190, Raw=-2.462349
+✓ [SUCCESS] Improvement! Δ=0.019327, new_best=0.304517, reward=9.15
+[BUFFER] New global best! Fitness=0.304517, Raw=-2.275804
+✓ [SUCCESS] Improvement! Δ=0.242478, new_best=0.663143, reward=14.43
+[BUFFER] New global best! Fitness=0.663143, Raw=1.185660
+✓ [SUCCESS] Improvement! Δ=0.048956, new_best=0.712099, reward=6.54
+[BUFFER] New global best! Fitness=0.712099, Raw=1.658182
+✓ [SUCCESS] Improvement! Δ=0.042581, new_best=0.754681, reward=16.40
+[BUFFER] New global best! Fitness=0.754681, Raw=2.069178
+✓ [SUCCESS] Improvement! Δ=0.046999, new_best=0.663143, reward=13.05
+✓ [SUCCESS] Improvement! Δ=0.048956, new_best=0.712099, reward=6.54
+✓ [SUCCESS] Improvement! Δ=0.365551, new_best=0.663143, reward=27.20
+✓ [SUCCESS] Improvement! Δ=0.043239, new_best=0.706382, reward=9.59
+✓ [SUCCESS] Improvement! Δ=0.339345, new_best=0.663143, reward=69.54
+✓ [SUCCESS] Improvement! Δ=0.047475, new_best=0.710618, reward=15.79
+✓ [SUCCESS] Improvement! Δ=0.076266, new_best=0.383468, reward=9.39
+✓ [SUCCESS] Improvement! Δ=0.279676, new_best=0.663143, reward=61.57
+✓ [SUCCESS] Improvement! Δ=0.091537, new_best=0.754681, reward=25.85
+✓ [SUCCESS] Improvement! Δ=0.318636, new_best=0.712099, reward=52.65
+✓ [SUCCESS] Improvement! Δ=0.278632, new_best=0.706382, reward=73.57
+✓ [SUCCESS] Improvement! Δ=0.004236, new_best=0.710618, reward=4.44
+✓ [SUCCESS] Improvement! Δ=0.060706, new_best=0.598566, reward=20.03
+✓ [SUCCESS] Improvement! Δ=0.354130, new_best=0.663143, reward=44.55
+✓ [SUCCESS] Improvement! Δ=0.289263, new_best=0.600923, reward=54.89
+✓ [SUCCESS] Improvement! Δ=0.346301, new_best=0.663143, reward=51.09
+✓ [SUCCESS] Improvement! Δ=0.279061, new_best=0.663143, reward=61.61
+✓ [SUCCESS] Improvement! Δ=0.019327, new_best=0.407894, reward=6.68
+✓ [SUCCESS] Improvement! Δ=0.128828, new_best=0.663143, reward=35.20
+✓ [SUCCESS] Improvement! Δ=0.047475, new_best=0.710618, reward=15.79
+✓ [SUCCESS] Improvement! Δ=0.071338, new_best=0.400153, reward=20.35
+✓ [SUCCESS] Improvement! Δ=0.014780, new_best=0.331762, reward=2.40
+✓ [SUCCESS] Improvement! Δ=0.331382, new_best=0.663143, reward=84.56
+✓ [SUCCESS] Improvement! Δ=0.047475, new_best=0.710618, reward=17.65
+✓ [SUCCESS] Improvement! Δ=0.348451, new_best=0.663143, reward=76.19
+✓ [SUCCESS] Improvement! Δ=0.047475, new_best=0.710618, reward=17.92
+✓ [SUCCESS] Improvement! Δ=0.279676, new_best=0.663143, reward=50.62
+✓ [SUCCESS] Improvement! Δ=0.047475, new_best=0.710618, reward=15.79
+✓ [SUCCESS] Improvement! Δ=0.006940, new_best=0.407092, reward=1.40
+✓ [SUCCESS] Improvement! Δ=0.005332, new_best=0.412425, reward=3.90
+✓ [SUCCESS] Improvement! Δ=0.056277, new_best=0.663143, reward=8.72
+✓ [SUCCESS] Improvement! Δ=0.298345, new_best=0.710618, reward=86.13
+✓ [SUCCESS] Improvement! Δ=0.001481, new_best=0.712099, reward=1.27
+✓ [SUCCESS] Improvement! Δ=0.243229, new_best=0.628345, reward=56.48
+✓ [SUCCESS] Improvement! Δ=0.034798, new_best=0.663143, reward=7.59
+✓ [SUCCESS] Improvement! Δ=0.047475, new_best=0.710618, reward=17.92
+✓ [SUCCESS] Improvement! Δ=0.047365, new_best=0.648289, reward=8.54
+✓ [SUCCESS] Improvement! Δ=0.242898, new_best=0.600923, reward=44.20
+✓ [SUCCESS] Improvement! Δ=0.010222, new_best=0.663143, reward=2.57
+✓ [SUCCESS] Improvement! Δ=0.043239, new_best=0.706382, reward=16.60
+✓ [SUCCESS] Improvement! Δ=0.169898, new_best=0.663143, reward=31.16
+✓ [SUCCESS] Improvement! Δ=0.027691, new_best=0.384660, reward=8.14
+✓ [SUCCESS] Improvement! Δ=0.015492, new_best=0.400153, reward=3.51
+✓ [SUCCESS] Improvement! Δ=0.001517, new_best=0.401670, reward=3.59
+✓ [SUCCESS] Improvement! Δ=0.019896, new_best=0.421566, reward=8.21
+✓ [SUCCESS] Improvement! Δ=0.060581, new_best=0.663143, reward=21.20
+✓ [SUCCESS] Improvement! Δ=0.059341, new_best=0.663143, reward=12.70
+✓ [SUCCESS] Improvement! Δ=0.048956, new_best=0.712099, reward=6.54
+✓ [SUCCESS] Improvement! Δ=0.176441, new_best=0.603258, reward=4.76
+✓ [SUCCESS] Improvement! Δ=0.059886, new_best=0.663143, reward=4.76
+✓ [SUCCESS] Improvement! Δ=0.022958, new_best=0.581462, reward=6.57
+✓ [SUCCESS] Improvement! Δ=0.085947, new_best=0.648490, reward=16.94
+✓ [SUCCESS] Improvement! Δ=0.014653, new_best=0.663143, reward=5.93
+✓ [SUCCESS] Improvement! Δ=0.102014, new_best=0.663143, reward=18.56
+✓ [SUCCESS] Improvement! Δ=0.307843, new_best=0.616144, reward=72.97
+✓ [SUCCESS] Improvement! Δ=0.046999, new_best=0.663143, reward=9.96
+✓ [SUCCESS] Improvement! Δ=0.043239, new_best=0.706382, reward=16.60
+✓ [SUCCESS] Improvement! Δ=0.005717, new_best=0.712099, reward=3.48
+✓ [SUCCESS] Improvement! Δ=0.054302, new_best=0.400153, reward=6.61
+✓ [SUCCESS] Improvement! Δ=0.354843, new_best=0.663143, reward=34.61
+✓ [SUCCESS] Improvement! Δ=0.048956, new_best=0.712099, reward=6.54
+✓ [SUCCESS] Improvement! Δ=0.117667, new_best=0.537860, reward=22.36
+✓ [SUCCESS] Improvement! Δ=0.029810, new_best=0.567670, reward=6.75
+✓ [SUCCESS] Improvement! Δ=0.077141, new_best=0.521711, reward=18.75
+✓ [SUCCESS] Improvement! Δ=0.036793, new_best=0.558505, reward=11.13
+✓ [SUCCESS] Improvement! Δ=0.104639, new_best=0.663143, reward=21.89
+✓ [SUCCESS] Improvement! Δ=0.018210, new_best=0.681354, reward=5.44
+✓ [SUCCESS] Improvement! Δ=0.262415, new_best=0.663143, reward=64.73

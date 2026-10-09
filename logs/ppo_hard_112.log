@@ -1,0 +1,33 @@
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in ~/basework/LatProtRL/wandb/offline-run-20260408_135812-thutuq37
+
+================================================================================
+MODE: Entropy=True, Size=True, BLOSUM=True
+================================================================================
+
+📊 Calibrating DHFROracle predictions...
+  ✅ Calibration: target = 0.991603 * pred + -0.0449 (R²=0.8813)
+[BUFFER] Initializing with sequences from 10th percentile
+[BUFFER] Fitness range: [0.2798, 0.3113]
+[BUFFER] Using sequences at indices 3680-3808 out of 4161
+Traceback (most recent call last):
+  File "~/basework/LatProtRL/optimize.py", line 79, in <module>
+    env = SingleOpt(cfg, seed=args.seed)
+  File "~/basework/LatProtRL/net/envr.py", line 388, in __init__
+    model = VED(seq_cfg, pretrained=config.seq_pretrained)
+  File "~/basework/LatProtRL/net/seq_lm.py", line 41, in __init__
+    self.load_state_dict(self.load_ckpt(pretrained))
+  File "~/basework/LatProtRL/net/seq_lm.py", line 55, in load_ckpt
+    model_data = torch.load(pretrained, map_location=self.device)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'saved/DHFR_hard_LM.pt'
+[1;34mwandb[0m: 
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync ~/basework/LatProtRL/wandb/offline-run-20260408_135812-thutuq37[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/offline-run-20260408_135812-thutuq37/logs[0m

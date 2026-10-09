@@ -1,0 +1,4009 @@
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in ~/basework/LatProtRL/wandb/offline-run-20260408_041940-6p290z0t
+
+================================================================================
+SAC 4-ROUND CHECK: Entropy=True, Size=True, BLOSUM=True
+================================================================================
+
+📊 Calibrating DHFROracle predictions...
+  ✅ Calibration: target = 0.982956 * pred + -0.0551 (R²=0.8770)
+[BUFFER] Initializing with sequences from 10th percentile
+[BUFFER] Fitness range: [0.2798, 0.3113]
+[BUFFER] Using sequences at indices 3680-3808 out of 4161
+Using cuda:2 device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+🔍 Loading oracle checkpoint from: ckpt/DHFR/oracle.ckpt
+✅ Oracle model loaded successfully!
+
+================================================================================
+STEP 0 SNAPSHOT
+================================================================================
+Initial Maximum Fitness: 0.311339
+================================================================================
+
+✓ [SUCCESS] Improvement! Δ=0.285283, new_best=0.588216, reward=25.82
+[BUFFER] New global best! Fitness=0.588216, Raw=0.462463
+✓ [SUCCESS] Improvement! Δ=0.075497, new_best=0.663713, reward=8.79
+[BUFFER] New global best! Fitness=0.663713, Raw=1.191161
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+[BUFFER] New global best! Fitness=0.713340, Raw=1.670153
+✓ [SUCCESS] Improvement! Δ=0.369608, new_best=0.663713, reward=39.45
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -51.7    |
+| time/              |          |
+|    episodes        | 4        |
+|    fps             | 13       |
+|    time_elapsed    | 4        |
+|    total_timesteps | 64       |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.024754, new_best=0.380208, reward=5.01
+✓ [SUCCESS] Improvement! Δ=0.283505, new_best=0.663713, reward=51.29
+✓ [SUCCESS] Improvement! Δ=0.339921, new_best=0.663713, reward=45.78
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.143732, new_best=0.480808, reward=14.40
+✓ [SUCCESS] Improvement! Δ=0.182906, new_best=0.663713, reward=28.87
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -37      |
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 13       |
+|    time_elapsed    | 9        |
+|    total_timesteps | 128      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.176718, new_best=0.480988, reward=23.86
+✓ [SUCCESS] Improvement! Δ=0.182725, new_best=0.663713, reward=38.36
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.286204, new_best=0.663713, reward=16.93
+✓ [SUCCESS] Improvement! Δ=0.244523, new_best=0.663713, reward=46.68
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -29.8    |
+| time/              |          |
+|    episodes        | 12       |
+|    fps             | 13       |
+|    time_elapsed    | 14       |
+|    total_timesteps | 192      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.281237, new_best=0.663713, reward=61.90
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.286944, new_best=0.606666, reward=61.19
+✓ [SUCCESS] Improvement! Δ=0.154032, new_best=0.760698, reward=45.06
+[BUFFER] New global best! Fitness=0.760698, Raw=2.127255
+✓ [SUCCESS] Improvement! Δ=0.258135, new_best=0.663713, reward=48.19
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.129954, new_best=0.713340, reward=27.32
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -27.1    |
+| time/              |          |
+|    episodes        | 16       |
+|    fps             | 13       |
+|    time_elapsed    | 18       |
+|    total_timesteps | 256      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.258511, new_best=0.663713, reward=30.69
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=11.96
+✓ [SUCCESS] Improvement! Δ=0.060153, new_best=0.663713, reward=13.96
+✓ [SUCCESS] Improvement! Δ=0.132799, new_best=0.663713, reward=24.03
+✓ [SUCCESS] Improvement! Δ=0.018460, new_best=0.682173, reward=6.46
+✓ [SUCCESS] Improvement! Δ=0.025371, new_best=0.707544, reward=10.41
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=2.81
+✓ [SUCCESS] Improvement! Δ=0.001343, new_best=0.321788, reward=3.54
+✓ [SUCCESS] Improvement! Δ=0.002808, new_best=0.324596, reward=3.15
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -26.3    |
+| time/              |          |
+|    episodes        | 20       |
+|    fps             | 13       |
+|    time_elapsed    | 23       |
+|    total_timesteps | 320      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.403532, new_best=0.707544, reward=54.32
+✓ [SUCCESS] Improvement! Δ=0.355873, new_best=0.663713, reward=57.05
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=12.02
+✓ [SUCCESS] Improvement! Δ=0.168618, new_best=0.603560, reward=29.16
+✓ [SUCCESS] Improvement! Δ=0.060153, new_best=0.663713, reward=13.96
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -24.6    |
+| time/              |          |
+|    episodes        | 24       |
+|    fps             | 13       |
+|    time_elapsed    | 28       |
+|    total_timesteps | 384      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.081951, new_best=0.439380, reward=17.44
+✓ [SUCCESS] Improvement! Δ=0.010579, new_best=0.320445, reward=2.28
+✓ [SUCCESS] Improvement! Δ=0.001343, new_best=0.308267, reward=3.54
+✓ [SUCCESS] Improvement! Δ=0.362567, new_best=0.663713, reward=76.29
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=14.82
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -21.6    |
+| time/              |          |
+|    episodes        | 28       |
+|    fps             | 13       |
+|    time_elapsed    | 32       |
+|    total_timesteps | 448      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.066838, new_best=0.609886, reward=17.59
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=6.25
+✓ [SUCCESS] Improvement! Δ=0.000959, new_best=0.657208, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.114197, new_best=0.663713, reward=12.78
+✓ [SUCCESS] Improvement! Δ=0.131672, new_best=0.493942, reward=25.65
+✓ [SUCCESS] Improvement! Δ=0.051924, new_best=0.545867, reward=15.80
+✓ [SUCCESS] Improvement! Δ=0.040589, new_best=0.586456, reward=7.58
+✓ [SUCCESS] Improvement! Δ=0.077258, new_best=0.663713, reward=12.30
+✓ [SUCCESS] Improvement! Δ=0.029615, new_best=0.616070, reward=9.06
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=14.42
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -20.4    |
+| time/              |          |
+|    episodes        | 32       |
+|    fps             | 13       |
+|    time_elapsed    | 37       |
+|    total_timesteps | 512      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.283505, new_best=0.663713, reward=51.29
+✓ [SUCCESS] Improvement! Δ=0.049130, new_best=0.648859, reward=11.73
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=5.69
+✓ [SUCCESS] Improvement! Δ=0.075497, new_best=0.663713, reward=20.61
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -23.5    |
+| time/              |          |
+|    episodes        | 36       |
+|    fps             | 13       |
+|    time_elapsed    | 43       |
+|    total_timesteps | 576      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.320223, new_best=0.663713, reward=65.03
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=15.97
+✓ [SUCCESS] Improvement! Δ=0.278859, new_best=0.603560, reward=46.02
+✓ [SUCCESS] Improvement! Δ=0.045174, new_best=0.648734, reward=17.21
+✓ [SUCCESS] Improvement! Δ=0.014979, new_best=0.663713, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.057048, new_best=0.663713, reward=8.82
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.326983, new_best=0.648859, reward=48.33
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -19.7    |
+| time/              |          |
+|    episodes        | 40       |
+|    fps             | 13       |
+|    time_elapsed    | 48       |
+|    total_timesteps | 640      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.359701, new_best=0.663713, reward=35.07
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.060955, new_best=0.663713, reward=16.80
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.11
+✓ [SUCCESS] Improvement! Δ=0.047774, new_best=0.663713, reward=7.18
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -20.3    |
+| time/              |          |
+|    episodes        | 44       |
+|    fps             | 13       |
+|    time_elapsed    | 52       |
+|    total_timesteps | 704      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.016757, new_best=0.439380, reward=4.68
+✓ [SUCCESS] Improvement! Δ=0.043169, new_best=0.482550, reward=16.58
+✓ [SUCCESS] Improvement! Δ=0.133291, new_best=0.663713, reward=31.89
+✓ [SUCCESS] Improvement! Δ=0.297401, new_best=0.612187, reward=60.07
+✓ [SUCCESS] Improvement! Δ=0.051527, new_best=0.663713, reward=7.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -20.8    |
+| time/              |          |
+|    episodes        | 48       |
+|    fps             | 13       |
+|    time_elapsed    | 57       |
+|    total_timesteps | 768      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.072499, new_best=0.439380, reward=16.10
+✓ [SUCCESS] Improvement! Δ=0.009109, new_best=0.448489, reward=2.12
+✓ [SUCCESS] Improvement! Δ=0.020175, new_best=0.603560, reward=6.56
+✓ [SUCCESS] Improvement! Δ=0.282956, new_best=0.663713, reward=57.49
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -20.2    |
+| time/              |          |
+|    episodes        | 52       |
+|    fps             | 13       |
+|    time_elapsed    | 62       |
+|    total_timesteps | 832      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.122173, new_best=0.523509, reward=22.39
+✓ [SUCCESS] Improvement! Δ=0.023832, new_best=0.547342, reward=6.87
+✓ [SUCCESS] Improvement! Δ=0.116372, new_best=0.663713, reward=13.00
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.280773, new_best=0.663713, reward=78.73
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.065755, new_best=0.439380, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.317942, new_best=0.760698, reward=34.28
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -18.5    |
+| time/              |          |
+|    episodes        | 56       |
+|    fps             | 13       |
+|    time_elapsed    | 67       |
+|    total_timesteps | 896      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.024026, new_best=0.591586, reward=4.68
+✓ [SUCCESS] Improvement! Δ=0.121754, new_best=0.713340, reward=27.76
+✓ [SUCCESS] Improvement! Δ=0.064908, new_best=0.756504, reward=16.59
+✓ [SUCCESS] Improvement! Δ=0.201207, new_best=0.663713, reward=44.38
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -19.7    |
+| time/              |          |
+|    episodes        | 60       |
+|    fps             | 13       |
+|    time_elapsed    | 71       |
+|    total_timesteps | 960      |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012119, new_best=0.668367, reward=4.16
+✓ [SUCCESS] Improvement! Δ=0.301676, new_best=0.663713, reward=66.43
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.27
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=14.42
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=11.44
+✓ [SUCCESS] Improvement! Δ=0.020858, new_best=0.609886, reward=4.25
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=17.88
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -20.7    |
+| time/              |          |
+|    episodes        | 64       |
+|    fps             | 13       |
+|    time_elapsed    | 76       |
+|    total_timesteps | 1024     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.111470, new_best=0.663713, reward=23.24
+✓ [SUCCESS] Improvement! Δ=0.208830, new_best=0.663713, reward=31.38
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+✓ [SUCCESS] Improvement! Δ=0.035275, new_best=0.663713, reward=9.62
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.11
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -22.4    |
+| time/              |          |
+|    episodes        | 68       |
+|    fps             | 13       |
+|    time_elapsed    | 81       |
+|    total_timesteps | 1088     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.226731, new_best=0.711838, reward=50.21
+✓ [SUCCESS] Improvement! Δ=0.258135, new_best=0.663713, reward=48.19
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=11.30
+✓ [SUCCESS] Improvement! Δ=0.089216, new_best=0.663713, reward=17.34
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -22.6    |
+| time/              |          |
+|    episodes        | 72       |
+|    fps             | 13       |
+|    time_elapsed    | 86       |
+|    total_timesteps | 1152     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.051527, new_best=0.663713, reward=7.65
+✓ [SUCCESS] Improvement! Δ=0.118388, new_best=0.663713, reward=13.48
+✓ [SUCCESS] Improvement! Δ=0.280773, new_best=0.663713, reward=78.73
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.04
+✓ [SUCCESS] Improvement! Δ=0.320512, new_best=0.707544, reward=81.60
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -21.3    |
+| time/              |          |
+|    episodes        | 76       |
+|    fps             | 13       |
+|    time_elapsed    | 91       |
+|    total_timesteps | 1216     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.066838, new_best=0.609886, reward=17.59
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=17.88
+✓ [SUCCESS] Improvement! Δ=0.029666, new_best=0.711838, reward=12.18
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.95
+✓ [SUCCESS] Improvement! Δ=0.056453, new_best=0.589028, reward=11.73
+✓ [SUCCESS] Improvement! Δ=0.020858, new_best=0.609886, reward=6.56
+✓ [SUCCESS] Improvement! Δ=0.132799, new_best=0.663713, reward=15.18
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -22.1    |
+| time/              |          |
+|    episodes        | 80       |
+|    fps             | 13       |
+|    time_elapsed    | 96       |
+|    total_timesteps | 1280     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.272378, new_best=0.663713, reward=34.73
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.73
+✓ [SUCCESS] Improvement! Δ=0.183191, new_best=0.663713, reward=33.83
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+✓ [SUCCESS] Improvement! Δ=0.008515, new_best=0.471808, reward=4.29
+✓ [SUCCESS] Improvement! Δ=0.138077, new_best=0.609886, reward=30.50
+✓ [SUCCESS] Improvement! Δ=0.043134, new_best=0.653020, reward=13.56
+✓ [SUCCESS] Improvement! Δ=0.004188, new_best=0.657208, reward=2.94
+✓ [SUCCESS] Improvement! Δ=0.003229, new_best=0.656249, reward=1.47
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -22.6    |
+| time/              |          |
+|    episodes        | 84       |
+|    fps             | 13       |
+|    time_elapsed    | 101      |
+|    total_timesteps | 1344     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.038520, new_best=0.590521, reward=9.93
+✓ [SUCCESS] Improvement! Δ=0.073192, new_best=0.663713, reward=12.88
+✓ [SUCCESS] Improvement! Δ=0.107911, new_best=0.663713, reward=27.77
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.262378, new_best=0.663713, reward=46.16
+✓ [SUCCESS] Improvement! Δ=0.014979, new_best=0.663713, reward=6.28
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.35
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -22.4    |
+| time/              |          |
+|    episodes        | 88       |
+|    fps             | 13       |
+|    time_elapsed    | 106      |
+|    total_timesteps | 1408     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.203372, new_best=0.663713, reward=37.29
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.045229, new_best=0.555802, reward=9.70
+✓ [SUCCESS] Improvement! Δ=0.107911, new_best=0.663713, reward=20.61
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.056219, new_best=0.603560, reward=15.96
+✓ [SUCCESS] Improvement! Δ=0.060153, new_best=0.663713, reward=13.96
+✓ [SUCCESS] Improvement! Δ=0.087541, new_best=0.711838, reward=24.40
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -22.1    |
+| time/              |          |
+|    episodes        | 92       |
+|    fps             | 13       |
+|    time_elapsed    | 111      |
+|    total_timesteps | 1472     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.220348, new_best=0.663713, reward=47.36
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=1.58
+✓ [SUCCESS] Improvement! Δ=0.155219, new_best=0.663713, reward=33.19
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=13.31
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.29
+✓ [SUCCESS] Improvement! Δ=0.064939, new_best=0.663713, reward=17.13
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -21.5    |
+| time/              |          |
+|    episodes        | 96       |
+|    fps             | 13       |
+|    time_elapsed    | 115      |
+|    total_timesteps | 1536     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.106472, new_best=0.555802, reward=14.51
+✓ [SUCCESS] Improvement! Δ=0.107911, new_best=0.663713, reward=22.01
+✓ [SUCCESS] Improvement! Δ=0.008184, new_best=0.439380, reward=4.31
+✓ [SUCCESS] Improvement! Δ=0.129076, new_best=0.637951, reward=26.75
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=6.88
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.008165, new_best=0.447545, reward=4.15
+✓ [SUCCESS] Improvement! Δ=0.009566, new_best=0.457111, reward=6.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -21.2    |
+| time/              |          |
+|    episodes        | 100      |
+|    fps             | 13       |
+|    time_elapsed    | 120      |
+|    total_timesteps | 1600     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.045969, new_best=0.609886, reward=14.00
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=12.30
+✓ [SUCCESS] Improvement! Δ=0.187228, new_best=0.663713, reward=27.53
+✓ [SUCCESS] Improvement! Δ=0.214383, new_best=0.663713, reward=47.83
+✓ [SUCCESS] Improvement! Δ=0.139098, new_best=0.609886, reward=20.52
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -19.8    |
+| time/              |          |
+|    episodes        | 104      |
+|    fps             | 13       |
+|    time_elapsed    | 125      |
+|    total_timesteps | 1664     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.075373, new_best=0.591586, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.007839, new_best=0.599424, reward=5.25
+✓ [SUCCESS] Improvement! Δ=0.034263, new_best=0.633687, reward=7.50
+✓ [SUCCESS] Improvement! Δ=0.173402, new_best=0.663713, reward=32.05
+✓ [SUCCESS] Improvement! Δ=0.228786, new_best=0.693220, reward=36.90
+✓ [SUCCESS] Improvement! Δ=0.018807, new_best=0.712028, reward=5.74
+✓ [SUCCESS] Improvement! Δ=0.179323, new_best=0.663713, reward=48.65
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -19.6    |
+| time/              |          |
+|    episodes        | 108      |
+|    fps             | 13       |
+|    time_elapsed    | 130      |
+|    total_timesteps | 1728     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.098483, new_best=0.609886, reward=18.96
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=17.88
+✓ [SUCCESS] Improvement! Δ=0.003298, new_best=0.660506, reward=2.20
+✓ [SUCCESS] Improvement! Δ=0.071607, new_best=0.663713, reward=18.68
+✓ [SUCCESS] Improvement! Δ=0.107535, new_best=0.663713, reward=28.07
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.040040, new_best=0.609886, reward=6.22
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -20      |
+| time/              |          |
+|    episodes        | 112      |
+|    fps             | 13       |
+|    time_elapsed    | 135      |
+|    total_timesteps | 1792     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.054861, new_best=0.648859, reward=12.01
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=5.28
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.121787, new_best=0.663713, reward=25.37
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.021255, new_best=0.561735, reward=6.99
+✓ [SUCCESS] Improvement! Δ=0.101978, new_best=0.663713, reward=19.57
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.98
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -20.7    |
+| time/              |          |
+|    episodes        | 116      |
+|    fps             | 13       |
+|    time_elapsed    | 140      |
+|    total_timesteps | 1856     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.019929, new_best=0.713340, reward=3.32
+✓ [SUCCESS] Improvement! Δ=0.170403, new_best=0.653020, reward=43.15
+✓ [SUCCESS] Improvement! Δ=0.010362, new_best=0.663713, reward=2.59
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -22.2    |
+| time/              |          |
+|    episodes        | 120      |
+|    fps             | 13       |
+|    time_elapsed    | 145      |
+|    total_timesteps | 1920     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.171158, new_best=0.663713, reward=30.51
+✓ [SUCCESS] Improvement! Δ=0.010474, new_best=0.674187, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.081613, new_best=0.603560, reward=12.05
+✓ [SUCCESS] Improvement! Δ=0.060153, new_best=0.663713, reward=13.96
+✓ [SUCCESS] Improvement! Δ=0.020119, new_best=0.713340, reward=3.34
+✓ [SUCCESS] Improvement! Δ=0.116372, new_best=0.663713, reward=30.43
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -23.6    |
+| time/              |          |
+|    episodes        | 124      |
+|    fps             | 13       |
+|    time_elapsed    | 149      |
+|    total_timesteps | 1984     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.132799, new_best=0.663713, reward=15.18
+✓ [SUCCESS] Improvement! Δ=0.068242, new_best=0.713340, reward=12.48
+✓ [SUCCESS] Improvement! Δ=0.177078, new_best=0.648859, reward=31.81
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=5.59
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.116702, new_best=0.663713, reward=15.47
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -24.7    |
+| time/              |          |
+|    episodes        | 128      |
+|    fps             | 13       |
+|    time_elapsed    | 154      |
+|    total_timesteps | 2048     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.088499, new_best=0.603560, reward=22.54
+✓ [SUCCESS] Improvement! Δ=0.060153, new_best=0.663713, reward=13.96
+✓ [SUCCESS] Improvement! Δ=0.045969, new_best=0.609886, reward=14.00
+✓ [SUCCESS] Improvement! Δ=0.161916, new_best=0.648859, reward=35.65
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=5.49
+✓ [SUCCESS] Improvement! Δ=0.104335, new_best=0.609886, reward=15.32
+✓ [SUCCESS] Improvement! Δ=0.050620, new_best=0.660506, reward=9.77
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -25.1    |
+| time/              |          |
+|    episodes        | 132      |
+|    fps             | 13       |
+|    time_elapsed    | 159      |
+|    total_timesteps | 2112     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.131071, new_best=0.609886, reward=30.03
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=17.88
+✓ [SUCCESS] Improvement! Δ=0.181989, new_best=0.663713, reward=41.46
+✓ [SUCCESS] Improvement! Δ=0.145429, new_best=0.663713, reward=38.88
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=14.82
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -23.6    |
+| time/              |          |
+|    episodes        | 136      |
+|    fps             | 13       |
+|    time_elapsed    | 164      |
+|    total_timesteps | 2176     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.060643, new_best=0.648859, reward=13.56
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.015678, new_best=0.656249, reward=2.85
+✓ [SUCCESS] Improvement! Δ=0.131182, new_best=0.648859, reward=12.95
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.10
+✓ [SUCCESS] Improvement! Δ=0.054335, new_best=0.616070, reward=11.05
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=15.08
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=11.48
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -25.4    |
+| time/              |          |
+|    episodes        | 140      |
+|    fps             | 13       |
+|    time_elapsed    | 169      |
+|    total_timesteps | 2240     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.057048, new_best=0.663713, reward=14.29
+✓ [SUCCESS] Improvement! Δ=0.008673, new_best=0.672387, reward=2.07
+✓ [SUCCESS] Improvement! Δ=0.169169, new_best=0.663713, reward=46.04
+✓ [SUCCESS] Improvement! Δ=0.141766, new_best=0.663713, reward=25.23
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.21
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -25.9    |
+| time/              |          |
+|    episodes        | 144      |
+|    fps             | 13       |
+|    time_elapsed    | 174      |
+|    total_timesteps | 2304     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.115505, new_best=0.663713, reward=25.44
+✓ [SUCCESS] Improvement! Δ=0.052532, new_best=0.591586, reward=8.22
+✓ [SUCCESS] Improvement! Δ=0.072128, new_best=0.663713, reward=20.82
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.169771, new_best=0.663713, reward=34.10
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.120465, new_best=0.609886, reward=24.06
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=8.44
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -25.5    |
+| time/              |          |
+|    episodes        | 148      |
+|    fps             | 13       |
+|    time_elapsed    | 179      |
+|    total_timesteps | 2368     |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -28.6    |
+| time/              |          |
+|    episodes        | 152      |
+|    fps             | 13       |
+|    time_elapsed    | 184      |
+|    total_timesteps | 2432     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032454, new_best=0.711838, reward=8.75
+✓ [SUCCESS] Improvement! Δ=0.119402, new_best=0.663713, reward=24.76
+✓ [SUCCESS] Improvement! Δ=0.015948, new_best=0.707544, reward=8.09
+✓ [SUCCESS] Improvement! Δ=0.082317, new_best=0.756504, reward=20.44
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -30.5    |
+| time/              |          |
+|    episodes        | 156      |
+|    fps             | 13       |
+|    time_elapsed    | 189      |
+|    total_timesteps | 2496     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.003083, new_best=0.513215, reward=1.71
+✓ [SUCCESS] Improvement! Δ=0.045743, new_best=0.591808, reward=12.30
+✓ [SUCCESS] Improvement! Δ=0.031968, new_best=0.623777, reward=7.33
+✓ [SUCCESS] Improvement! Δ=0.024026, new_best=0.591586, reward=4.68
+✓ [SUCCESS] Improvement! Δ=0.057273, new_best=0.648859, reward=13.78
+✓ [SUCCESS] Improvement! Δ=0.062979, new_best=0.711838, reward=17.18
+✓ [SUCCESS] Improvement! Δ=0.070144, new_best=0.609886, reward=19.53
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=6.25
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -30.1    |
+| time/              |          |
+|    episodes        | 160      |
+|    fps             | 13       |
+|    time_elapsed    | 194      |
+|    total_timesteps | 2560     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.049780, new_best=0.663713, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.117847, new_best=0.663713, reward=35.09
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -30.6    |
+| time/              |          |
+|    episodes        | 164      |
+|    fps             | 13       |
+|    time_elapsed    | 199      |
+|    total_timesteps | 2624     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.072128, new_best=0.663713, reward=14.35
+✓ [SUCCESS] Improvement! Δ=0.038558, new_best=0.544312, reward=8.87
+✓ [SUCCESS] Improvement! Δ=0.067385, new_best=0.611697, reward=24.13
+✓ [SUCCESS] Improvement! Δ=0.154839, new_best=0.663713, reward=18.29
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=14.38
+✓ [SUCCESS] Improvement! Δ=0.074030, new_best=0.663713, reward=11.05
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -29.3    |
+| time/              |          |
+|    episodes        | 168      |
+|    fps             | 13       |
+|    time_elapsed    | 204      |
+|    total_timesteps | 2688     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.069335, new_best=0.623777, reward=18.16
+✓ [SUCCESS] Improvement! Δ=0.014622, new_best=0.526585, reward=6.96
+✓ [SUCCESS] Improvement! Δ=0.130592, new_best=0.663713, reward=35.65
+✓ [SUCCESS] Improvement! Δ=0.154445, new_best=0.663713, reward=34.95
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=13.72
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -29.2    |
+| time/              |          |
+|    episodes        | 172      |
+|    fps             | 13       |
+|    time_elapsed    | 209      |
+|    total_timesteps | 2752     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.140204, new_best=0.663713, reward=31.98
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.098483, new_best=0.609886, reward=28.39
+✓ [SUCCESS] Improvement! Δ=0.073192, new_best=0.663713, reward=12.45
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -30.5    |
+| time/              |          |
+|    episodes        | 176      |
+|    fps             | 13       |
+|    time_elapsed    | 213      |
+|    total_timesteps | 2816     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.069335, new_best=0.623777, reward=16.86
+✓ [SUCCESS] Improvement! Δ=0.035032, new_best=0.561735, reward=8.43
+✓ [SUCCESS] Improvement! Δ=0.101891, new_best=0.663626, reward=22.71
+✓ [SUCCESS] Improvement! Δ=0.000087, new_best=0.663713, reward=2.15
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=16.24
+✓ [SUCCESS] Improvement! Δ=0.019015, new_best=0.663713, reward=1.98
+✓ [SUCCESS] Improvement! Δ=0.052145, new_best=0.606587, reward=7.88
+✓ [SUCCESS] Improvement! Δ=0.017190, new_best=0.623777, reward=3.74
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -30.3    |
+| time/              |          |
+|    episodes        | 180      |
+|    fps             | 13       |
+|    time_elapsed    | 218      |
+|    total_timesteps | 2880     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.121787, new_best=0.663713, reward=25.37
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -30.9    |
+| time/              |          |
+|    episodes        | 184      |
+|    fps             | 13       |
+|    time_elapsed    | 223      |
+|    total_timesteps | 2944     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.109694, new_best=0.663713, reward=19.58
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.069335, new_best=0.623777, reward=18.16
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=5.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -32.1    |
+| time/              |          |
+|    episodes        | 188      |
+|    fps             | 13       |
+|    time_elapsed    | 228      |
+|    total_timesteps | 3008     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.111470, new_best=0.663713, reward=23.24
+✓ [SUCCESS] Improvement! Δ=0.117152, new_best=0.663713, reward=13.51
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=14.79
+✓ [SUCCESS] Improvement! Δ=0.036841, new_best=0.657208, reward=14.61
+✓ [SUCCESS] Improvement! Δ=0.140204, new_best=0.663713, reward=31.98
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -33.1    |
+| time/              |          |
+|    episodes        | 192      |
+|    fps             | 13       |
+|    time_elapsed    | 233      |
+|    total_timesteps | 3072     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.066269, new_best=0.623777, reward=15.18
+✓ [SUCCESS] Improvement! Δ=0.000087, new_best=0.663713, reward=1.46
+✓ [SUCCESS] Improvement! Δ=0.068066, new_best=0.609886, reward=15.86
+✓ [SUCCESS] Improvement! Δ=0.110260, new_best=0.663713, reward=25.56
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=12.50
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=3.93
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -34.8    |
+| time/              |          |
+|    episodes        | 196      |
+|    fps             | 13       |
+|    time_elapsed    | 238      |
+|    total_timesteps | 3136     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.115505, new_best=0.663713, reward=25.44
+✓ [SUCCESS] Improvement! Δ=0.091193, new_best=0.609886, reward=10.75
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -35.5    |
+| time/              |          |
+|    episodes        | 200      |
+|    fps             | 13       |
+|    time_elapsed    | 243      |
+|    total_timesteps | 3200     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.031968, new_best=0.623777, reward=8.08
+✓ [SUCCESS] Improvement! Δ=0.043635, new_best=0.667412, reward=12.63
+✓ [SUCCESS] Improvement! Δ=0.004975, new_best=0.672387, reward=1.66
+✓ [SUCCESS] Improvement! Δ=0.089366, new_best=0.616070, reward=20.56
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=12.57
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=14.84
+✓ [SUCCESS] Improvement! Δ=0.030573, new_best=0.557158, reward=8.99
+✓ [SUCCESS] Improvement! Δ=0.049507, new_best=0.606666, reward=9.55
+✓ [SUCCESS] Improvement! Δ=0.057048, new_best=0.663713, reward=8.82
+✓ [SUCCESS] Improvement! Δ=0.095495, new_best=0.663713, reward=21.90
+✓ [SUCCESS] Improvement! Δ=0.096984, new_best=0.760698, reward=23.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -35.6    |
+| time/              |          |
+|    episodes        | 204      |
+|    fps             | 13       |
+|    time_elapsed    | 248      |
+|    total_timesteps | 3264     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.033956, new_best=0.713340, reward=4.88
+✓ [SUCCESS] Improvement! Δ=0.098214, new_best=0.623777, reward=18.91
+✓ [SUCCESS] Improvement! Δ=0.171100, new_best=0.711838, reward=33.54
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -36.7    |
+| time/              |          |
+|    episodes        | 208      |
+|    fps             | 13       |
+|    time_elapsed    | 253      |
+|    total_timesteps | 3328     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.018428, new_best=0.711838, reward=8.86
+✓ [SUCCESS] Improvement! Δ=0.162798, new_best=0.693220, reward=28.32
+✓ [SUCCESS] Improvement! Δ=0.020119, new_best=0.713340, reward=5.10
+✓ [SUCCESS] Improvement! Δ=0.017565, new_best=0.547987, reward=3.07
+✓ [SUCCESS] Improvement! Δ=0.115727, new_best=0.663713, reward=8.57
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.124662, new_best=0.663713, reward=28.16
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=14.45
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -37.4    |
+| time/              |          |
+|    episodes        | 212      |
+|    fps             | 13       |
+|    time_elapsed    | 258      |
+|    total_timesteps | 3392     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.031968, new_best=0.623777, reward=8.92
+✓ [SUCCESS] Improvement! Δ=0.043635, new_best=0.667412, reward=13.80
+✓ [SUCCESS] Improvement! Δ=0.161674, new_best=0.707544, reward=39.82
+✓ [SUCCESS] Improvement! Δ=0.163630, new_best=0.711838, reward=47.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -38.4    |
+| time/              |          |
+|    episodes        | 216      |
+|    fps             | 13       |
+|    time_elapsed    | 262      |
+|    total_timesteps | 3456     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.059214, new_best=0.663713, reward=17.29
+✓ [SUCCESS] Improvement! Δ=0.018460, new_best=0.682173, reward=6.35
+✓ [SUCCESS] Improvement! Δ=0.029666, new_best=0.711838, reward=11.92
+✓ [SUCCESS] Improvement! Δ=0.081886, new_best=0.609886, reward=14.01
+✓ [SUCCESS] Improvement! Δ=0.074030, new_best=0.663713, reward=14.69
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.052532, new_best=0.591586, reward=13.29
+✓ [SUCCESS] Improvement! Δ=0.072128, new_best=0.663713, reward=14.34
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -37.1    |
+| time/              |          |
+|    episodes        | 220      |
+|    fps             | 13       |
+|    time_elapsed    | 268      |
+|    total_timesteps | 3520     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.075497, new_best=0.663713, reward=18.17
+✓ [SUCCESS] Improvement! Δ=0.018616, new_best=0.663713, reward=5.05
+✓ [SUCCESS] Improvement! Δ=0.141242, new_best=0.663713, reward=32.24
+✓ [SUCCESS] Improvement! Δ=0.019183, new_best=0.589028, reward=4.00
+✓ [SUCCESS] Improvement! Δ=0.020858, new_best=0.609886, reward=4.25
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -37.1    |
+| time/              |          |
+|    episodes        | 224      |
+|    fps             | 13       |
+|    time_elapsed    | 272      |
+|    total_timesteps | 3584     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=11.29
+✓ [SUCCESS] Improvement! Δ=0.063984, new_best=0.663713, reward=12.90
+✓ [SUCCESS] Improvement! Δ=0.014448, new_best=0.623777, reward=3.01
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=14.54
+✓ [SUCCESS] Improvement! Δ=0.101295, new_best=0.663713, reward=29.12
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -37.1    |
+| time/              |          |
+|    episodes        | 228      |
+|    fps             | 13       |
+|    time_elapsed    | 277      |
+|    total_timesteps | 3648     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000756, new_best=0.672387, reward=1.19
+✓ [SUCCESS] Improvement! Δ=0.052145, new_best=0.606587, reward=11.40
+✓ [SUCCESS] Improvement! Δ=0.065800, new_best=0.672387, reward=12.84
+✓ [SUCCESS] Improvement! Δ=0.075436, new_best=0.623777, reward=5.82
+✓ [SUCCESS] Improvement! Δ=0.043635, new_best=0.667412, reward=16.73
+✓ [SUCCESS] Improvement! Δ=0.010362, new_best=0.663713, reward=2.59
+✓ [SUCCESS] Improvement! Δ=0.050683, new_best=0.714396, reward=9.78
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -38.4    |
+| time/              |          |
+|    episodes        | 232      |
+|    fps             | 13       |
+|    time_elapsed    | 282      |
+|    total_timesteps | 3712     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.114197, new_best=0.663713, reward=12.78
+✓ [SUCCESS] Improvement! Δ=0.063072, new_best=0.663713, reward=15.53
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.99
+✓ [SUCCESS] Improvement! Δ=0.118388, new_best=0.663713, reward=13.48
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -39.5    |
+| time/              |          |
+|    episodes        | 236      |
+|    fps             | 13       |
+|    time_elapsed    | 287      |
+|    total_timesteps | 3776     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.075841, new_best=0.663713, reward=9.12
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.064289, new_best=0.663713, reward=20.05
+✓ [SUCCESS] Improvement! Δ=0.025394, new_best=0.590521, reward=9.20
+✓ [SUCCESS] Improvement! Δ=0.073192, new_best=0.663713, reward=14.54
+✓ [SUCCESS] Improvement! Δ=0.058762, new_best=0.600641, reward=9.04
+✓ [SUCCESS] Improvement! Δ=0.043911, new_best=0.644552, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.004103, new_best=0.648655, reward=1.56
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -39.1    |
+| time/              |          |
+|    episodes        | 240      |
+|    fps             | 13       |
+|    time_elapsed    | 292      |
+|    total_timesteps | 3840     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004740, new_best=0.663713, reward=4.34
+✓ [SUCCESS] Improvement! Δ=0.014888, new_best=0.663713, reward=3.09
+✓ [SUCCESS] Improvement! Δ=0.084903, new_best=0.623777, reward=19.16
+✓ [SUCCESS] Improvement! Δ=0.068242, new_best=0.713340, reward=13.26
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -39.2    |
+| time/              |          |
+|    episodes        | 244      |
+|    fps             | 13       |
+|    time_elapsed    | 297      |
+|    total_timesteps | 3904     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.058432, new_best=0.623777, reward=16.21
+✓ [SUCCESS] Improvement! Δ=0.043635, new_best=0.667412, reward=16.73
+✓ [SUCCESS] Improvement! Δ=0.116702, new_best=0.663713, reward=25.22
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.049780, new_best=0.663713, reward=16.42
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -39.8    |
+| time/              |          |
+|    episodes        | 248      |
+|    fps             | 13       |
+|    time_elapsed    | 302      |
+|    total_timesteps | 3968     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=6.88
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.012427, new_best=0.663713, reward=4.77
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+✓ [SUCCESS] Improvement! Δ=0.054354, new_best=0.591586, reward=8.00
+✓ [SUCCESS] Improvement! Δ=0.042102, new_best=0.633687, reward=5.78
+✓ [SUCCESS] Improvement! Δ=0.001081, new_best=0.634768, reward=2.61
+✓ [SUCCESS] Improvement! Δ=0.004767, new_best=0.639535, reward=4.60
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -37.9    |
+| time/              |          |
+|    episodes        | 252      |
+|    fps             | 13       |
+|    time_elapsed    | 307      |
+|    total_timesteps | 4032     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.059214, new_best=0.663713, reward=17.29
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=14.82
+✓ [SUCCESS] Improvement! Δ=0.119632, new_best=0.663713, reward=25.42
+✓ [SUCCESS] Improvement! Δ=0.010474, new_best=0.674187, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.037651, new_best=0.711838, reward=14.86
+✓ [SUCCESS] Improvement! Δ=0.079612, new_best=0.663713, reward=27.52
+✓ [SUCCESS] Improvement! Δ=0.122298, new_best=0.679457, reward=24.43
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -38.1    |
+| time/              |          |
+|    episodes        | 256      |
+|    fps             | 13       |
+|    time_elapsed    | 312      |
+|    total_timesteps | 4096     |
+---------------------------------
+
+================================================================================
+EVALUATION METRICS - Round 1
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.375071
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.760698
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.449359
+  Percentage Improvement: 144.33%
+  Total Unique Sequences Discovered: 128
+  Total Oracle Calls: 3840
+
+  Buffer Status:
+    Best in current pool: 0.760698
+    Global best (tracked): 0.760698
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.760698 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.756504 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.714396 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.713340 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.712028 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKEFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.711838 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.710686 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEYNENEWQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.707544 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.693411 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVIISRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.693220 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+✓ [SUCCESS] Improvement! Δ=0.063183, new_best=0.711838, reward=20.29
+✓ [SUCCESS] Improvement! Δ=0.077070, new_best=0.711838, reward=25.63
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -39.7    |
+| time/              |          |
+|    episodes        | 260      |
+|    fps             | 9        |
+|    time_elapsed    | 419      |
+|    total_timesteps | 4160     |
+| train/             |          |
+|    actor_loss      | -299     |
+|    critic_loss     | 2.23e+03 |
+|    ent_coef        | 0.776    |
+|    ent_coef_loss   | -0.935   |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 4096     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.001312, new_best=0.713340, reward=1.26
+✓ [SUCCESS] Improvement! Δ=0.005162, new_best=0.600641, reward=4.36
+✓ [SUCCESS] Improvement! Δ=0.017190, new_best=0.623777, reward=3.74
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -39.5    |
+| time/              |          |
+|    episodes        | 264      |
+|    fps             | 9        |
+|    time_elapsed    | 424      |
+|    total_timesteps | 4224     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=11.47
+✓ [SUCCESS] Improvement! Δ=0.034095, new_best=0.663713, reward=10.14
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.061411, new_best=0.663713, reward=21.45
+✓ [SUCCESS] Improvement! Δ=0.002653, new_best=0.713340, reward=1.40
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -40.7    |
+| time/              |          |
+|    episodes        | 268      |
+|    fps             | 9        |
+|    time_elapsed    | 428      |
+|    total_timesteps | 4288     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.090734, new_best=0.667412, reward=27.67
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=5.22
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.76
+✓ [SUCCESS] Improvement! Δ=0.017418, new_best=0.591586, reward=6.61
+✓ [SUCCESS] Improvement! Δ=0.047949, new_best=0.639535, reward=18.07
+✓ [SUCCESS] Improvement! Δ=0.020858, new_best=0.609886, reward=6.56
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=14.61
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -42      |
+| time/              |          |
+|    episodes        | 272      |
+|    fps             | 10       |
+|    time_elapsed    | 433      |
+|    total_timesteps | 4352     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.060955, new_best=0.663713, reward=12.40
+✓ [SUCCESS] Improvement! Δ=0.039416, new_best=0.663713, reward=14.84
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.029666, new_best=0.711838, reward=10.47
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -42.4    |
+| time/              |          |
+|    episodes        | 276      |
+|    fps             | 10       |
+|    time_elapsed    | 438      |
+|    total_timesteps | 4416     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.098587, new_best=0.663713, reward=28.77
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.002073, new_best=0.674459, reward=1.53
+✓ [SUCCESS] Improvement! Δ=0.101978, new_best=0.663713, reward=29.30
+✓ [SUCCESS] Improvement! Δ=0.096984, new_best=0.760698, reward=23.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -42.9    |
+| time/              |          |
+|    episodes        | 280      |
+|    fps             | 10       |
+|    time_elapsed    | 443      |
+|    total_timesteps | 4480     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.049780, new_best=0.663713, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.101213, new_best=0.663713, reward=28.37
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.017190, new_best=0.623777, reward=3.74
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.003229, new_best=0.656249, reward=1.75
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -42.7    |
+| time/              |          |
+|    episodes        | 284      |
+|    fps             | 10       |
+|    time_elapsed    | 448      |
+|    total_timesteps | 4544     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.107911, new_best=0.663713, reward=25.13
+✓ [SUCCESS] Improvement! Δ=0.054585, new_best=0.609886, reward=13.73
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=17.22
+✓ [SUCCESS] Improvement! Δ=0.014888, new_best=0.663713, reward=3.09
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -42.9    |
+| time/              |          |
+|    episodes        | 288      |
+|    fps             | 10       |
+|    time_elapsed    | 453      |
+|    total_timesteps | 4608     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.078217, new_best=0.623777, reward=13.20
+✓ [SUCCESS] Improvement! Δ=0.119031, new_best=0.663713, reward=32.89
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -43.3    |
+| time/              |          |
+|    episodes        | 292      |
+|    fps             | 10       |
+|    time_elapsed    | 458      |
+|    total_timesteps | 4672     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.089216, new_best=0.663713, reward=11.71
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.028348, new_best=0.663713, reward=8.15
+✓ [SUCCESS] Improvement! Δ=0.060955, new_best=0.663713, reward=12.40
+✓ [SUCCESS] Improvement! Δ=0.071425, new_best=0.663713, reward=17.31
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -43.4    |
+| time/              |          |
+|    episodes        | 296      |
+|    fps             | 10       |
+|    time_elapsed    | 463      |
+|    total_timesteps | 4736     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.031411, new_best=0.609886, reward=10.58
+✓ [SUCCESS] Improvement! Δ=0.043134, new_best=0.653020, reward=13.56
+✓ [SUCCESS] Improvement! Δ=0.015948, new_best=0.707544, reward=8.09
+✓ [SUCCESS] Improvement! Δ=0.004433, new_best=0.663713, reward=2.73
+✓ [SUCCESS] Improvement! Δ=0.048132, new_best=0.593999, reward=11.64
+✓ [SUCCESS] Improvement! Δ=0.117840, new_best=0.711838, reward=28.89
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -43.7    |
+| time/              |          |
+|    episodes        | 300      |
+|    fps             | 10       |
+|    time_elapsed    | 467      |
+|    total_timesteps | 4800     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004433, new_best=0.663713, reward=3.30
+✓ [SUCCESS] Improvement! Δ=0.036890, new_best=0.711838, reward=14.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -45.6    |
+| time/              |          |
+|    episodes        | 304      |
+|    fps             | 10       |
+|    time_elapsed    | 472      |
+|    total_timesteps | 4864     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.106555, new_best=0.663713, reward=32.32
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.014448, new_best=0.623777, reward=3.01
+✓ [SUCCESS] Improvement! Δ=0.096422, new_best=0.720198, reward=23.57
+✓ [SUCCESS] Improvement! Δ=0.049780, new_best=0.663713, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=15.35
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -45.2    |
+| time/              |          |
+|    episodes        | 308      |
+|    fps             | 10       |
+|    time_elapsed    | 477      |
+|    total_timesteps | 4928     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.028682, new_best=0.663713, reward=10.96
+✓ [SUCCESS] Improvement! Δ=0.075436, new_best=0.623777, reward=18.16
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=6.50
+✓ [SUCCESS] Improvement! Δ=0.066269, new_best=0.623777, reward=18.39
+✓ [SUCCESS] Improvement! Δ=0.014388, new_best=0.638164, reward=6.44
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -44.9    |
+| time/              |          |
+|    episodes        | 312      |
+|    fps             | 10       |
+|    time_elapsed    | 482      |
+|    total_timesteps | 4992     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.077711, new_best=0.623777, reward=9.96
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=13.59
+✓ [SUCCESS] Improvement! Δ=0.028945, new_best=0.663713, reward=6.51
+✓ [SUCCESS] Improvement! Δ=0.012427, new_best=0.663713, reward=6.56
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=7.19
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -44.3    |
+| time/              |          |
+|    episodes        | 316      |
+|    fps             | 10       |
+|    time_elapsed    | 487      |
+|    total_timesteps | 5056     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.064939, new_best=0.663713, reward=17.75
+✓ [SUCCESS] Improvement! Δ=0.029507, new_best=0.693220, reward=6.95
+✓ [SUCCESS] Improvement! Δ=0.018616, new_best=0.663713, reward=5.05
+✓ [SUCCESS] Improvement! Δ=0.060552, new_best=0.711838, reward=19.38
+✓ [SUCCESS] Improvement! Δ=0.047099, new_best=0.623777, reward=14.28
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -45.4    |
+| time/              |          |
+|    episodes        | 320      |
+|    fps             | 10       |
+|    time_elapsed    | 492      |
+|    total_timesteps | 5120     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.022905, new_best=0.576396, reward=6.58
+✓ [SUCCESS] Improvement! Δ=0.047380, new_best=0.623777, reward=11.20
+✓ [SUCCESS] Improvement! Δ=0.060153, new_best=0.663713, reward=12.26
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.101978, new_best=0.663713, reward=29.30
+✓ [SUCCESS] Improvement! Δ=0.073192, new_best=0.663713, reward=19.04
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=15.35
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -44.2    |
+| time/              |          |
+|    episodes        | 324      |
+|    fps             | 10       |
+|    time_elapsed    | 497      |
+|    total_timesteps | 5184     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.115727, new_best=0.663713, reward=8.57
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=14.79
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=3.50
+✓ [SUCCESS] Improvement! Δ=0.019015, new_best=0.663713, reward=8.22
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -45.9    |
+| time/              |          |
+|    episodes        | 328      |
+|    fps             | 10       |
+|    time_elapsed    | 502      |
+|    total_timesteps | 5248     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=7.60
+✓ [SUCCESS] Improvement! Δ=0.114719, new_best=0.663713, reward=8.95
+✓ [SUCCESS] Improvement! Δ=0.050683, new_best=0.714396, reward=4.40
+✓ [SUCCESS] Improvement! Δ=0.071425, new_best=0.663713, reward=16.54
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.047812, new_best=0.720198, reward=12.80
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -45.8    |
+| time/              |          |
+|    episodes        | 332      |
+|    fps             | 10       |
+|    time_elapsed    | 507      |
+|    total_timesteps | 5312     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.021684, new_best=0.656249, reward=5.37
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.7    |
+| time/              |          |
+|    episodes        | 336      |
+|    fps             | 10       |
+|    time_elapsed    | 512      |
+|    total_timesteps | 5376     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.035275, new_best=0.663713, reward=5.63
+✓ [SUCCESS] Improvement! Δ=0.047099, new_best=0.623777, reward=14.28
+✓ [SUCCESS] Improvement! Δ=0.015743, new_best=0.639520, reward=4.34
+✓ [SUCCESS] Improvement! Δ=0.069335, new_best=0.623777, reward=15.03
+✓ [SUCCESS] Improvement! Δ=0.043635, new_best=0.667412, reward=15.05
+✓ [SUCCESS] Improvement! Δ=0.035924, new_best=0.703335, reward=10.14
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.6    |
+| time/              |          |
+|    episodes        | 340      |
+|    fps             | 10       |
+|    time_elapsed    | 517      |
+|    total_timesteps | 5440     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.080573, new_best=0.663713, reward=19.88
+✓ [SUCCESS] Improvement! Δ=0.036897, new_best=0.700610, reward=3.28
+✓ [SUCCESS] Improvement! Δ=0.012729, new_best=0.713340, reward=2.78
+✓ [SUCCESS] Improvement! Δ=0.155920, new_best=0.713340, reward=11.73
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -49      |
+| time/              |          |
+|    episodes        | 344      |
+|    fps             | 10       |
+|    time_elapsed    | 522      |
+|    total_timesteps | 5504     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.056942, new_best=0.623777, reward=14.23
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.070285, new_best=0.623777, reward=17.06
+✓ [SUCCESS] Improvement! Δ=0.094356, new_best=0.711838, reward=21.91
+✓ [SUCCESS] Improvement! Δ=0.056942, new_best=0.623777, reward=14.23
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.002829, new_best=0.674459, reward=2.12
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -49.1    |
+| time/              |          |
+|    episodes        | 348      |
+|    fps             | 10       |
+|    time_elapsed    | 527      |
+|    total_timesteps | 5568     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012729, new_best=0.713340, reward=3.85
+✓ [SUCCESS] Improvement! Δ=0.050650, new_best=0.763990, reward=7.62
+[BUFFER] New global best! Fitness=0.763990, Raw=2.159030
+✓ [SUCCESS] Improvement! Δ=0.038685, new_best=0.591586, reward=9.37
+✓ [SUCCESS] Improvement! Δ=0.072128, new_best=0.663713, reward=20.82
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -49.1    |
+| time/              |          |
+|    episodes        | 352      |
+|    fps             | 10       |
+|    time_elapsed    | 532      |
+|    total_timesteps | 5632     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.072128, new_best=0.663713, reward=20.82
+✓ [SUCCESS] Improvement! Δ=0.028682, new_best=0.663713, reward=10.96
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=5.05
+✓ [SUCCESS] Improvement! Δ=0.149338, new_best=0.711838, reward=46.47
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.5    |
+| time/              |          |
+|    episodes        | 356      |
+|    fps             | 10       |
+|    time_elapsed    | 536      |
+|    total_timesteps | 5696     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032382, new_best=0.711838, reward=13.22
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.084184, new_best=0.642608, reward=15.00
+✓ [SUCCESS] Improvement! Δ=0.070732, new_best=0.713340, reward=16.07
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.1    |
+| time/              |          |
+|    episodes        | 360      |
+|    fps             | 10       |
+|    time_elapsed    | 541      |
+|    total_timesteps | 5760     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.105289, new_best=0.663713, reward=23.48
+✓ [SUCCESS] Improvement! Δ=0.057048, new_best=0.663713, reward=8.82
+✓ [SUCCESS] Improvement! Δ=0.017190, new_best=0.623777, reward=3.74
+✓ [SUCCESS] Improvement! Δ=0.034095, new_best=0.663713, reward=9.37
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.6    |
+| time/              |          |
+|    episodes        | 364      |
+|    fps             | 10       |
+|    time_elapsed    | 546      |
+|    total_timesteps | 5824     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.080354, new_best=0.663713, reward=15.79
+✓ [SUCCESS] Improvement! Δ=0.021106, new_best=0.663713, reward=7.68
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.62
+✓ [SUCCESS] Improvement! Δ=0.029737, new_best=0.623777, reward=7.65
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.000756, new_best=0.672387, reward=1.19
+✓ [SUCCESS] Improvement! Δ=0.068115, new_best=0.623777, reward=15.87
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.5    |
+| time/              |          |
+|    episodes        | 368      |
+|    fps             | 10       |
+|    time_elapsed    | 551      |
+|    total_timesteps | 5888     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.071607, new_best=0.663713, reward=9.33
+✓ [SUCCESS] Improvement! Δ=0.061411, new_best=0.663713, reward=21.45
+✓ [SUCCESS] Improvement! Δ=0.092791, new_best=0.756504, reward=22.76
+✓ [SUCCESS] Improvement! Δ=0.047380, new_best=0.623777, reward=12.16
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.2    |
+| time/              |          |
+|    episodes        | 372      |
+|    fps             | 10       |
+|    time_elapsed    | 556      |
+|    total_timesteps | 5952     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.030026, new_best=0.663713, reward=6.99
+✓ [SUCCESS] Improvement! Δ=0.033452, new_best=0.637951, reward=10.62
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=3.68
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.76
+✓ [SUCCESS] Improvement! Δ=0.039416, new_best=0.663713, reward=14.84
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=2.25
+✓ [SUCCESS] Improvement! Δ=0.024178, new_best=0.663713, reward=5.79
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=3.50
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -46.8    |
+| time/              |          |
+|    episodes        | 376      |
+|    fps             | 10       |
+|    time_elapsed    | 561      |
+|    total_timesteps | 6016     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012427, new_best=0.663713, reward=2.77
+✓ [SUCCESS] Improvement! Δ=0.045969, new_best=0.609886, reward=14.00
+✓ [SUCCESS] Improvement! Δ=0.089989, new_best=0.699874, reward=28.32
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.2    |
+| time/              |          |
+|    episodes        | 380      |
+|    fps             | 10       |
+|    time_elapsed    | 566      |
+|    total_timesteps | 6080     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.031411, new_best=0.609886, reward=10.58
+✓ [SUCCESS] Improvement! Δ=0.024178, new_best=0.663713, reward=7.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.6    |
+| time/              |          |
+|    episodes        | 384      |
+|    fps             | 10       |
+|    time_elapsed    | 571      |
+|    total_timesteps | 6144     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.074030, new_best=0.663713, reward=11.05
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.043164, new_best=0.756504, reward=16.58
+✓ [SUCCESS] Improvement! Δ=0.033466, new_best=0.671631, reward=11.48
+✓ [SUCCESS] Improvement! Δ=0.024026, new_best=0.591586, reward=4.68
+✓ [SUCCESS] Improvement! Δ=0.072128, new_best=0.663713, reward=20.40
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -46.9    |
+| time/              |          |
+|    episodes        | 388      |
+|    fps             | 10       |
+|    time_elapsed    | 576      |
+|    total_timesteps | 6208     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.015678, new_best=0.656249, reward=4.35
+✓ [SUCCESS] Improvement! Δ=0.051527, new_best=0.663713, reward=7.65
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -46.8    |
+| time/              |          |
+|    episodes        | 392      |
+|    fps             | 10       |
+|    time_elapsed    | 581      |
+|    total_timesteps | 6272     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.033240, new_best=0.663713, reward=5.30
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+✓ [SUCCESS] Improvement! Δ=0.067537, new_best=0.663713, reward=14.80
+✓ [SUCCESS] Improvement! Δ=0.015948, new_best=0.707544, reward=6.11
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.4    |
+| time/              |          |
+|    episodes        | 396      |
+|    fps             | 10       |
+|    time_elapsed    | 585      |
+|    total_timesteps | 6336     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.007415, new_best=0.576706, reward=5.43
+✓ [SUCCESS] Improvement! Δ=0.079543, new_best=0.656249, reward=22.11
+✓ [SUCCESS] Improvement! Δ=0.079103, new_best=0.663713, reward=10.93
+✓ [SUCCESS] Improvement! Δ=0.031968, new_best=0.623777, reward=8.08
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=16.63
+✓ [SUCCESS] Improvement! Δ=0.000756, new_best=0.672387, reward=2.38
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.2    |
+| time/              |          |
+|    episodes        | 400      |
+|    fps             | 10       |
+|    time_elapsed    | 590      |
+|    total_timesteps | 6400     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.021465, new_best=0.629221, reward=2.76
+✓ [SUCCESS] Improvement! Δ=0.027028, new_best=0.656249, reward=4.11
+✓ [SUCCESS] Improvement! Δ=0.000959, new_best=0.657208, reward=2.43
+✓ [SUCCESS] Improvement! Δ=0.027892, new_best=0.667412, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.039397, new_best=0.648032, reward=8.98
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -46.6    |
+| time/              |          |
+|    episodes        | 404      |
+|    fps             | 10       |
+|    time_elapsed    | 595      |
+|    total_timesteps | 6464     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.010481, new_best=0.620367, reward=2.47
+✓ [SUCCESS] Improvement! Δ=0.071607, new_best=0.663713, reward=9.02
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.124185, new_best=0.707544, reward=29.18
+✓ [SUCCESS] Improvement! Δ=0.102203, new_best=0.677855, reward=24.85
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.3    |
+| time/              |          |
+|    episodes        | 408      |
+|    fps             | 10       |
+|    time_elapsed    | 600      |
+|    total_timesteps | 6528     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.015678, new_best=0.656249, reward=2.85
+✓ [SUCCESS] Improvement! Δ=0.004975, new_best=0.672387, reward=2.24
+✓ [SUCCESS] Improvement! Δ=0.025778, new_best=0.630473, reward=4.92
+✓ [SUCCESS] Improvement! Δ=0.033240, new_best=0.663713, reward=4.90
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48      |
+| time/              |          |
+|    episodes        | 412      |
+|    fps             | 10       |
+|    time_elapsed    | 605      |
+|    total_timesteps | 6592     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.021106, new_best=0.663713, reward=4.87
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.004433, new_best=0.663713, reward=2.73
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=12.58
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=3.19
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.2    |
+| time/              |          |
+|    episodes        | 416      |
+|    fps             | 10       |
+|    time_elapsed    | 610      |
+|    total_timesteps | 6656     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012449, new_best=0.653020, reward=6.17
+✓ [SUCCESS] Improvement! Δ=0.003229, new_best=0.656249, reward=1.47
+✓ [SUCCESS] Improvement! Δ=0.020119, new_best=0.713340, reward=4.51
+✓ [SUCCESS] Improvement! Δ=0.047358, new_best=0.760698, reward=12.70
+✓ [SUCCESS] Improvement! Δ=0.005404, new_best=0.574033, reward=2.82
+✓ [SUCCESS] Improvement! Δ=0.018255, new_best=0.592288, reward=5.36
+✓ [SUCCESS] Improvement! Δ=0.071425, new_best=0.663713, reward=16.54
+✓ [SUCCESS] Improvement! Δ=0.029507, new_best=0.693220, reward=6.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.9    |
+| time/              |          |
+|    episodes        | 420      |
+|    fps             | 10       |
+|    time_elapsed    | 615      |
+|    total_timesteps | 6720     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.038136, new_best=0.672387, reward=9.05
+✓ [SUCCESS] Improvement! Δ=0.005162, new_best=0.600641, reward=4.36
+✓ [SUCCESS] Improvement! Δ=0.043911, new_best=0.644552, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.006734, new_best=0.651287, reward=5.22
+✓ [SUCCESS] Improvement! Δ=0.022643, new_best=0.657208, reward=8.32
+✓ [SUCCESS] Improvement! Δ=0.072415, new_best=0.705407, reward=16.86
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.7    |
+| time/              |          |
+|    episodes        | 424      |
+|    fps             | 10       |
+|    time_elapsed    | 620      |
+|    total_timesteps | 6784     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.068787, new_best=0.713340, reward=13.35
+✓ [SUCCESS] Improvement! Δ=0.000991, new_best=0.663713, reward=2.06
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=12.36
+✓ [SUCCESS] Improvement! Δ=0.015948, new_best=0.707544, reward=8.09
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.86
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.3    |
+| time/              |          |
+|    episodes        | 428      |
+|    fps             | 10       |
+|    time_elapsed    | 625      |
+|    total_timesteps | 6848     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.071607, new_best=0.663713, reward=14.26
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.35
+✓ [SUCCESS] Improvement! Δ=0.089680, new_best=0.663713, reward=17.42
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.020858, new_best=0.609886, reward=4.25
+✓ [SUCCESS] Improvement! Δ=0.043134, new_best=0.653020, reward=16.57
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.3    |
+| time/              |          |
+|    episodes        | 432      |
+|    fps             | 10       |
+|    time_elapsed    | 629      |
+|    total_timesteps | 6912     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.038136, new_best=0.672387, reward=8.57
+✓ [SUCCESS] Improvement! Δ=0.063058, new_best=0.672387, reward=9.08
+✓ [SUCCESS] Improvement! Δ=0.046231, new_best=0.663713, reward=10.51
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.3    |
+| time/              |          |
+|    episodes        | 436      |
+|    fps             | 10       |
+|    time_elapsed    | 634      |
+|    total_timesteps | 6976     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.075689, new_best=0.663713, reward=11.77
+✓ [SUCCESS] Improvement! Δ=0.028348, new_best=0.663713, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.010609, new_best=0.674322, reward=4.24
+✓ [SUCCESS] Improvement! Δ=0.037517, new_best=0.711838, reward=14.82
+✓ [SUCCESS] Improvement! Δ=0.021892, new_best=0.590521, reward=6.73
+✓ [SUCCESS] Improvement! Δ=0.073192, new_best=0.663713, reward=19.04
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.4    |
+| time/              |          |
+|    episodes        | 440      |
+|    fps             | 11       |
+|    time_elapsed    | 639      |
+|    total_timesteps | 7040     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.047380, new_best=0.623777, reward=10.03
+✓ [SUCCESS] Improvement! Δ=0.026215, new_best=0.649991, reward=8.53
+✓ [SUCCESS] Improvement! Δ=0.022395, new_best=0.672387, reward=3.59
+✓ [SUCCESS] Improvement! Δ=0.040294, new_best=0.663713, reward=9.65
+✓ [SUCCESS] Improvement! Δ=0.010944, new_best=0.609886, reward=2.60
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=17.05
+✓ [SUCCESS] Improvement! Δ=0.033883, new_best=0.713340, reward=4.87
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -46.8    |
+| time/              |          |
+|    episodes        | 444      |
+|    fps             | 11       |
+|    time_elapsed    | 644      |
+|    total_timesteps | 7104     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.071425, new_best=0.663713, reward=17.74
+✓ [SUCCESS] Improvement! Δ=0.008966, new_best=0.592107, reward=3.61
+✓ [SUCCESS] Improvement! Δ=0.071607, new_best=0.663713, reward=9.33
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=11.64
+✓ [SUCCESS] Improvement! Δ=0.028682, new_best=0.663713, reward=10.96
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -47.3    |
+| time/              |          |
+|    episodes        | 448      |
+|    fps             | 11       |
+|    time_elapsed    | 649      |
+|    total_timesteps | 7168     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.015948, new_best=0.707544, reward=7.13
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.034263, new_best=0.633687, reward=4.91
+✓ [SUCCESS] Improvement! Δ=0.069381, new_best=0.663713, reward=13.94
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=13.25
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.6    |
+| time/              |          |
+|    episodes        | 452      |
+|    fps             | 11       |
+|    time_elapsed    | 654      |
+|    total_timesteps | 7232     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.042841, new_best=0.673314, reward=5.86
+✓ [SUCCESS] Improvement! Δ=0.027613, new_best=0.600641, reward=3.87
+✓ [SUCCESS] Improvement! Δ=0.063072, new_best=0.663713, reward=21.38
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50      |
+| time/              |          |
+|    episodes        | 456      |
+|    fps             | 11       |
+|    time_elapsed    | 659      |
+|    total_timesteps | 7296     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.019929, new_best=0.713340, reward=3.32
+✓ [SUCCESS] Improvement! Δ=0.004857, new_best=0.588216, reward=2.78
+✓ [SUCCESS] Improvement! Δ=0.075497, new_best=0.663713, reward=14.94
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -49.8    |
+| time/              |          |
+|    episodes        | 460      |
+|    fps             | 11       |
+|    time_elapsed    | 664      |
+|    total_timesteps | 7360     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.049780, new_best=0.663713, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.035275, new_best=0.663713, reward=5.63
+✓ [SUCCESS] Improvement! Δ=0.029507, new_best=0.693220, reward=5.14
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.034230, new_best=0.707544, reward=11.27
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -49.4    |
+| time/              |          |
+|    episodes        | 464      |
+|    fps             | 11       |
+|    time_elapsed    | 669      |
+|    total_timesteps | 7424     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032111, new_best=0.671631, reward=9.78
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -51.1    |
+| time/              |          |
+|    episodes        | 468      |
+|    fps             | 11       |
+|    time_elapsed    | 673      |
+|    total_timesteps | 7488     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.034095, new_best=0.663713, reward=7.85
+✓ [SUCCESS] Improvement! Δ=0.017190, new_best=0.623777, reward=3.74
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.8    |
+| time/              |          |
+|    episodes        | 472      |
+|    fps             | 11       |
+|    time_elapsed    | 678      |
+|    total_timesteps | 7552     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.071607, new_best=0.663713, reward=21.35
+✓ [SUCCESS] Improvement! Δ=0.069381, new_best=0.663713, reward=16.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -51.2    |
+| time/              |          |
+|    episodes        | 476      |
+|    fps             | 11       |
+|    time_elapsed    | 683      |
+|    total_timesteps | 7616     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004740, new_best=0.663713, reward=3.37
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=14.06
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.034095, new_best=0.663713, reward=7.85
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.33
+✓ [SUCCESS] Improvement! Δ=0.025371, new_best=0.707544, reward=11.03
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.4    |
+| time/              |          |
+|    episodes        | 480      |
+|    fps             | 11       |
+|    time_elapsed    | 688      |
+|    total_timesteps | 7680     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.064939, new_best=0.663713, reward=10.85
+✓ [SUCCESS] Improvement! Δ=0.019015, new_best=0.663713, reward=8.22
+✓ [SUCCESS] Improvement! Δ=0.014088, new_best=0.600641, reward=4.26
+✓ [SUCCESS] Improvement! Δ=0.043911, new_best=0.644552, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.033956, new_best=0.713340, reward=10.06
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -49.6    |
+| time/              |          |
+|    episodes        | 484      |
+|    fps             | 11       |
+|    time_elapsed    | 693      |
+|    total_timesteps | 7744     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.060153, new_best=0.663713, reward=16.06
+✓ [SUCCESS] Improvement! Δ=0.010944, new_best=0.609886, reward=2.60
+✓ [SUCCESS] Improvement! Δ=0.082942, new_best=0.711838, reward=23.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.1    |
+| time/              |          |
+|    episodes        | 488      |
+|    fps             | 11       |
+|    time_elapsed    | 698      |
+|    total_timesteps | 7808     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.010250, new_best=0.623777, reward=2.51
+✓ [SUCCESS] Improvement! Δ=0.028348, new_best=0.663713, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.043911, new_best=0.644552, reward=16.81
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.8    |
+| time/              |          |
+|    episodes        | 492      |
+|    fps             | 11       |
+|    time_elapsed    | 703      |
+|    total_timesteps | 7872     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.075841, new_best=0.663713, reward=19.85
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=9.34
+✓ [SUCCESS] Improvement! Δ=0.071425, new_best=0.663713, reward=16.54
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.53
+✓ [SUCCESS] Improvement! Δ=0.016909, new_best=0.663713, reward=7.73
+✓ [SUCCESS] Improvement! Δ=0.005162, new_best=0.600641, reward=4.36
+✓ [SUCCESS] Improvement! Δ=0.043911, new_best=0.644552, reward=16.45
+✓ [SUCCESS] Improvement! Δ=0.019161, new_best=0.663713, reward=8.53
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -48.8    |
+| time/              |          |
+|    episodes        | 496      |
+|    fps             | 11       |
+|    time_elapsed    | 708      |
+|    total_timesteps | 7936     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.079103, new_best=0.663713, reward=10.93
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.10
+✓ [SUCCESS] Improvement! Δ=0.041497, new_best=0.656249, reward=5.71
+✓ [SUCCESS] Improvement! Δ=0.018618, new_best=0.711838, reward=8.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50      |
+| time/              |          |
+|    episodes        | 500      |
+|    fps             | 11       |
+|    time_elapsed    | 712      |
+|    total_timesteps | 8000     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.022190, new_best=0.623777, reward=4.18
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.017685, new_best=0.663713, reward=7.24
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.006734, new_best=0.651287, reward=5.22
+✓ [SUCCESS] Improvement! Δ=0.046233, new_best=0.651287, reward=17.54
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.4    |
+| time/              |          |
+|    episodes        | 504      |
+|    fps             | 11       |
+|    time_elapsed    | 715      |
+|    total_timesteps | 8064     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.017685, new_best=0.663713, reward=3.16
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=9.78
+✓ [SUCCESS] Improvement! Δ=0.061515, new_best=0.707544, reward=18.23
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.6    |
+| time/              |          |
+|    episodes        | 508      |
+|    fps             | 11       |
+|    time_elapsed    | 719      |
+|    total_timesteps | 8128     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.010250, new_best=0.623777, reward=4.41
+✓ [SUCCESS] Improvement! Δ=0.107781, new_best=0.731558, reward=16.24
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=6.99
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.8    |
+| time/              |          |
+|    episodes        | 512      |
+|    fps             | 11       |
+|    time_elapsed    | 723      |
+|    total_timesteps | 8192     |
+---------------------------------
+
+================================================================================
+EVALUATION METRICS - Round 2
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.359831
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.763990
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.452651
+  Percentage Improvement: 145.39%
+  Total Unique Sequences Discovered: 176
+  Total Oracle Calls: 7680
+
+  Buffer Status:
+    Best in current pool: 0.763990
+    Global best (tracked): 0.763990
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.763990 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.760698 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.756504 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.731558 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKDFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.720198 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.714396 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.713340 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.712028 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKEFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.711838 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.710686 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEYNENEWQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+✓ [SUCCESS] Improvement! Δ=0.015968, new_best=0.609886, reward=5.53
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=6.25
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 16        |
+|    ep_rew_mean     | -51.8     |
+| time/              |           |
+|    episodes        | 516       |
+|    fps             | 9         |
+|    time_elapsed    | 832       |
+|    total_timesteps | 8256      |
+| train/             |           |
+|    actor_loss      | -1.06e+04 |
+|    critic_loss     | 3.43e+06  |
+|    ent_coef        | 2.69      |
+|    ent_coef_loss   | -46.8     |
+|    learning_rate   | 0.0003    |
+|    n_updates       | 8192      |
+----------------------------------
+✓ [SUCCESS] Improvement! Δ=0.019161, new_best=0.663713, reward=8.53
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.006582, new_best=0.602759, reward=3.69
+✓ [SUCCESS] Improvement! Δ=0.060955, new_best=0.663713, reward=16.80
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.7    |
+| time/              |          |
+|    episodes        | 520      |
+|    fps             | 9        |
+|    time_elapsed    | 836      |
+|    total_timesteps | 8320     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.020858, new_best=0.609886, reward=5.39
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=8.96
+✓ [SUCCESS] Improvement! Δ=0.046101, new_best=0.648859, reward=9.18
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=6.83
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.6    |
+| time/              |          |
+|    episodes        | 524      |
+|    fps             | 9        |
+|    time_elapsed    | 841      |
+|    total_timesteps | 8384     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=14.42
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.055269, new_best=0.693220, reward=10.51
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -51.7    |
+| time/              |          |
+|    episodes        | 528      |
+|    fps             | 9        |
+|    time_elapsed    | 846      |
+|    total_timesteps | 8448     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.001018, new_best=0.674332, reward=2.36
+✓ [SUCCESS] Improvement! Δ=0.003341, new_best=0.609886, reward=3.35
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=9.24
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.2    |
+| time/              |          |
+|    episodes        | 532      |
+|    fps             | 9        |
+|    time_elapsed    | 851      |
+|    total_timesteps | 8512     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.022011, new_best=0.637951, reward=7.06
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=6.88
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52      |
+| time/              |          |
+|    episodes        | 536      |
+|    fps             | 10       |
+|    time_elapsed    | 856      |
+|    total_timesteps | 8576     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.036890, new_best=0.711838, reward=7.62
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.89
+✓ [SUCCESS] Improvement! Δ=0.022727, new_best=0.615220, reward=6.19
+✓ [SUCCESS] Improvement! Δ=0.041275, new_best=0.656495, reward=5.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.8    |
+| time/              |          |
+|    episodes        | 540      |
+|    fps             | 10       |
+|    time_elapsed    | 861      |
+|    total_timesteps | 8640     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.055792, new_best=0.704447, reward=14.57
+✓ [SUCCESS] Improvement! Δ=0.059890, new_best=0.663713, reward=21.46
+✓ [SUCCESS] Improvement! Δ=0.070454, new_best=0.663713, reward=15.21
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.034817, new_best=0.663713, reward=9.55
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=16.24
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.2    |
+| time/              |          |
+|    episodes        | 544      |
+|    fps             | 10       |
+|    time_elapsed    | 865      |
+|    total_timesteps | 8704     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=7.83
+✓ [SUCCESS] Improvement! Δ=0.028945, new_best=0.663713, reward=7.86
+✓ [SUCCESS] Improvement! Δ=0.088419, new_best=0.711838, reward=11.55
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.6    |
+| time/              |          |
+|    episodes        | 548      |
+|    fps             | 10       |
+|    time_elapsed    | 870      |
+|    total_timesteps | 8768     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.017190, new_best=0.623777, reward=4.75
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=11.19
+✓ [SUCCESS] Improvement! Δ=0.034095, new_best=0.663713, reward=11.94
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.5    |
+| time/              |          |
+|    episodes        | 552      |
+|    fps             | 10       |
+|    time_elapsed    | 875      |
+|    total_timesteps | 8832     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.046231, new_best=0.663713, reward=10.51
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=11.28
+✓ [SUCCESS] Improvement! Δ=0.044532, new_best=0.663713, reward=13.48
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.044532, new_best=0.663713, reward=13.48
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.4    |
+| time/              |          |
+|    episodes        | 556      |
+|    fps             | 10       |
+|    time_elapsed    | 880      |
+|    total_timesteps | 8896     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000756, new_best=0.672387, reward=1.94
+✓ [SUCCESS] Improvement! Δ=0.000113, new_best=0.615220, reward=2.51
+✓ [SUCCESS] Improvement! Δ=0.005235, new_best=0.653268, reward=4.75
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.9    |
+| time/              |          |
+|    episodes        | 560      |
+|    fps             | 10       |
+|    time_elapsed    | 885      |
+|    total_timesteps | 8960     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.009805, new_best=0.663073, reward=4.40
+✓ [SUCCESS] Improvement! Δ=0.088419, new_best=0.711838, reward=30.22
+✓ [SUCCESS] Improvement! Δ=0.017596, new_best=0.663713, reward=7.93
+✓ [SUCCESS] Improvement! Δ=0.010474, new_best=0.674187, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.037651, new_best=0.711838, reward=11.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.2    |
+| time/              |          |
+|    episodes        | 564      |
+|    fps             | 10       |
+|    time_elapsed    | 889      |
+|    total_timesteps | 9024     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.019929, new_best=0.713340, reward=6.04
+✓ [SUCCESS] Improvement! Δ=0.108015, new_best=0.711838, reward=14.32
+✓ [SUCCESS] Improvement! Δ=0.004767, new_best=0.639535, reward=4.60
+✓ [SUCCESS] Improvement! Δ=0.009324, new_best=0.648859, reward=4.23
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=4.34
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.9    |
+| time/              |          |
+|    episodes        | 568      |
+|    fps             | 10       |
+|    time_elapsed    | 894      |
+|    total_timesteps | 9088     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.022190, new_best=0.623777, reward=8.09
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=8.77
+✓ [SUCCESS] Improvement! Δ=0.004740, new_best=0.663713, reward=4.34
+✓ [SUCCESS] Improvement! Δ=0.010474, new_best=0.674187, reward=5.08
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.2    |
+| time/              |          |
+|    episodes        | 572      |
+|    fps             | 10       |
+|    time_elapsed    | 899      |
+|    total_timesteps | 9152     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=14.42
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=13.68
+✓ [SUCCESS] Improvement! Δ=0.054193, new_best=0.707544, reward=15.11
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.044532, new_best=0.663713, reward=13.48
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=15.25
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.9    |
+| time/              |          |
+|    episodes        | 576      |
+|    fps             | 10       |
+|    time_elapsed    | 904      |
+|    total_timesteps | 9216     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.039416, new_best=0.663713, reward=14.84
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.064939, new_best=0.663713, reward=8.38
+✓ [SUCCESS] Improvement! Δ=0.092791, new_best=0.756504, reward=22.76
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.9    |
+| time/              |          |
+|    episodes        | 580      |
+|    fps             | 10       |
+|    time_elapsed    | 909      |
+|    total_timesteps | 9280     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.021684, new_best=0.656249, reward=6.05
+✓ [SUCCESS] Improvement! Δ=0.033548, new_best=0.663713, reward=10.89
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.4    |
+| time/              |          |
+|    episodes        | 584      |
+|    fps             | 10       |
+|    time_elapsed    | 914      |
+|    total_timesteps | 9344     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.023799, new_best=0.653020, reward=8.47
+✓ [SUCCESS] Improvement! Δ=0.020119, new_best=0.713340, reward=5.10
+✓ [SUCCESS] Improvement! Δ=0.004168, new_best=0.663713, reward=2.86
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=3.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.8    |
+| time/              |          |
+|    episodes        | 588      |
+|    fps             | 10       |
+|    time_elapsed    | 919      |
+|    total_timesteps | 9408     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004433, new_best=0.663713, reward=3.21
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.064289, new_best=0.663713, reward=16.73
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.2    |
+| time/              |          |
+|    episodes        | 592      |
+|    fps             | 10       |
+|    time_elapsed    | 923      |
+|    total_timesteps | 9472     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.028075, new_best=0.663713, reward=5.51
+✓ [SUCCESS] Improvement! Δ=0.013819, new_best=0.628570, reward=3.10
+✓ [SUCCESS] Improvement! Δ=0.027678, new_best=0.656249, reward=4.18
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=15.97
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=2.55
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -57.1    |
+| time/              |          |
+|    episodes        | 596      |
+|    fps             | 10       |
+|    time_elapsed    | 928      |
+|    total_timesteps | 9536     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.017596, new_best=0.663713, reward=7.93
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56.8    |
+| time/              |          |
+|    episodes        | 600      |
+|    fps             | 10       |
+|    time_elapsed    | 933      |
+|    total_timesteps | 9600     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.044446, new_best=0.717760, reward=12.06
+✓ [SUCCESS] Improvement! Δ=0.041275, new_best=0.656495, reward=10.01
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56.6    |
+| time/              |          |
+|    episodes        | 604      |
+|    fps             | 10       |
+|    time_elapsed    | 938      |
+|    total_timesteps | 9664     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=6.88
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.013016, new_best=0.693220, reward=3.00
+✓ [SUCCESS] Improvement! Δ=0.000358, new_best=0.663713, reward=2.20
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56      |
+| time/              |          |
+|    episodes        | 608      |
+|    fps             | 10       |
+|    time_elapsed    | 943      |
+|    total_timesteps | 9728     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.006934, new_best=0.707544, reward=4.32
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.001963, new_best=0.663713, reward=1.48
+✓ [SUCCESS] Improvement! Δ=0.032382, new_best=0.711838, reward=13.22
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56      |
+| time/              |          |
+|    episodes        | 612      |
+|    fps             | 10       |
+|    time_elapsed    | 948      |
+|    total_timesteps | 9792     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.017477, new_best=0.713340, reward=4.11
+✓ [SUCCESS] Improvement! Δ=0.015976, new_best=0.711838, reward=8.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56.1    |
+| time/              |          |
+|    episodes        | 616      |
+|    fps             | 10       |
+|    time_elapsed    | 953      |
+|    total_timesteps | 9856     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000756, new_best=0.672387, reward=1.19
+✓ [SUCCESS] Improvement! Δ=0.052750, new_best=0.660506, reward=8.82
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56.4    |
+| time/              |          |
+|    episodes        | 620      |
+|    fps             | 10       |
+|    time_elapsed    | 957      |
+|    total_timesteps | 9920     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.031634, new_best=0.711838, reward=12.98
+✓ [SUCCESS] Improvement! Δ=0.077378, new_best=0.707544, reward=20.00
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.051527, new_best=0.663713, reward=7.65
+✓ [SUCCESS] Improvement! Δ=0.000113, new_best=0.615220, reward=2.51
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56      |
+| time/              |          |
+|    episodes        | 624      |
+|    fps             | 10       |
+|    time_elapsed    | 962      |
+|    total_timesteps | 9984     |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.018179, new_best=0.679120, reward=8.79
+✓ [SUCCESS] Improvement! Δ=0.012356, new_best=0.663713, reward=5.11
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.56
+✓ [SUCCESS] Improvement! Δ=0.012373, new_best=0.673314, reward=2.84
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56.5    |
+| time/              |          |
+|    episodes        | 628      |
+|    fps             | 10       |
+|    time_elapsed    | 967      |
+|    total_timesteps | 10048    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.035284, new_best=0.707544, reward=9.10
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.021743, new_best=0.713340, reward=3.52
+✓ [SUCCESS] Improvement! Δ=0.046302, new_best=0.760698, reward=12.47
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.5    |
+| time/              |          |
+|    episodes        | 632      |
+|    fps             | 10       |
+|    time_elapsed    | 972      |
+|    total_timesteps | 10112    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.014979, new_best=0.663713, reward=6.28
+✓ [SUCCESS] Improvement! Δ=0.010362, new_best=0.663713, reward=2.59
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.057048, new_best=0.663713, reward=8.82
+✓ [SUCCESS] Improvement! Δ=0.000539, new_best=0.623777, reward=2.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.9    |
+| time/              |          |
+|    episodes        | 636      |
+|    fps             | 10       |
+|    time_elapsed    | 977      |
+|    total_timesteps | 10176    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.014888, new_best=0.663713, reward=3.09
+✓ [SUCCESS] Improvement! Δ=0.060386, new_best=0.715749, reward=17.92
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.2    |
+| time/              |          |
+|    episodes        | 640      |
+|    fps             | 10       |
+|    time_elapsed    | 982      |
+|    total_timesteps | 10240    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.033548, new_best=0.663713, reward=11.10
+✓ [SUCCESS] Improvement! Δ=0.015678, new_best=0.656249, reward=5.25
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.1    |
+| time/              |          |
+|    episodes        | 644      |
+|    fps             | 10       |
+|    time_elapsed    | 987      |
+|    total_timesteps | 10304    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032382, new_best=0.711838, reward=6.89
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.72
+✓ [SUCCESS] Improvement! Δ=0.040294, new_best=0.663713, reward=11.85
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.3    |
+| time/              |          |
+|    episodes        | 648      |
+|    fps             | 10       |
+|    time_elapsed    | 992      |
+|    total_timesteps | 10368    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.055137, new_best=0.671631, reward=14.54
+✓ [SUCCESS] Improvement! Δ=0.050583, new_best=0.722213, reward=11.87
+✓ [SUCCESS] Improvement! Δ=0.034817, new_best=0.663713, reward=7.98
+✓ [SUCCESS] Improvement! Δ=0.096984, new_best=0.760698, reward=23.69
+✓ [SUCCESS] Improvement! Δ=0.010249, new_best=0.623777, reward=3.83
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.9    |
+| time/              |          |
+|    episodes        | 652      |
+|    fps             | 10       |
+|    time_elapsed    | 996      |
+|    total_timesteps | 10432    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032454, new_best=0.711838, reward=13.24
+✓ [SUCCESS] Improvement! Δ=0.003341, new_best=0.609886, reward=3.35
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=17.22
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.8    |
+| time/              |          |
+|    episodes        | 656      |
+|    fps             | 10       |
+|    time_elapsed    | 1001     |
+|    total_timesteps | 10496    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.039397, new_best=0.648032, reward=5.48
+✓ [SUCCESS] Improvement! Δ=0.005235, new_best=0.653268, reward=4.75
+✓ [SUCCESS] Improvement! Δ=0.002130, new_best=0.609886, reward=2.94
+✓ [SUCCESS] Improvement! Δ=0.046363, new_best=0.656249, reward=8.60
+✓ [SUCCESS] Improvement! Δ=0.041275, new_best=0.656495, reward=5.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.3    |
+| time/              |          |
+|    episodes        | 660      |
+|    fps             | 10       |
+|    time_elapsed    | 1006     |
+|    total_timesteps | 10560    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000991, new_best=0.663713, reward=2.75
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=11.28
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.1    |
+| time/              |          |
+|    episodes        | 664      |
+|    fps             | 10       |
+|    time_elapsed    | 1011     |
+|    total_timesteps | 10624    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.011228, new_best=0.711838, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.039416, new_best=0.663713, reward=10.50
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.052293, new_best=0.711838, reward=15.86
+✓ [SUCCESS] Improvement! Δ=0.044532, new_best=0.663713, reward=13.48
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.3    |
+| time/              |          |
+|    episodes        | 668      |
+|    fps             | 10       |
+|    time_elapsed    | 1016     |
+|    total_timesteps | 10688    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.046231, new_best=0.663713, reward=5.78
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.000358, new_best=0.663713, reward=3.05
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.3    |
+| time/              |          |
+|    episodes        | 672      |
+|    fps             | 10       |
+|    time_elapsed    | 1021     |
+|    total_timesteps | 10752    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.066479, new_best=0.713340, reward=12.54
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.6    |
+| time/              |          |
+|    episodes        | 676      |
+|    fps             | 10       |
+|    time_elapsed    | 1026     |
+|    total_timesteps | 10816    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032654, new_best=0.653020, reward=13.30
+✓ [SUCCESS] Improvement! Δ=0.047998, new_best=0.707544, reward=14.77
+✓ [SUCCESS] Improvement! Δ=0.053154, new_best=0.760698, reward=13.99
+✓ [SUCCESS] Improvement! Δ=0.033222, new_best=0.707544, reward=8.90
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.4    |
+| time/              |          |
+|    episodes        | 680      |
+|    fps             | 10       |
+|    time_elapsed    | 1030     |
+|    total_timesteps | 10880    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.080937, new_best=0.695862, reward=17.50
+✓ [SUCCESS] Improvement! Δ=0.017477, new_best=0.713340, reward=3.05
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.5    |
+| time/              |          |
+|    episodes        | 684      |
+|    fps             | 10       |
+|    time_elapsed    | 1035     |
+|    total_timesteps | 10944    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.000125, new_best=0.648859, reward=1.86
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.010250, new_best=0.623777, reward=2.51
+✓ [SUCCESS] Improvement! Δ=0.005653, new_best=0.619037, reward=2.85
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.1    |
+| time/              |          |
+|    episodes        | 688      |
+|    fps             | 10       |
+|    time_elapsed    | 1040     |
+|    total_timesteps | 11008    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000113, new_best=0.615220, reward=1.77
+✓ [SUCCESS] Improvement! Δ=0.034817, new_best=0.663713, reward=7.98
+✓ [SUCCESS] Improvement! Δ=0.049149, new_best=0.672387, reward=10.53
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.3    |
+| time/              |          |
+|    episodes        | 692      |
+|    fps             | 10       |
+|    time_elapsed    | 1045     |
+|    total_timesteps | 11072    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.016909, new_best=0.663713, reward=7.73
+✓ [SUCCESS] Improvement! Δ=0.069101, new_best=0.760698, reward=17.52
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.1    |
+| time/              |          |
+|    episodes        | 696      |
+|    fps             | 10       |
+|    time_elapsed    | 1050     |
+|    total_timesteps | 11136    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032249, new_best=0.651287, reward=13.17
+✓ [SUCCESS] Improvement! Δ=0.035882, new_best=0.656249, reward=5.09
+✓ [SUCCESS] Improvement! Δ=0.033548, new_best=0.663713, reward=11.95
+✓ [SUCCESS] Improvement! Δ=0.030026, new_best=0.663713, reward=10.15
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.95
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.9    |
+| time/              |          |
+|    episodes        | 700      |
+|    fps             | 10       |
+|    time_elapsed    | 1055     |
+|    total_timesteps | 11200    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.044532, new_best=0.663713, reward=7.17
+✓ [SUCCESS] Improvement! Δ=0.010249, new_best=0.623777, reward=4.56
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53      |
+| time/              |          |
+|    episodes        | 704      |
+|    fps             | 10       |
+|    time_elapsed    | 1060     |
+|    total_timesteps | 11264    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.002827, new_best=0.609886, reward=1.58
+✓ [SUCCESS] Improvement! Δ=0.047322, new_best=0.657208, reward=14.61
+✓ [SUCCESS] Improvement! Δ=0.040294, new_best=0.663713, reward=10.52
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.028945, new_best=0.663713, reward=8.74
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.1    |
+| time/              |          |
+|    episodes        | 708      |
+|    fps             | 10       |
+|    time_elapsed    | 1065     |
+|    total_timesteps | 11328    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000991, new_best=0.663713, reward=2.17
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=15.18
+✓ [SUCCESS] Improvement! Δ=0.096422, new_best=0.720198, reward=23.57
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.28
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.3    |
+| time/              |          |
+|    episodes        | 712      |
+|    fps             | 10       |
+|    time_elapsed    | 1069     |
+|    total_timesteps | 11392    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52      |
+| time/              |          |
+|    episodes        | 716      |
+|    fps             | 10       |
+|    time_elapsed    | 1074     |
+|    total_timesteps | 11456    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.070732, new_best=0.713340, reward=16.07
+✓ [SUCCESS] Improvement! Δ=0.036460, new_best=0.663713, reward=8.89
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -50.7    |
+| time/              |          |
+|    episodes        | 720      |
+|    fps             | 10       |
+|    time_elapsed    | 1079     |
+|    total_timesteps | 11520    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.014979, new_best=0.663713, reward=5.72
+✓ [SUCCESS] Improvement! Δ=0.048571, new_best=0.707544, reward=16.09
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=2.97
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -51.8    |
+| time/              |          |
+|    episodes        | 724      |
+|    fps             | 10       |
+|    time_elapsed    | 1084     |
+|    total_timesteps | 11584    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.028087, new_best=0.707544, reward=11.88
+✓ [SUCCESS] Improvement! Δ=0.044532, new_best=0.663713, reward=13.48
+✓ [SUCCESS] Improvement! Δ=0.018460, new_best=0.682173, reward=6.35
+✓ [SUCCESS] Improvement! Δ=0.025371, new_best=0.707544, reward=11.03
+✓ [SUCCESS] Improvement! Δ=0.014133, new_best=0.707544, reward=7.53
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -51.5    |
+| time/              |          |
+|    episodes        | 728      |
+|    fps             | 10       |
+|    time_elapsed    | 1089     |
+|    total_timesteps | 11648    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000991, new_best=0.663713, reward=2.75
+✓ [SUCCESS] Improvement! Δ=0.042841, new_best=0.673314, reward=5.86
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.3    |
+| time/              |          |
+|    episodes        | 732      |
+|    fps             | 10       |
+|    time_elapsed    | 1094     |
+|    total_timesteps | 11712    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012356, new_best=0.663713, reward=4.07
+✓ [SUCCESS] Improvement! Δ=0.034095, new_best=0.663713, reward=7.85
+✓ [SUCCESS] Improvement! Δ=0.029507, new_best=0.693220, reward=5.14
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.4    |
+| time/              |          |
+|    episodes        | 736      |
+|    fps             | 10       |
+|    time_elapsed    | 1099     |
+|    total_timesteps | 11776    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.034222, new_best=0.672387, reward=4.91
+✓ [SUCCESS] Improvement! Δ=0.028160, new_best=0.707544, reward=9.22
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.2    |
+| time/              |          |
+|    episodes        | 740      |
+|    fps             | 10       |
+|    time_elapsed    | 1102     |
+|    total_timesteps | 11840    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.016909, new_best=0.663713, reward=7.73
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.7    |
+| time/              |          |
+|    episodes        | 744      |
+|    fps             | 10       |
+|    time_elapsed    | 1106     |
+|    total_timesteps | 11904    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.036460, new_best=0.663713, reward=11.18
+✓ [SUCCESS] Improvement! Δ=0.010474, new_best=0.674187, reward=4.83
+✓ [SUCCESS] Improvement! Δ=0.037651, new_best=0.711838, reward=14.86
+✓ [SUCCESS] Improvement! Δ=0.009332, new_best=0.663713, reward=4.49
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.004975, new_best=0.672387, reward=2.54
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.2    |
+| time/              |          |
+|    episodes        | 748      |
+|    fps             | 10       |
+|    time_elapsed    | 1110     |
+|    total_timesteps | 11968    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.031167, new_best=0.713340, reward=5.36
+✓ [SUCCESS] Improvement! Δ=0.000358, new_best=0.663713, reward=1.43
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.016852, new_best=0.663713, reward=5.72
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.8    |
+| time/              |          |
+|    episodes        | 752      |
+|    fps             | 10       |
+|    time_elapsed    | 1114     |
+|    total_timesteps | 12032    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.018616, new_best=0.663713, reward=6.08
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.019015, new_best=0.663713, reward=8.22
+✓ [SUCCESS] Improvement! Δ=0.041080, new_best=0.713340, reward=5.67
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.1    |
+| time/              |          |
+|    episodes        | 756      |
+|    fps             | 10       |
+|    time_elapsed    | 1117     |
+|    total_timesteps | 12096    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032867, new_best=0.672387, reward=4.03
+✓ [SUCCESS] Improvement! Δ=0.033247, new_best=0.671631, reward=13.49
+✓ [SUCCESS] Improvement! Δ=0.000756, new_best=0.672387, reward=1.81
+✓ [SUCCESS] Improvement! Δ=0.017024, new_best=0.672387, reward=3.00
+✓ [SUCCESS] Improvement! Δ=0.001963, new_best=0.663713, reward=1.48
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52      |
+| time/              |          |
+|    episodes        | 760      |
+|    fps             | 10       |
+|    time_elapsed    | 1121     |
+|    total_timesteps | 12160    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000539, new_best=0.623777, reward=2.65
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=10.06
+✓ [SUCCESS] Improvement! Δ=0.000991, new_best=0.663713, reward=2.75
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=8.92
+✓ [SUCCESS] Improvement! Δ=0.004767, new_best=0.639535, reward=4.60
+✓ [SUCCESS] Improvement! Δ=0.024178, new_best=0.663713, reward=5.87
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.2    |
+| time/              |          |
+|    episodes        | 764      |
+|    fps             | 10       |
+|    time_elapsed    | 1125     |
+|    total_timesteps | 12224    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.010249, new_best=0.623777, reward=3.83
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.033136, new_best=0.713340, reward=8.42
+✓ [SUCCESS] Improvement! Δ=0.004433, new_best=0.663713, reward=2.73
+✓ [SUCCESS] Improvement! Δ=0.002653, new_best=0.713340, reward=2.14
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -53.5    |
+| time/              |          |
+|    episodes        | 768      |
+|    fps             | 10       |
+|    time_elapsed    | 1129     |
+|    total_timesteps | 12288    |
+---------------------------------
+
+================================================================================
+EVALUATION METRICS - Round 3
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.326694
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.763990
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.452651
+  Percentage Improvement: 145.39%
+  Total Unique Sequences Discovered: 212
+  Total Oracle Calls: 11520
+
+  Buffer Status:
+    Best in current pool: 0.763990
+    Global best (tracked): 0.763990
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.763990 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.760698 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.756504 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.731558 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKDFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.722213 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.720198 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.717760 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKSKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.715749 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.714396 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.713340 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 16        |
+|    ep_rew_mean     | -53.4     |
+| time/              |           |
+|    episodes        | 772       |
+|    fps             | 9         |
+|    time_elapsed    | 1242      |
+|    total_timesteps | 12352     |
+| train/             |           |
+|    actor_loss      | -8.68e+04 |
+|    critic_loss     | 1.69e+08  |
+|    ent_coef        | 10.9      |
+|    ent_coef_loss   | -188      |
+|    learning_rate   | 0.0003    |
+|    n_updates       | 12288     |
+----------------------------------
+✓ [SUCCESS] Improvement! Δ=0.038391, new_best=0.713340, reward=5.37
+✓ [SUCCESS] Improvement! Δ=0.066479, new_best=0.713340, reward=12.54
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -52.9    |
+| time/              |          |
+|    episodes        | 776      |
+|    fps             | 9        |
+|    time_elapsed    | 1247     |
+|    total_timesteps | 12416    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.024450, new_best=0.653020, reward=9.13
+✓ [SUCCESS] Improvement! Δ=0.003229, new_best=0.656249, reward=1.47
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.1    |
+| time/              |          |
+|    episodes        | 780      |
+|    fps             | 9        |
+|    time_elapsed    | 1251     |
+|    total_timesteps | 12480    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.001081, new_best=0.634768, reward=2.45
+✓ [SUCCESS] Improvement! Δ=0.014888, new_best=0.663713, reward=3.09
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.3    |
+| time/              |          |
+|    episodes        | 784      |
+|    fps             | 9        |
+|    time_elapsed    | 1256     |
+|    total_timesteps | 12544    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.033934, new_best=0.648859, reward=9.34
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.001018, new_best=0.674332, reward=2.81
+✓ [SUCCESS] Improvement! Δ=0.031167, new_best=0.713340, reward=6.98
+✓ [SUCCESS] Improvement! Δ=0.010249, new_best=0.623777, reward=3.68
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -54.5    |
+| time/              |          |
+|    episodes        | 788      |
+|    fps             | 9        |
+|    time_elapsed    | 1261     |
+|    total_timesteps | 12608    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.028075, new_best=0.663713, reward=9.72
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.011975, new_best=0.723813, reward=4.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.3    |
+| time/              |          |
+|    episodes        | 792      |
+|    fps             | 10       |
+|    time_elapsed    | 1266     |
+|    total_timesteps | 12672    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004433, new_best=0.663713, reward=2.73
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=14.82
+✓ [SUCCESS] Improvement! Δ=0.044394, new_best=0.713340, reward=6.76
+✓ [SUCCESS] Improvement! Δ=0.016909, new_best=0.663713, reward=7.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.1    |
+| time/              |          |
+|    episodes        | 796      |
+|    fps             | 10       |
+|    time_elapsed    | 1271     |
+|    total_timesteps | 12736    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.040294, new_best=0.663713, reward=8.79
+✓ [SUCCESS] Improvement! Δ=0.049780, new_best=0.663713, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=10.86
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -55.9    |
+| time/              |          |
+|    episodes        | 800      |
+|    fps             | 10       |
+|    time_elapsed    | 1276     |
+|    total_timesteps | 12800    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.062053, new_best=0.713340, reward=15.21
+✓ [SUCCESS] Improvement! Δ=0.018179, new_best=0.679120, reward=8.79
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56.4    |
+| time/              |          |
+|    episodes        | 804      |
+|    fps             | 10       |
+|    time_elapsed    | 1281     |
+|    total_timesteps | 12864    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.028075, new_best=0.663713, reward=9.72
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.007391, new_best=0.711838, reward=5.42
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=2.24
+✓ [SUCCESS] Improvement! Δ=0.044676, new_best=0.663713, reward=13.78
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -56.9    |
+| time/              |          |
+|    episodes        | 808      |
+|    fps             | 10       |
+|    time_elapsed    | 1286     |
+|    total_timesteps | 12928    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.094159, new_best=0.713340, reward=21.74
+✓ [SUCCESS] Improvement! Δ=0.027340, new_best=0.707544, reward=10.81
+✓ [SUCCESS] Improvement! Δ=0.001152, new_best=0.711838, reward=3.48
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -57.8    |
+| time/              |          |
+|    episodes        | 812      |
+|    fps             | 10       |
+|    time_elapsed    | 1291     |
+|    total_timesteps | 12992    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.015058, new_best=0.663713, reward=7.33
+✓ [SUCCESS] Improvement! Δ=0.005233, new_best=0.668946, reward=1.88
+✓ [SUCCESS] Improvement! Δ=0.091752, new_best=0.760698, reward=16.66
+✓ [SUCCESS] Improvement! Δ=0.017685, new_best=0.663713, reward=6.18
+✓ [SUCCESS] Improvement! Δ=0.029507, new_best=0.693220, reward=5.14
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -57.1    |
+| time/              |          |
+|    episodes        | 816      |
+|    fps             | 10       |
+|    time_elapsed    | 1296     |
+|    total_timesteps | 13056    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.010249, new_best=0.623777, reward=3.55
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.039018, new_best=0.713340, reward=10.48
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -58.3    |
+| time/              |          |
+|    episodes        | 820      |
+|    fps             | 10       |
+|    time_elapsed    | 1300     |
+|    total_timesteps | 13120    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000536, new_best=0.623777, reward=1.84
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.713340, reward=9.79
+✓ [SUCCESS] Improvement! Δ=0.036460, new_best=0.663713, reward=8.12
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=2.55
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -57.7    |
+| time/              |          |
+|    episodes        | 824      |
+|    fps             | 10       |
+|    time_elapsed    | 1305     |
+|    total_timesteps | 13184    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004740, new_best=0.663713, reward=1.38
+✓ [SUCCESS] Improvement! Δ=0.062053, new_best=0.713340, reward=15.23
+✓ [SUCCESS] Improvement! Δ=0.032111, new_best=0.671631, reward=13.13
+✓ [SUCCESS] Improvement! Δ=0.027829, new_best=0.663713, reward=6.73
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -57.6    |
+| time/              |          |
+|    episodes        | 828      |
+|    fps             | 10       |
+|    time_elapsed    | 1310     |
+|    total_timesteps | 13248    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.037651, new_best=0.711838, reward=14.86
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.010362, new_best=0.663713, reward=2.25
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.001145, new_best=0.616070, reward=2.03
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=14.42
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -57.2    |
+| time/              |          |
+|    episodes        | 832      |
+|    fps             | 10       |
+|    time_elapsed    | 1315     |
+|    total_timesteps | 13312    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.017477, new_best=0.713340, reward=5.90
+✓ [SUCCESS] Improvement! Δ=0.024548, new_best=0.672387, reward=4.75
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -58.5    |
+| time/              |          |
+|    episodes        | 836      |
+|    fps             | 10       |
+|    time_elapsed    | 1320     |
+|    total_timesteps | 13376    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.051527, new_best=0.663713, reward=8.91
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.042841, new_best=0.673314, reward=10.05
+✓ [SUCCESS] Improvement! Δ=0.021743, new_best=0.713340, reward=3.52
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -57.7    |
+| time/              |          |
+|    episodes        | 840      |
+|    fps             | 10       |
+|    time_elapsed    | 1325     |
+|    total_timesteps | 13440    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.009332, new_best=0.663713, reward=4.66
+✓ [SUCCESS] Improvement! Δ=0.028682, new_best=0.663713, reward=10.96
+✓ [SUCCESS] Improvement! Δ=0.009805, new_best=0.663073, reward=6.18
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -58      |
+| time/              |          |
+|    episodes        | 844      |
+|    fps             | 10       |
+|    time_elapsed    | 1330     |
+|    total_timesteps | 13504    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.034817, new_best=0.663713, reward=4.96
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.04
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60      |
+| time/              |          |
+|    episodes        | 848      |
+|    fps             | 10       |
+|    time_elapsed    | 1334     |
+|    total_timesteps | 13568    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012729, new_best=0.713340, reward=2.52
+✓ [SUCCESS] Improvement! Δ=0.010250, new_best=0.623777, reward=2.51
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=6.50
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.1    |
+| time/              |          |
+|    episodes        | 852      |
+|    fps             | 10       |
+|    time_elapsed    | 1339     |
+|    total_timesteps | 13632    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000536, new_best=0.623777, reward=2.25
+✓ [SUCCESS] Improvement! Δ=0.000539, new_best=0.623777, reward=2.65
+✓ [SUCCESS] Improvement! Δ=0.043635, new_best=0.667412, reward=16.73
+✓ [SUCCESS] Improvement! Δ=0.010362, new_best=0.663713, reward=4.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.2    |
+| time/              |          |
+|    episodes        | 856      |
+|    fps             | 10       |
+|    time_elapsed    | 1344     |
+|    total_timesteps | 13696    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.017685, new_best=0.663713, reward=6.18
+✓ [SUCCESS] Improvement! Δ=0.001312, new_best=0.713340, reward=1.69
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.7    |
+| time/              |          |
+|    episodes        | 860      |
+|    fps             | 10       |
+|    time_elapsed    | 1349     |
+|    total_timesteps | 13760    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.043635, new_best=0.667412, reward=16.73
+✓ [SUCCESS] Improvement! Δ=0.004975, new_best=0.672387, reward=2.24
+✓ [SUCCESS] Improvement! Δ=0.038598, new_best=0.707544, reward=14.60
+✓ [SUCCESS] Improvement! Δ=0.017477, new_best=0.713340, reward=4.70
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.7    |
+| time/              |          |
+|    episodes        | 864      |
+|    fps             | 10       |
+|    time_elapsed    | 1354     |
+|    total_timesteps | 13824    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.039416, new_best=0.663713, reward=9.25
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.000539, new_best=0.623777, reward=2.65
+✓ [SUCCESS] Improvement! Δ=0.048610, new_best=0.672387, reward=6.50
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.1    |
+| time/              |          |
+|    episodes        | 868      |
+|    fps             | 10       |
+|    time_elapsed    | 1359     |
+|    total_timesteps | 13888    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012356, new_best=0.663713, reward=4.37
+✓ [SUCCESS] Improvement! Δ=0.000358, new_best=0.663713, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.056327, new_best=0.713340, reward=11.02
+✓ [SUCCESS] Improvement! Δ=0.020119, new_best=0.713340, reward=5.55
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.6    |
+| time/              |          |
+|    episodes        | 872      |
+|    fps             | 10       |
+|    time_elapsed    | 1364     |
+|    total_timesteps | 13952    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.010249, new_best=0.623777, reward=3.83
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.019015, new_best=0.663713, reward=8.22
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.6    |
+| time/              |          |
+|    episodes        | 876      |
+|    fps             | 10       |
+|    time_elapsed    | 1369     |
+|    total_timesteps | 14016    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.033883, new_best=0.713340, reward=6.57
+✓ [SUCCESS] Improvement! Δ=0.044394, new_best=0.713340, reward=8.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60      |
+| time/              |          |
+|    episodes        | 880      |
+|    fps             | 10       |
+|    time_elapsed    | 1374     |
+|    total_timesteps | 14080    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004433, new_best=0.663713, reward=2.52
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.017596, new_best=0.663713, reward=7.93
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -59.5    |
+| time/              |          |
+|    episodes        | 884      |
+|    fps             | 10       |
+|    time_elapsed    | 1379     |
+|    total_timesteps | 14144    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000756, new_best=0.672387, reward=1.27
+✓ [SUCCESS] Improvement! Δ=0.000358, new_best=0.663713, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.028075, new_best=0.663713, reward=9.72
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.76
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.1    |
+| time/              |          |
+|    episodes        | 888      |
+|    fps             | 10       |
+|    time_elapsed    | 1383     |
+|    total_timesteps | 14208    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.014888, new_best=0.663713, reward=3.09
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=6.25
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -59.1    |
+| time/              |          |
+|    episodes        | 892      |
+|    fps             | 10       |
+|    time_elapsed    | 1388     |
+|    total_timesteps | 14272    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.004740, new_best=0.663713, reward=2.50
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=6.17
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -59.3    |
+| time/              |          |
+|    episodes        | 896      |
+|    fps             | 10       |
+|    time_elapsed    | 1393     |
+|    total_timesteps | 14336    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.033883, new_best=0.713340, reward=7.98
+✓ [SUCCESS] Improvement! Δ=0.005847, new_best=0.639535, reward=4.35
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.5    |
+| time/              |          |
+|    episodes        | 900      |
+|    fps             | 10       |
+|    time_elapsed    | 1398     |
+|    total_timesteps | 14400    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032596, new_best=0.707544, reward=13.28
+✓ [SUCCESS] Improvement! Δ=0.023799, new_best=0.653020, reward=8.74
+✓ [SUCCESS] Improvement! Δ=0.004188, new_best=0.657208, reward=4.42
+✓ [SUCCESS] Improvement! Δ=0.048788, new_best=0.663713, reward=14.17
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.8    |
+| time/              |          |
+|    episodes        | 904      |
+|    fps             | 10       |
+|    time_elapsed    | 1403     |
+|    total_timesteps | 14464    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012427, new_best=0.663713, reward=5.93
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.014979, new_best=0.663713, reward=6.28
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.037517, new_best=0.711838, reward=14.82
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.5    |
+| time/              |          |
+|    episodes        | 908      |
+|    fps             | 10       |
+|    time_elapsed    | 1408     |
+|    total_timesteps | 14528    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.027892, new_best=0.667412, reward=9.67
+✓ [SUCCESS] Improvement! Δ=0.020119, new_best=0.713340, reward=2.55
+✓ [SUCCESS] Improvement! Δ=0.029028, new_best=0.667412, reward=11.14
+✓ [SUCCESS] Improvement! Δ=0.004975, new_best=0.672387, reward=2.40
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.2    |
+| time/              |          |
+|    episodes        | 912      |
+|    fps             | 10       |
+|    time_elapsed    | 1413     |
+|    total_timesteps | 14592    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.040294, new_best=0.663713, reward=3.43
+✓ [SUCCESS] Improvement! Δ=0.021743, new_best=0.713340, reward=3.52
+✓ [SUCCESS] Improvement! Δ=0.047198, new_best=0.705407, reward=12.67
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62.2    |
+| time/              |          |
+|    episodes        | 916      |
+|    fps             | 10       |
+|    time_elapsed    | 1418     |
+|    total_timesteps | 14656    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.5    |
+| time/              |          |
+|    episodes        | 920      |
+|    fps             | 10       |
+|    time_elapsed    | 1423     |
+|    total_timesteps | 14720    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=6.99
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.041275, new_best=0.656495, reward=7.67
+✓ [SUCCESS] Improvement! Δ=0.004168, new_best=0.663713, reward=2.86
+✓ [SUCCESS] Improvement! Δ=0.010474, new_best=0.674187, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.037651, new_best=0.711838, reward=6.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.2    |
+| time/              |          |
+|    episodes        | 924      |
+|    fps             | 10       |
+|    time_elapsed    | 1428     |
+|    total_timesteps | 14784    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012356, new_best=0.663713, reward=4.07
+✓ [SUCCESS] Improvement! Δ=0.014979, new_best=0.663713, reward=6.28
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=5.65
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.8    |
+| time/              |          |
+|    episodes        | 928      |
+|    fps             | 10       |
+|    time_elapsed    | 1433     |
+|    total_timesteps | 14848    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.012356, new_best=0.663713, reward=4.07
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=14.12
+✓ [SUCCESS] Improvement! Δ=0.010249, new_best=0.623777, reward=3.83
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62.1    |
+| time/              |          |
+|    episodes        | 932      |
+|    fps             | 10       |
+|    time_elapsed    | 1437     |
+|    total_timesteps | 14912    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.036841, new_best=0.657208, reward=14.61
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=2.36
+✓ [SUCCESS] Improvement! Δ=0.008892, new_best=0.713340, reward=2.10
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.8    |
+| time/              |          |
+|    episodes        | 936      |
+|    fps             | 10       |
+|    time_elapsed    | 1442     |
+|    total_timesteps | 14976    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.020388, new_best=0.653020, reward=9.48
+✓ [SUCCESS] Improvement! Δ=0.009805, new_best=0.663073, reward=6.18
+✓ [SUCCESS] Improvement! Δ=0.067286, new_best=0.711838, reward=24.47
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.8    |
+| time/              |          |
+|    episodes        | 940      |
+|    fps             | 10       |
+|    time_elapsed    | 1447     |
+|    total_timesteps | 15040    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.036726, new_best=0.663713, reward=8.17
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=11.64
+✓ [SUCCESS] Improvement! Δ=0.028348, new_best=0.663713, reward=6.70
+✓ [SUCCESS] Improvement! Δ=0.014854, new_best=0.663713, reward=4.56
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.7    |
+| time/              |          |
+|    episodes        | 944      |
+|    fps             | 10       |
+|    time_elapsed    | 1452     |
+|    total_timesteps | 15104    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=12.25
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=7.76
+✓ [SUCCESS] Improvement! Δ=0.039152, new_best=0.713340, reward=5.45
+✓ [SUCCESS] Improvement! Δ=0.004740, new_best=0.663713, reward=4.34
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -58.9    |
+| time/              |          |
+|    episodes        | 948      |
+|    fps             | 10       |
+|    time_elapsed    | 1457     |
+|    total_timesteps | 15168    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.083174, new_best=0.713340, reward=22.17
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -59.5    |
+| time/              |          |
+|    episodes        | 952      |
+|    fps             | 10       |
+|    time_elapsed    | 1462     |
+|    total_timesteps | 15232    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.016267, new_best=0.671631, reward=8.19
+✓ [SUCCESS] Improvement! Δ=0.004740, new_best=0.663713, reward=3.47
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.039152, new_best=0.713340, reward=5.45
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -59.8    |
+| time/              |          |
+|    episodes        | 956      |
+|    fps             | 10       |
+|    time_elapsed    | 1467     |
+|    total_timesteps | 15296    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.047643, new_best=0.663713, reward=12.85
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=6.99
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.000536, new_best=0.623777, reward=2.25
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -59.3    |
+| time/              |          |
+|    episodes        | 960      |
+|    fps             | 10       |
+|    time_elapsed    | 1472     |
+|    total_timesteps | 15360    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.032382, new_best=0.711838, reward=9.98
+✓ [SUCCESS] Improvement! Δ=0.049780, new_best=0.663713, reward=6.63
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.6    |
+| time/              |          |
+|    episodes        | 964      |
+|    fps             | 10       |
+|    time_elapsed    | 1476     |
+|    total_timesteps | 15424    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=7.20
+✓ [SUCCESS] Improvement! Δ=0.014979, new_best=0.663713, reward=6.28
+✓ [SUCCESS] Improvement! Δ=0.034095, new_best=0.663713, reward=10.09
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.8    |
+| time/              |          |
+|    episodes        | 968      |
+|    fps             | 10       |
+|    time_elapsed    | 1481     |
+|    total_timesteps | 15488    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.044532, new_best=0.663713, reward=13.48
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=15.03
+✓ [SUCCESS] Improvement! Δ=0.009559, new_best=0.727319, reward=1.98
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.5    |
+| time/              |          |
+|    episodes        | 972      |
+|    fps             | 10       |
+|    time_elapsed    | 1486     |
+|    total_timesteps | 15552    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.005847, new_best=0.639535, reward=4.77
+✓ [SUCCESS] Improvement! Δ=0.016909, new_best=0.663713, reward=7.73
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=14.82
+✓ [SUCCESS] Improvement! Δ=0.067311, new_best=0.713340, reward=15.16
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62      |
+| time/              |          |
+|    episodes        | 976      |
+|    fps             | 10       |
+|    time_elapsed    | 1489     |
+|    total_timesteps | 15616    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.016909, new_best=0.663713, reward=7.73
+✓ [SUCCESS] Improvement! Δ=0.012427, new_best=0.663713, reward=3.09
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62.4    |
+| time/              |          |
+|    episodes        | 980      |
+|    fps             | 10       |
+|    time_elapsed    | 1493     |
+|    total_timesteps | 15680    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.028682, new_best=0.663713, reward=8.22
+✓ [SUCCESS] Improvement! Δ=0.037489, new_best=0.663713, reward=4.46
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -63.3    |
+| time/              |          |
+|    episodes        | 984      |
+|    fps             | 10       |
+|    time_elapsed    | 1496     |
+|    total_timesteps | 15744    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.001963, new_best=0.663713, reward=2.77
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.001501, new_best=0.713340, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.026049, new_best=0.674332, reward=8.54
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -63.1    |
+| time/              |          |
+|    episodes        | 988      |
+|    fps             | 10       |
+|    time_elapsed    | 1500     |
+|    total_timesteps | 15808    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.009332, new_best=0.663713, reward=2.66
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.009332, new_best=0.663713, reward=2.05
+✓ [SUCCESS] Improvement! Δ=0.019015, new_best=0.663713, reward=8.22
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.007283, new_best=0.623777, reward=4.17
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62.8    |
+| time/              |          |
+|    episodes        | 992      |
+|    fps             | 10       |
+|    time_elapsed    | 1503     |
+|    total_timesteps | 15872    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.000113, new_best=0.615220, reward=2.31
+✓ [SUCCESS] Improvement! Δ=0.025762, new_best=0.663713, reward=6.25
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.036460, new_best=0.663713, reward=8.89
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62.5    |
+| time/              |          |
+|    episodes        | 996      |
+|    fps             | 10       |
+|    time_elapsed    | 1506     |
+|    total_timesteps | 15936    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.007283, new_best=0.623777, reward=5.09
+✓ [SUCCESS] Improvement! Δ=0.047854, new_best=0.671631, reward=18.04
+✓ [SUCCESS] Improvement! Δ=0.019929, new_best=0.713340, reward=3.32
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62.2    |
+| time/              |          |
+|    episodes        | 1000     |
+|    fps             | 10       |
+|    time_elapsed    | 1510     |
+|    total_timesteps | 16000    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.016909, new_best=0.663713, reward=7.73
+✓ [SUCCESS] Improvement! Δ=0.050683, new_best=0.714396, reward=10.03
+✓ [SUCCESS] Improvement! Δ=0.031167, new_best=0.713340, reward=4.57
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.7    |
+| time/              |          |
+|    episodes        | 1004     |
+|    fps             | 10       |
+|    time_elapsed    | 1514     |
+|    total_timesteps | 16064    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=4.28
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=6.99
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -62.4    |
+| time/              |          |
+|    episodes        | 1008     |
+|    fps             | 10       |
+|    time_elapsed    | 1517     |
+|    total_timesteps | 16128    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.040294, new_best=0.663713, reward=3.43
+✓ [SUCCESS] Improvement! Δ=0.048125, new_best=0.711838, reward=13.68
+✓ [SUCCESS] Improvement! Δ=0.011975, new_best=0.723813, reward=4.13
+✓ [SUCCESS] Improvement! Δ=0.033956, new_best=0.713340, reward=7.87
+✓ [SUCCESS] Improvement! Δ=0.047774, new_best=0.663713, reward=7.18
+✓ [SUCCESS] Improvement! Δ=0.043831, new_best=0.707544, reward=16.79
+✓ [SUCCESS] Improvement! Δ=0.004294, new_best=0.711838, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.030837, new_best=0.679120, reward=12.73
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61.4    |
+| time/              |          |
+|    episodes        | 1012     |
+|    fps             | 10       |
+|    time_elapsed    | 1521     |
+|    total_timesteps | 16192    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.005796, new_best=0.713340, reward=3.16
+✓ [SUCCESS] Improvement! Δ=0.067311, new_best=0.713340, reward=15.16
+✓ [SUCCESS] Improvement! Δ=0.037489, new_best=0.663713, reward=7.48
+✓ [SUCCESS] Improvement! Δ=0.042896, new_best=0.706610, reward=11.82
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.8    |
+| time/              |          |
+|    episodes        | 1016     |
+|    fps             | 10       |
+|    time_elapsed    | 1524     |
+|    total_timesteps | 16256    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.017596, new_best=0.663713, reward=7.93
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.019161, new_best=0.663713, reward=7.29
+✓ [SUCCESS] Improvement! Δ=0.036890, new_best=0.711838, reward=7.62
+✓ [SUCCESS] Improvement! Δ=0.026310, new_best=0.663713, reward=6.99
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -60.6    |
+| time/              |          |
+|    episodes        | 1020     |
+|    fps             | 10       |
+|    time_elapsed    | 1528     |
+|    total_timesteps | 16320    |
+---------------------------------
+✓ [SUCCESS] Improvement! Δ=0.007355, new_best=0.632992, reward=4.37
+✓ [SUCCESS] Improvement! Δ=0.040294, new_best=0.663713, reward=8.79
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.003229, new_best=0.656249, reward=2.17
+✓ [SUCCESS] Improvement! Δ=0.006701, new_best=0.663713, reward=2.07
+✓ [SUCCESS] Improvement! Δ=0.049626, new_best=0.713340, reward=6.62
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -61      |
+| time/              |          |
+|    episodes        | 1024     |
+|    fps             | 10       |
+|    time_elapsed    | 1531     |
+|    total_timesteps | 16384    |
+---------------------------------
+
+================================================================================
+EVALUATION METRICS - Round 4
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.331242
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.763990
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.452651
+  Percentage Improvement: 145.39%
+  Total Unique Sequences Discovered: 224
+  Total Oracle Calls: 15360
+
+  Buffer Status:
+    Best in current pool: 0.763990
+    Global best (tracked): 0.763990
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.763990 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.760698 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.756504 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.731558 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKDFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.727319 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKSKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.723813 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKRFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.722213 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.720198 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.717760 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKSKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.715749 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+
+################################################################################
+FINAL RESEARCH PAPER METRICS - DHFR OPTIMIZATION
+################################################################################
+
+Key Results:
+  Initial Maximum Fitness: 0.311339
+  Global Maximum Fitness Achieved: 0.763990
+  Absolute Improvement: 0.452651
+  Percentage Improvement: 145.39%
+
+Exploration Statistics:
+  Total Rounds Completed: 4
+  Total Oracle Calls: 15360
+  Total Sequences Evaluated: 512
+  Total Unique Sequences: 224
+
+Top 20 Sequences Discovered:
+  Rank 1: Fitness = 0.763990
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 2: Fitness = 0.760698
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 3: Fitness = 0.756504
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 4: Fitness = 0.731558
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKDFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 5: Fitness = 0.727319
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKSKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 6: Fitness = 0.723813
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKRFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 7: Fitness = 0.722213
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 8: Fitness = 0.720198
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 9: Fitness = 0.717760
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKSKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 10: Fitness = 0.715749
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 11: Fitness = 0.714396
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 12: Fitness = 0.713340
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 13: Fitness = 0.712028
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKEFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 14: Fitness = 0.711838
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 15: Fitness = 0.710686
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEYNENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 16: Fitness = 0.707544
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 17: Fitness = 0.706610
+wandb: 
+wandb: Run history:
+wandb:   Cumulative Best ▁▁██████████████████████████████████████
+wandb: Cumulative Reward █████▇▇▇▇▇▇▆▆▆▆▆▅▅▅▅▅▄▄▄▄▄▄▄▄▄▄▃▃▃▃▂▂▂▂▁
+wandb:           Fitness ▃█▁▄▄▄█▃▃▄█▃▇▃▄▁██▃▃▃█▇▇█▇█▇█▂▃██▇█▅▇▇▄█
+wandb:    eval/diversity ▁▁▁▁
+wandb:      eval/fitness ▁▅▇█
+wandb:         eval/high ▁▁▁▁
+wandb:      eval/novelty ▁▁▁▁
+wandb:        eval/round ▁▃▆█
+wandb: 
+wandb: Run summary:
+wandb:   Cumulative Best 0.76399
+wandb: Cumulative Reward -53024.92044
+wandb:           Fitness 0.62324
+wandb:    eval/diversity 3
+wandb:      eval/fitness 0.66161
+wandb:         eval/high 3
+wandb:      eval/novelty 1
+wandb:        eval/round 3
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync ~/basework/LatProtRL/wandb/offline-run-20260408_041940-6p290z0t
+wandb: Find logs at: ./wandb/offline-run-20260408_041940-6p290z0t/logs
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEYNENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 18: Fitness = 0.705407
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLLNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 19: Fitness = 0.704447
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSDRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 20: Fitness = 0.703335
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYILNKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+
+Global Best Sequence (for validation):
+  Fitness (normalized): 0.763990
+  Full Sequence: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+
+  Final Buffer Status:
+    Best in final pool: 0.763990
+    Global best (tracked): 0.763990 (raw: 2.159030)
+
+Final metrics saved to: results/SAC_DHFR_medium_210_sac_high_delta_04_19_40/final_research_metrics.json
+################################################################################
+

@@ -1,0 +1,101 @@
+{
+  "reference_oracle_norm": 0.6651950929776661,
+  "best_single_label_norm": 0.9999786369839101,
+  "best_single_oracle_norm": 0.9792751457860682,
+  "calibration": {
+    "slope": 0.9799618501839018,
+    "intercept": -0.03696960237806048
+  },
+  "baselines": {
+    "top20_singles_combined": [
+      {
+        "k": 1,
+        "combos": 20,
+        "best_oracle_norm": 0.9792751457860682,
+        "muts": "D1M",
+        "additive_label_norm": 0.9999786369839101
+      },
+      {
+        "k": 2,
+        "combos": 190,
+        "best_oracle_norm": 1.0,
+        "muts": "D1M I215K",
+        "additive_label_norm": 1.0
+      },
+      {
+        "k": 3,
+        "combos": 1140,
+        "best_oracle_norm": 1.0,
+        "muts": "D1M I215K E125D",
+        "additive_label_norm": 1.0
+      },
+      {
+        "k": 4,
+        "combos": 4845,
+        "best_oracle_norm": 1.0,
+        "muts": "D1M I215K E125D K63E",
+        "additive_label_norm": 1.0
+      },
+      {
+        "k": 5,
+        "combos": 15504,
+        "best_oracle_norm": 1.0,
+        "muts": "D1M I215K E125D K63E E163I",
+        "additive_label_norm": 1.0
+      }
+    ],
+    "top20_singles_combined_total_calls": 21699,
+    "random_search_15360": {
+      "best_oracle_norm": 1.0,
+      "mean_oracle_norm": 0.3401960522455568
+    },
+    "random_search_38400": {
+      "best_oracle_norm": 1.0,
+      "mean_oracle_norm": 0.340229718804458
+    },
+    "greedy_hill_climb": [
+      {
+        "step": 1,
+        "oracle_norm": 0.9792751457860682,
+        "muts": "D1M",
+        "additive_label_norm": 0.9999786369839101,
+        "calls_so_far": 4161
+      },
+      {
+        "step": 2,
+        "oracle_norm": 1.0,
+        "muts": "D1M N25A",
+        "additive_label_norm": 1.0,
+        "calls_so_far": 8303
+      },
+      {
+        "step": 3,
+        "oracle_norm": 1.0,
+        "muts": "D1M N25A C8S",
+        "additive_label_norm": 1.0,
+        "calls_so_far": 12426
+      },
+      {
+        "step": 4,
+        "oracle_norm": 1.0,
+        "muts": "D1M N25A C8S K10D",
+        "additive_label_norm": 0.894023956396991,
+        "calls_so_far": 16530
+      },
+      {
+        "step": 5,
+        "oracle_norm": 1.0,
+        "muts": "D1M N25A C8S K10D V11C",
+        "additive_label_norm": 0.8586687761370121,
+        "calls_so_far": 20615
+      },
+      {
+        "step": 6,
+        "oracle_norm": 1.0,
+        "muts": "D1M N25A C8S K10D V11C C9F",
+        "additive_label_norm": 0.6000161013234818,
+        "calls_so_far": 24681
+      }
+    ]
+  }
+}

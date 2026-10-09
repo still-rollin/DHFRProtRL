@@ -1,0 +1,266 @@
+run,algorithm,group,protein,status,rounds,best_fitness,initial_fitness,improvement_pct,beats_wt,oracle_calls,unique_seqs,best_sequence,source
+AAV_hard_0_15_19_50,PPO,original-protein,AAV,empty/failed,,,,,,,,,
+AAV_medium_0_13_18_23,PPO,original-protein,AAV,partial (round logs only),1,0.028018927201628685,,,no,,,,N.txt eval/fitness
+AAV_medium_0_13_55_57,PPO,original-protein,AAV,partial (round logs only),16,0.6824315190315247,,,no,,,,N.txt eval/fitness
+AAV_medium_0_15_15_27,PPO,original-protein,AAV,partial (round logs only),1,0.028018927201628685,,,no,,,,N.txt eval/fitness
+AAV_medium_0_15_36_02,PPO,original-protein,AAV,partial (round logs only),1,0.028018927201628685,,,no,,,,N.txt eval/fitness
+AAV_medium_0_18_00_05,PPO,original-protein,AAV,partial (round logs only),8,-0.0001922629016917199,,,no,,,,N.txt eval/fitness
+AAV_medium_0_18_12_43,PPO,original-protein,AAV,partial (round logs only),1,0.028018927201628685,,,no,,,,N.txt eval/fitness
+AAV_medium_0_19_03_38,PPO,original-protein,AAV,partial (round logs only),1,0.008730687201023102,,,no,,,,N.txt eval/fitness
+AAV_medium_0_20_00_10,PPO,original-protein,AAV,empty/failed,,,,,,,,,
+AAV_medium_0_20_05_30,PPO,original-protein,AAV,empty/failed,,,,,,,,,
+AAV_medium_0_20_15_12,PPO,original-protein,AAV,partial (round logs only),1,0.006851973943412304,,,no,,,,N.txt eval/fitness
+AAV_medium_0_22_12_28,PPO,original-protein,AAV,partial (round logs only),2,-0.007792833261191845,,,no,,,,N.txt eval/fitness
+AAV_medium_0_22_23_21,PPO,original-protein,AAV,empty/failed,,,,,,,,,
+AAV_medium_0_22_50_14,PPO,original-protein,AAV,partial (round logs only),9,0.028018927201628685,,,no,,,,N.txt eval/fitness
+AAV_medium_0_23_55_47,PPO,original-protein,AAV,partial (round logs only),7,0.028018927201628685,,,no,,,,N.txt eval/fitness
+DHFR_hard_112_ppo_hard_test_13_58_12,PPO,hard-task,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_02_15,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_09_20,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_12_07,PPO,other/debug,DHFR,partial (round logs only),1,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_00_16_15,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_16_47,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_17_19,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_20_21,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_25_29,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_35_39,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_37_06,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_37_59,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_39_01,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_42_18,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_44_28,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_48_31,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_00_57_00,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_00_44,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_08_36,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_30_01,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_36_07,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_40_46,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_41_07,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_42_22,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_42_49,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_43_37,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_01_51_33,PPO,other/debug,DHFR,partial (round logs only),1,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_01_57_51,PPO,other/debug,DHFR,partial (round logs only),1,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_02_17_07,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_02_19_22,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_03_29_14,PPO,other/debug,DHFR,partial (round logs only),4,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_03_41_43,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_03_46_36,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_03_48_16,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_03_49_09,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_03_51_37,PPO,other/debug,DHFR,partial (round logs only),3,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_03_53_51,PPO,other/debug,DHFR,partial (round logs only),4,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_04_06_34,PPO,other/debug,DHFR,partial (round logs only),4,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_04_09_01,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_09_55,PPO,other/debug,DHFR,partial (round logs only),5,-4.383822441101074,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_04_16_17,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_17_01,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_19_31,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_27_52,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_33_17,PPO,other/debug,DHFR,partial (round logs only),2,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_04_42_58,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_48_14,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_49_14,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_04_49_36,PPO,other/debug,DHFR,partial (round logs only),5,-4.455534934997559,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_04_55_33,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_05_14_30,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_05_14_51,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_05_19_48,PPO,other/debug,DHFR,partial (round logs only),2,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_24_49,PPO,other/debug,DHFR,partial (round logs only),4,-4.437216758728027,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_31_31,PPO,other/debug,DHFR,partial (round logs only),3,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_47_36,PPO,other/debug,DHFR,partial (round logs only),1,-4.458529472351074,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_50_09,PPO,other/debug,DHFR,partial (round logs only),1,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_53_31,PPO,other/debug,DHFR,partial (round logs only),4,-57.936702728271484,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_54_41,PPO,other/debug,DHFR,partial (round logs only),3,-4.458529472351074,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_54_51,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_05_58_43,PPO,other/debug,DHFR,partial (round logs only),2,-4.379487037658691,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_05_59_32,PPO,other/debug,DHFR,partial (round logs only),2,-57.936702728271484,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_06_00_07,PPO,other/debug,DHFR,partial (round logs only),4,-57.78041458129883,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_06_14_05,PPO,other/debug,DHFR,partial (round logs only),3,-4.458529472351074,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_07_07_57,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_07_38_33,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_07_38_45,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_07_41_38,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_07_43_33,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_07_44_33,PPO,other/debug,DHFR,partial (round logs only),5,-57.77931594848633,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_11_45_37,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_11_47_53,PPO,other/debug,DHFR,partial (round logs only),8,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_12_29_07,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_12_34_36,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_12_47_53,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_12_19,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_19_49,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_21_58,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_22_23,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_22_50,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_26_28,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_31_29,PPO,other/debug,DHFR,partial (round logs only),8,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_13_36_02,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_37_41,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_38_08,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_38_32,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_40_54,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_13_48_49,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_02_27,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_02_51,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_06_06,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_09_29,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_16_21,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_18_19,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_18_36,PPO,other/debug,DHFR,partial (round logs only),5,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_14_20_54,PPO,other/debug,DHFR,partial (round logs only),5,1.914215087890625,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_14_38_52,PPO,other/debug,DHFR,partial (round logs only),5,1.8928771018981934,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_14_42_11,PPO,other/debug,DHFR,partial (round logs only),8,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_14_54_48,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_14_55_45,PPO,other/debug,DHFR,partial (round logs only),2,-57.77931594848633,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_15_01_26,PPO,other/debug,DHFR,partial (round logs only),2,-4.4583845138549805,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_15_08_08,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_15_09_05,PPO,other/debug,DHFR,partial (round logs only),1,-57.77931594848633,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_15_18_21,PPO,other/debug,DHFR,partial (round logs only),5,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_15_22_21,PPO,other/debug,DHFR,partial (round logs only),5,-57.77931594848633,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_15_30_09,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_15_30_50,PPO,other/debug,DHFR,partial (round logs only),1,-57.77931594848633,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_15_36_45,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_15_45_44,PPO,other/debug,DHFR,partial (round logs only),1,-4.438902854919434,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_16_09_36,PPO,other/debug,DHFR,partial (round logs only),5,-57.77931594848633,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_16_15_00,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_16_19_40,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_16_20_46,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_16_22_44,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_16_23_54,PPO,other/debug,DHFR,partial (round logs only),1,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_16_25_27,PPO,other/debug,DHFR,partial (round logs only),18,-4.448177337646484,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_16_30_01,PPO,other/debug,DHFR,partial (round logs only),8,-57.94001770019531,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_16_59_22,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_17_02_57,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_18_32_49,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_18_33_10,PPO,other/debug,DHFR,partial (round logs only),3,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_18_39_00,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_18_41_40,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_18_45_46,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_18_48_09,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_18_48_51,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_20_17_34,PPO,other/debug,DHFR,partial (round logs only),5,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_20_29_48,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_21_39_09,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_21_39_58,PPO,other/debug,DHFR,partial (round logs only),1,-4.448177337646484,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_21_46_23,PPO,other/debug,DHFR,partial (round logs only),3,-4.437883377075195,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_22_05_23,PPO,other/debug,DHFR,partial (round logs only),1,-4.448177337646484,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_22_25_26,PPO,other/debug,DHFR,partial (round logs only),2,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_22_34_34,PPO,other/debug,DHFR,partial (round logs only),5,1.8839489221572876,,,yes,,,,N.txt eval/fitness
+DHFR_medium_0_22_41_22,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_22_41_38,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_22_45_23,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_22_46_47,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_22_49_31,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_23_11_03,PPO,other/debug,DHFR,partial (round logs only),3,-4.4409379959106445,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_23_30_38,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_23_56_27,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_dhfr_ablation_old_reward_01_58_27,PPO,ablation,DHFR,partial (round logs only),4,-4.42237663269043,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_dhfr_test_run_21_21_05,PPO,other/debug,DHFR,partial (round logs only),1,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_dhfr_test_run_21_29_35,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_dhfr_test_run_21_32_47,PPO,other/debug,DHFR,partial (round logs only),4,-4.369008541107178,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_00_13_06,PPO,fixed-config-debug,DHFR,partial (round logs only),5,-4.374503135681152,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_00_43_56,PPO,fixed-config-debug,DHFR,partial (round logs only),1,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_00_49_43,PPO,fixed-config-debug,DHFR,partial (round logs only),25,-4.381535053253174,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_01_39_02,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.3464765548706055,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_02_36_49,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.360137939453125,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_03_43_38,PPO,fixed-config-debug,DHFR,partial (round logs only),23,-4.387255668640137,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_04_20_02,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.356782913208008,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_04_21_02,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.379666328430176,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_04_33_05,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_04_40_59,PPO,fixed-config-debug,DHFR,complete,1,0.31133910308376267,0.31133910308376267,0.0,no,3840,128,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFEEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json
+DHFR_medium_0_fixed_config_04_52_23,PPO,fixed-config-debug,DHFR,complete,1,0.31133910308376267,0.31133910308376267,0.0,no,3840,128,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFEEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json
+DHFR_medium_0_fixed_config_04_57_10,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.3901214599609375,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_05_06_24,PPO,fixed-config-debug,DHFR,complete,1,0.3933729164046071,0.3933729164046071,0.0,no,3840,128,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLDVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json
+DHFR_medium_0_fixed_config_05_11_42,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_05_55_05,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_05_58_22,PPO,fixed-config-debug,DHFR,partial (round logs only),1,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_06_05_09,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_06_08_38,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_06_12_38,PPO,fixed-config-debug,DHFR,partial (round logs only),1,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_06_46_31,PPO,fixed-config-debug,DHFR,partial (round logs only),7,-4.367640495300293,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_07_17_41,PPO,fixed-config-debug,DHFR,partial (round logs only),2,-4.402735710144043,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_07_35_51,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_07_40_54,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_07_43_55,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_07_48_57,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_07_55_39,PPO,fixed-config-debug,DHFR,complete,3,0.8120242662382543,0.31133910308376267,160.8166652358433,yes,11520,328,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json
+DHFR_medium_0_fixed_config_08_15_33,PPO,fixed-config-debug,DHFR,complete,1,0.700005466790798,0.700005466790798,0.0,no,3840,128,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINKNEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json
+DHFR_medium_0_fixed_config_08_25_16,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_08_27_06,PPO,fixed-config-debug,DHFR,complete,1,0.3933729164046071,0.3933729164046071,0.0,no,3840,128,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLDVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json
+DHFR_medium_0_fixed_config_09_48_53,PPO,fixed-config-debug,DHFR,complete,1,0.3933729164046071,0.3933729164046071,0.0,no,3840,128,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLDVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json
+DHFR_medium_0_fixed_config_15_26_07,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.367587089538574,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_15_46_55,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.379666328430176,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_18_36_35,PPO,fixed-config-debug,DHFR,partial (round logs only),1,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_19_00_08,PPO,fixed-config-debug,DHFR,partial (round logs only),23,-4.35722541809082,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_19_14_56,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_19_19_05,PPO,fixed-config-debug,DHFR,partial (round logs only),2,-4.418132305145264,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_19_45_03,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_19_52_57,PPO,fixed-config-debug,DHFR,partial (round logs only),2,-4.403063774108887,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_20_23_41,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_20_34_38,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_20_37_02,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_20_42_14,PPO,fixed-config-debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_fixed_config_20_49_45,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.390789031982422,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_20_59_19,PPO,fixed-config-debug,DHFR,partial (round logs only),2,-4.410724639892578,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_21_06_49,PPO,fixed-config-debug,DHFR,partial (round logs only),4,-4.359199047088623,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_21_29_27,PPO,fixed-config-debug,DHFR,partial (round logs only),10,-4.328982353210449,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_23_27_42,PPO,fixed-config-debug,DHFR,partial (round logs only),2,-4.390805721282959,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_23_36_03,PPO,fixed-config-debug,DHFR,partial (round logs only),1,-4.4573774337768555,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_23_43_40,PPO,fixed-config-debug,DHFR,partial (round logs only),1,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_fixed_config_23_48_49,PPO,fixed-config-debug,DHFR,partial (round logs only),25,-4.391898155212402,,,no,,,,N.txt eval/fitness
+DHFR_medium_0_with_entropy_constraints_05_21_48,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_0_with_entropy_constraints_05_26_04,PPO,other/debug,DHFR,partial (round logs only),3,-4.442619323730469,,,no,,,,N.txt eval/fitness
+DHFR_medium_101_final_full_model_run_13_41_05,PPO,main,DHFR,partial (round logs only),4,-4.369472980499268,,,no,,,,N.txt eval/fitness
+DHFR_medium_102_final_full_model_run_14_01_54,PPO,main,DHFR,complete,4,0.7703252040499545,0.31133910308376267,147.4232103902176,yes,15360,362,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKDFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.7884
+DHFR_medium_106_ppo_baseline_fixed_04_19_33,PPO,main,DHFR,complete,4,0.8430082386576764,0.31133910308376267,170.7685062068395,yes,15360,250,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.8430
+DHFR_medium_107_ppo_confirmation_verify_05_01_07,PPO,main,DHFR,complete,4,0.8328215211683857,0.31133910308376267,167.49660191072223,yes,15360,279,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.8328
+DHFR_medium_108_ppo_production_final_05_01_59,PPO,main,DHFR,partial (round logs only),2,0.6466254394631337,,,no,,,,N.txt eval/fitness
+DHFR_medium_109_ppo_cold_start_05_15_49,PPO,cold-start,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_109_ppo_cold_start_v2_05_21_54,PPO,cold-start,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_10_ablation_none_14_39_57,PPO,ablation,DHFR,partial (round logs only),4,-4.386819839477539,,,no,,,,N.txt eval/fitness
+DHFR_medium_110_ppo_unconstrained_05_15_50,PPO,unconstrained,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_111_ppo_unconstrained_final_05_26_25,PPO,unconstrained,DHFR,complete,10,0.8657462338651567,0.31133910308376267,178.07179544428647,yes,38400,391,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRSLKKEDFDEDVYIVNKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.8657
+DHFR_medium_113_ppo_dense_reward_14_00_25,PPO,dense-reward,DHFR,complete,10,0.8423006126676884,0.31133910308376267,170.54122155708654,yes,38400,317,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.8423
+DHFR_medium_11_ablation_entropy_14_51_28,PPO,ablation,DHFR,partial (round logs only),4,-4.364797592163086,,,no,,,,N.txt eval/fitness
+DHFR_medium_12_ablation_size_15_03_02,PPO,ablation,DHFR,partial (round logs only),4,-4.410356521606445,,,no,,,,N.txt eval/fitness
+DHFR_medium_13_ablation_blosum_15_14_42,PPO,ablation,DHFR,partial (round logs only),4,-4.367587089538574,,,no,,,,N.txt eval/fitness
+DHFR_medium_14_ablation_all_15_26_27,PPO,ablation,DHFR,partial (round logs only),4,-4.374030113220215,,,no,,,,N.txt eval/fitness
+DHFR_medium_1_baseline_no_entropy_05_21_28,PPO,main,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_1_blosum_full_14_01_18,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_1_blosum_full_14_01_35,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_1_blosum_full_14_02_07,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_1_blosum_full_14_02_41,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_1_blosum_full_14_03_58,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_1_dhfr_baseline_run_21_48_21,PPO,main,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_200_sac_run_00_05_26,SAC,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_201_sac_integrated_run_00_06_51,SAC,other/debug,DHFR,partial (round logs only),61,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_2024_03_20_24,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_202_sac_fresh_run_00_28_58,SAC,other/debug,DHFR,partial (round logs only),42,-4.480016708374023,,,no,,,,N.txt eval/fitness
+DHFR_medium_203_sac_final_fix_00_43_45,SAC,main,DHFR,partial (round logs only),25,0.3107216954231262,,,no,,,,N.txt eval/fitness
+DHFR_medium_2_blosum_full_14_11_26,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_2_blosum_full_14_23_40,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_2_dhfr_baseline_comparison_21_50_21,PPO,main,DHFR,partial (round logs only),4,-4.384692192077637,,,no,,,,N.txt eval/fitness
+DHFR_medium_3_blosum_full_gpu_14_24_25,PPO,blosum,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_3_dhfr_size_constraint_test_23_24_55,PPO,other/debug,DHFR,partial (round logs only),4,-4.366429328918457,,,no,,,,N.txt eval/fitness
+DHFR_medium_4_blosum_full_gpu_14_25_46,PPO,blosum,DHFR,partial (round logs only),4,-4.360167026519775,,,no,,,,N.txt eval/fitness
+DHFR_medium_999_03_14_53,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_999_21_19_26,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+DHFR_medium_999_22_50_43,PPO,other/debug,DHFR,empty/failed,,,,,,,,,
+GFP_medium_0_15_15_09,PPO,original-protein,GFP,empty/failed,,,,,,,,,
+SAC_DHFR_hard_214_sac_hard_test_13_58_12,SAC,hard-task,DHFR,empty/failed,,,,,,,,,
+SAC_DHFR_medium_203_4round_check_02_48_57,SAC,other/debug,DHFR,partial (round logs only),1,-4.356678009033203,,,no,,,,N.txt eval/fitness
+SAC_DHFR_medium_203_4round_check_02_50_44,SAC,other/debug,DHFR,empty/failed,,,,,,,,,
+SAC_DHFR_medium_203_4round_check_03_00_01,SAC,other/debug,DHFR,complete,4,0.7737578501775966,0.31133910308376267,148.5257529535006,yes,15360,254,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKDFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.7738
+SAC_DHFR_medium_205_production_sac_final_03_27_29,SAC,main,DHFR,empty/failed,,,,,,,,,
+SAC_DHFR_medium_205_production_sac_final_03_27_47,SAC,main,DHFR,empty/failed,,,,,,,,,
+SAC_DHFR_medium_205_production_sac_final_03_28_38,SAC,main,DHFR,complete,4,0.7684566284308163,0.31133910308376267,146.8230366244971,yes,15360,266,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKCKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.7685
+SAC_DHFR_medium_206_production_10round_final_03_55_43,SAC,main,DHFR,empty/failed,,,,,,,,,
+SAC_DHFR_medium_206_production_10round_final_03_56_20,SAC,main,DHFR,partial (round logs only),2,0.6213453233432896,,,no,,,,N.txt eval/fitness
+SAC_DHFR_medium_210_sac_high_delta_04_19_40,SAC,other/debug,DHFR,complete,4,0.7639898117161188,0.31133910308376267,145.3883255103279,yes,15360,224,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.7640
+SAC_DHFR_medium_211_sac_unconstrained_04_19_33,SAC,unconstrained,DHFR,complete,4,0.8099169084206662,0.31133910308376267,160.13979625385065,yes,15360,209,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.8099
+SAC_DHFR_medium_212_sac_high_entropy_04_19_40,SAC,other/debug,DHFR,complete,4,0.7665390195884221,0.31133910308376267,146.2071137213344,yes,15360,243,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.7665
+SAC_DHFR_medium_213_sac_cold_start_05_15_50,SAC,cold-start,DHFR,empty/failed,,,,,,,,,
+SAC_DHFR_medium_213_sac_cold_start_v2_05_21_54,SAC,cold-start,DHFR,complete,4,0.836434665072409,0.31133910308376267,168.65711913076805,yes,15360,276,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.8364
+SAC_DHFR_medium_215_sac_dense_reward_14_00_25,SAC,dense-reward,DHFR,complete,4,0.7680178996946537,0.31133910308376267,146.68211994174925,yes,15360,220,DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK,final_research_metrics.json; buffer_best_in_pool=0.7680

@@ -1,0 +1,1715 @@
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in ~/basework/LatProtRL/wandb/offline-run-20260408_050107-x090goax
+
+================================================================================
+MODE: Entropy=True, Size=True, BLOSUM=True
+================================================================================
+
+📊 Calibrating DHFROracle predictions...
+  ✅ Calibration: target = 0.984727 * pred + -0.0433 (R²=0.8592)
+[BUFFER] Initializing with sequences from 10th percentile
+[BUFFER] Fitness range: [0.2798, 0.3113]
+[BUFFER] Using sequences at indices 3680-3808 out of 4161
+Using cuda:2 device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+🔍 Loading oracle checkpoint from: ckpt/DHFR/oracle.ckpt
+✅ Oracle model loaded successfully!
+[DEBUG] Starting learn() for 15000 timesteps...
+
+================================================================================
+STEP 0 SNAPSHOT
+================================================================================
+Initial Maximum Fitness: 0.311339
+================================================================================
+
+[BUFFER] New global best! Fitness=0.174250, Raw=-3.533138
+[BUFFER] New global best! Fitness=0.259394, Raw=-2.711327
+[BUFFER] New global best! Fitness=0.286967, Raw=-2.445196
+✓ [SUCCESS] Improvement! Δ=0.374105, new_best=0.665179, reward=81.64
+[BUFFER] New global best! Fitness=0.665179, Raw=1.205303
+✓ [SUCCESS] Improvement! Δ=0.300770, new_best=0.605858, reward=54.14
+✓ [SUCCESS] Improvement! Δ=0.059321, new_best=0.665179, reward=17.32
+✓ [SUCCESS] Improvement! Δ=0.351560, new_best=0.665179, reward=66.22
+✓ [SUCCESS] Improvement! Δ=0.012463, new_best=0.410569, reward=4.97
+✓ [SUCCESS] Improvement! Δ=0.001345, new_best=0.285333, reward=2.54
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.665179, reward=8.83
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+[BUFFER] New global best! Fitness=0.713390, Raw=1.670644
+✓ [SUCCESS] Improvement! Δ=0.019627, new_best=0.306594, reward=6.56
+✓ [SUCCESS] Improvement! Δ=0.282342, new_best=0.665179, reward=74.51
+✓ [SUCCESS] Improvement! Δ=0.001424, new_best=0.316205, reward=3.36
+✓ [SUCCESS] Improvement! Δ=0.018203, new_best=0.334408, reward=7.99
+✓ [SUCCESS] Improvement! Δ=0.019627, new_best=0.302258, reward=3.48
+✓ [SUCCESS] Improvement! Δ=0.061823, new_best=0.398106, reward=18.79
+✓ [SUCCESS] Improvement! Δ=0.060595, new_best=0.381162, reward=14.11
+✓ [SUCCESS] Improvement! Δ=0.284016, new_best=0.665179, reward=51.38
+✓ [SUCCESS] Improvement! Δ=0.392914, new_best=0.665179, reward=79.07
+✓ [SUCCESS] Improvement! Δ=0.050774, new_best=0.715953, reward=10.05
+[BUFFER] New global best! Fitness=0.715953, Raw=1.695374
+✓ [SUCCESS] Improvement! Δ=0.058226, new_best=0.398106, reward=13.58
+✓ [SUCCESS] Improvement! Δ=0.254490, new_best=0.665179, reward=72.59
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.081068, new_best=0.381162, reward=7.62
+✓ [SUCCESS] Improvement! Δ=0.284016, new_best=0.665179, reward=62.49
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=9.79
+✓ [SUCCESS] Improvement! Δ=0.353110, new_best=0.665179, reward=36.26
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.140457, new_best=0.665179, reward=32.03
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=14.25
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.361466, new_best=0.665179, reward=44.77
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.086258, new_best=0.381162, reward=12.20
+✓ [SUCCESS] Improvement! Δ=0.024731, new_best=0.405893, reward=6.24
+✓ [SUCCESS] Improvement! Δ=0.259286, new_best=0.665179, reward=57.65
+✓ [SUCCESS] Improvement! Δ=0.050774, new_best=0.715953, reward=10.05
+✓ [SUCCESS] Improvement! Δ=0.281743, new_best=0.665179, reward=16.67
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.393956, new_best=0.713390, reward=77.67
+✓ [SUCCESS] Improvement! Δ=0.043853, new_best=0.398106, reward=14.78
+✓ [SUCCESS] Improvement! Δ=0.004159, new_best=0.402265, reward=3.51
+✓ [SUCCESS] Improvement! Δ=0.331678, new_best=0.713390, reward=93.85
+✓ [SUCCESS] Improvement! Δ=0.002562, new_best=0.715953, reward=2.37
+✓ [SUCCESS] Improvement! Δ=0.030234, new_best=0.398106, reward=9.21
+✓ [SUCCESS] Improvement! Δ=0.001424, new_best=0.399530, reward=3.36
+✓ [SUCCESS] Improvement! Δ=0.018203, new_best=0.334408, reward=8.79
+✓ [SUCCESS] Improvement! Δ=0.286720, new_best=0.665179, reward=63.07
+✓ [SUCCESS] Improvement! Δ=0.098423, new_best=0.665179, reward=28.73
+✓ [SUCCESS] Improvement! Δ=0.055145, new_best=0.369845, reward=6.70
+✓ [SUCCESS] Improvement! Δ=0.030234, new_best=0.398106, reward=9.21
+✓ [SUCCESS] Improvement! Δ=0.047729, new_best=0.665179, reward=6.14
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.000148, new_best=0.394875, reward=0.73
+✓ [SUCCESS] Improvement! Δ=0.015733, new_best=0.410608, reward=3.54
+✓ [SUCCESS] Improvement! Δ=0.061674, new_best=0.377332, reward=6.23
+✓ [SUCCESS] Improvement! Δ=0.020774, new_best=0.398106, reward=7.80
+✓ [SUCCESS] Improvement! Δ=0.030234, new_best=0.398106, reward=9.21
+✓ [SUCCESS] Improvement! Δ=0.021746, new_best=0.419852, reward=8.09
+✓ [SUCCESS] Improvement! Δ=0.001345, new_best=0.315460, reward=3.54
+✓ [SUCCESS] Improvement! Δ=0.242509, new_best=0.601992, reward=53.67
+✓ [SUCCESS] Improvement! Δ=0.061674, new_best=0.377332, reward=13.71
+✓ [SUCCESS] Improvement! Δ=0.020774, new_best=0.398106, reward=5.38
+✓ [SUCCESS] Improvement! Δ=0.010910, new_best=0.409016, reward=3.46
+✓ [SUCCESS] Improvement! Δ=0.226866, new_best=0.550839, reward=57.41
+✓ [SUCCESS] Improvement! Δ=0.009351, new_best=0.560190, reward=4.49
+✓ [SUCCESS] Improvement! Δ=0.041802, new_best=0.601992, reward=9.97
+✓ [SUCCESS] Improvement! Δ=0.072166, new_best=0.601992, reward=8.71
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=10.57
+✓ [SUCCESS] Improvement! Δ=0.051153, new_best=0.601992, reward=10.01
+✓ [SUCCESS] Improvement! Δ=0.018282, new_best=0.334408, reward=7.77
+✓ [SUCCESS] Improvement! Δ=0.259868, new_best=0.665179, reward=68.79
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=6.88
+✓ [SUCCESS] Improvement! Δ=0.004302, new_best=0.713390, reward=3.93
+✓ [SUCCESS] Improvement! Δ=0.039487, new_best=0.665179, reward=11.93
+✓ [SUCCESS] Improvement! Δ=0.015733, new_best=0.369845, reward=6.73
+✓ [SUCCESS] Improvement! Δ=0.076123, new_best=0.393227, reward=21.71
+✓ [SUCCESS] Improvement! Δ=0.010800, new_best=0.404026, reward=5.44
+✓ [SUCCESS] Improvement! Δ=0.026505, new_best=0.410608, reward=4.54
+✓ [SUCCESS] Improvement! Δ=0.161931, new_best=0.665179, reward=20.35
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.63
+✓ [SUCCESS] Improvement! Δ=0.030234, new_best=0.369845, reward=9.21
+✓ [SUCCESS] Improvement! Δ=0.140221, new_best=0.510066, reward=36.53
+✓ [SUCCESS] Improvement! Δ=0.072014, new_best=0.675671, reward=24.60
+✓ [SUCCESS] Improvement! Δ=0.033417, new_best=0.709088, reward=11.42
+✓ [SUCCESS] Improvement! Δ=0.064819, new_best=0.398106, reward=10.84
+✓ [SUCCESS] Improvement! Δ=0.021746, new_best=0.419852, reward=9.90
+✓ [SUCCESS] Improvement! Δ=0.071653, new_best=0.645983, reward=23.13
+✓ [SUCCESS] Improvement! Δ=0.004110, new_best=0.650093, reward=1.57
+✓ [SUCCESS] Improvement! Δ=0.004610, new_best=0.654703, reward=3.26
+✓ [SUCCESS] Improvement! Δ=0.266488, new_best=0.665179, reward=38.65
+✓ [SUCCESS] Improvement! Δ=0.010598, new_best=0.363801, reward=5.39
+✓ [SUCCESS] Improvement! Δ=0.218328, new_best=0.665179, reward=26.40
+✓ [SUCCESS] Improvement! Δ=0.007144, new_best=0.398106, reward=4.06
+✓ [SUCCESS] Improvement! Δ=0.021746, new_best=0.419852, reward=9.90
+✓ [SUCCESS] Improvement! Δ=0.167217, new_best=0.665179, reward=51.44
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.066513, new_best=0.601992, reward=10.53
+✓ [SUCCESS] Improvement! Δ=0.043991, new_best=0.645983, reward=16.84
+✓ [SUCCESS] Improvement! Δ=0.006746, new_best=0.652730, reward=4.27
+✓ [SUCCESS] Improvement! Δ=0.236251, new_best=0.665179, reward=60.34
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.665179, reward=15.36
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.72
+✓ [SUCCESS] Improvement! Δ=0.021491, new_best=0.410608, reward=7.21
+✓ [SUCCESS] Improvement! Δ=0.019627, new_best=0.430235, reward=9.24
+✓ [SUCCESS] Improvement! Δ=0.241648, new_best=0.683671, reward=24.74
+✓ [SUCCESS] Improvement! Δ=0.119766, new_best=0.713390, reward=33.14
+✓ [SUCCESS] Improvement! Δ=0.010316, new_best=0.410608, reward=2.25
+✓ [SUCCESS] Improvement! Δ=0.012449, new_best=0.665179, reward=4.77
+✓ [SUCCESS] Improvement! Δ=0.032207, new_best=0.697386, reward=9.94
+✓ [SUCCESS] Improvement! Δ=0.011703, new_best=0.709088, reward=5.11
+✓ [SUCCESS] Improvement! Δ=0.010175, new_best=0.404026, reward=2.90
+✓ [SUCCESS] Improvement! Δ=0.001436, new_best=0.405463, reward=1.38
+✓ [SUCCESS] Improvement! Δ=0.144961, new_best=0.601992, reward=27.08
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=16.68
+✓ [SUCCESS] Improvement! Δ=0.020322, new_best=0.419852, reward=8.33
+✓ [SUCCESS] Improvement! Δ=0.227040, new_best=0.601992, reward=60.42
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=18.94
+✓ [SUCCESS] Improvement! Δ=0.130778, new_best=0.564735, reward=25.70
+✓ [SUCCESS] Improvement! Δ=0.100444, new_best=0.665179, reward=18.86
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=6.34
+✓ [SUCCESS] Improvement! Δ=0.004302, new_best=0.713390, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.239994, new_best=0.665179, reward=38.70
+✓ [SUCCESS] Improvement! Δ=0.145691, new_best=0.665179, reward=10.43
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.035338, new_best=0.665179, reward=5.64
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=12.29
+✓ [SUCCESS] Improvement! Δ=0.172535, new_best=0.665179, reward=31.62
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.13
+✓ [SUCCESS] Improvement! Δ=0.259868, new_best=0.665179, reward=68.79
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.218218, new_best=0.665179, reward=26.12
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.002461, new_best=0.398106, reward=1.42
+✓ [SUCCESS] Improvement! Δ=0.124887, new_best=0.665179, reward=28.21
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.182317, new_best=0.665179, reward=26.21
+✓ [SUCCESS] Improvement! Δ=0.031630, new_best=0.696809, reward=8.03
+✓ [SUCCESS] Improvement! Δ=0.018085, new_best=0.714894, reward=5.05
+✓ [SUCCESS] Improvement! Δ=0.075978, new_best=0.665179, reward=15.03
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=14.86
+✓ [SUCCESS] Improvement! Δ=0.051283, new_best=0.705986, reward=14.21
+✓ [SUCCESS] Improvement! Δ=0.011703, new_best=0.709088, reward=6.77
+✓ [SUCCESS] Improvement! Δ=0.043190, new_best=0.527922, reward=8.90
+✓ [SUCCESS] Improvement! Δ=0.137256, new_best=0.665179, reward=31.30
+✓ [SUCCESS] Improvement! Δ=0.133039, new_best=0.665179, reward=15.20
+✓ [SUCCESS] Improvement! Δ=0.238458, new_best=0.714894, reward=16.63
+✓ [SUCCESS] Improvement! Δ=0.014800, new_best=0.410608, reward=2.74
+✓ [SUCCESS] Improvement! Δ=0.061521, new_best=0.665179, reward=16.37
+✓ [SUCCESS] Improvement! Δ=0.097159, new_best=0.762338, reward=25.19
+[BUFFER] New global best! Fitness=0.762338, Raw=2.143084
+✓ [SUCCESS] Improvement! Δ=0.062864, new_best=0.601992, reward=12.35
+✓ [SUCCESS] Improvement! Δ=0.073324, new_best=0.665179, reward=19.07
+✓ [SUCCESS] Improvement! Δ=0.216411, new_best=0.650093, reward=40.74
+✓ [SUCCESS] Improvement! Δ=0.004610, new_best=0.654703, reward=3.71
+✓ [SUCCESS] Improvement! Δ=0.079523, new_best=0.524264, reward=14.62
+✓ [SUCCESS] Improvement! Δ=0.140915, new_best=0.665179, reward=25.40
+✓ [SUCCESS] Improvement! Δ=0.205468, new_best=0.665179, reward=50.74
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.156317, new_best=0.713390, reward=44.97
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.72
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=4.35
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.058713, new_best=0.462758, reward=3.85
+✓ [SUCCESS] Improvement! Δ=0.202421, new_best=0.665179, reward=22.61
+✓ [SUCCESS] Improvement! Δ=0.097662, new_best=0.665179, reward=25.75
+✓ [SUCCESS] Improvement! Δ=0.097819, new_best=0.592921, reward=21.62
+✓ [SUCCESS] Improvement! Δ=0.072258, new_best=0.665179, reward=20.08
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=7.58
+✓ [SUCCESS] Improvement! Δ=0.102162, new_best=0.665179, reward=26.12
+✓ [SUCCESS] Improvement! Δ=0.010493, new_best=0.675671, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.035338, new_best=0.665179, reward=9.64
+✓ [SUCCESS] Improvement! Δ=0.002658, new_best=0.714894, reward=1.40
+✓ [SUCCESS] Improvement! Δ=0.144432, new_best=0.665179, reward=30.31
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.124878, new_best=0.652800, reward=24.26
+✓ [SUCCESS] Improvement! Δ=0.012378, new_best=0.665179, reward=3.67
+✓ [SUCCESS] Improvement! Δ=0.218328, new_best=0.665179, reward=26.40
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.114403, new_best=0.665179, reward=12.80
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=11.49
+✓ [SUCCESS] Improvement! Δ=0.137086, new_best=0.589545, reward=39.76
+✓ [SUCCESS] Improvement! Δ=0.075633, new_best=0.665179, reward=18.20
+✓ [SUCCESS] Improvement! Δ=0.010493, new_best=0.675671, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.027663, new_best=0.601992, reward=8.01
+✓ [SUCCESS] Improvement! Δ=0.154581, new_best=0.563017, reward=41.62
+✓ [SUCCESS] Improvement! Δ=0.102162, new_best=0.665179, reward=23.71
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.118059, new_best=0.665179, reward=35.15
+✓ [SUCCESS] Improvement! Δ=0.097159, new_best=0.762338, reward=23.73
+✓ [SUCCESS] Improvement! Δ=0.074569, new_best=0.713390, reward=24.90
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.058868, new_best=0.601992, reward=9.06
+✓ [SUCCESS] Improvement! Δ=0.143078, new_best=0.574330, reward=21.23
+✓ [SUCCESS] Improvement! Δ=0.027663, new_best=0.601992, reward=5.18
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=8.31
+✓ [SUCCESS] Improvement! Δ=0.202421, new_best=0.665179, reward=22.61
+✓ [SUCCESS] Improvement! Δ=0.047729, new_best=0.665179, reward=14.44
+✓ [SUCCESS] Improvement! Δ=0.050774, new_best=0.715953, reward=10.05
+✓ [SUCCESS] Improvement! Δ=0.205498, new_best=0.665179, reward=30.64
+✓ [SUCCESS] Improvement! Δ=0.060261, new_best=0.665179, reward=13.99
+✓ [SUCCESS] Improvement! Δ=0.119552, new_best=0.665179, reward=15.64
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.060191, new_best=0.714894, reward=10.50
+✓ [SUCCESS] Improvement! Δ=0.010928, new_best=0.650298, reward=3.62
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.85
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.173557, new_best=0.665179, reward=40.97
+✓ [SUCCESS] Improvement! Δ=0.124308, new_best=0.652730, reward=36.89
+✓ [SUCCESS] Improvement! Δ=0.115713, new_best=0.665179, reward=25.48
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.012378, new_best=0.665179, reward=4.08
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.073633, new_best=0.665179, reward=21.33
+✓ [SUCCESS] Improvement! Δ=0.128377, new_best=0.693112, reward=28.88
+✓ [SUCCESS] Improvement! Δ=0.008619, new_best=0.524722, reward=3.78
+✓ [SUCCESS] Improvement! Δ=0.140457, new_best=0.665179, reward=32.03
+✓ [SUCCESS] Improvement! Δ=0.140169, new_best=0.601992, reward=37.57
+✓ [SUCCESS] Improvement! Δ=0.043991, new_best=0.645983, reward=13.26
+✓ [SUCCESS] Improvement! Δ=0.161394, new_best=0.601992, reward=34.12
+✓ [SUCCESS] Improvement! Δ=0.223155, new_best=0.665179, reward=25.78
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=17.49
+✓ [SUCCESS] Improvement! Δ=0.155498, new_best=0.665179, reward=33.25
+✓ [SUCCESS] Improvement! Δ=0.155498, new_best=0.665179, reward=33.25
+✓ [SUCCESS] Improvement! Δ=0.010493, new_best=0.675671, reward=5.16
+✓ [SUCCESS] Improvement! Δ=0.133124, new_best=0.601992, reward=20.73
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=21.41
+✓ [SUCCESS] Improvement! Δ=0.111800, new_best=0.601992, reward=33.43
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=18.94
+✓ [SUCCESS] Improvement! Δ=0.073324, new_best=0.665179, reward=19.07
+✓ [SUCCESS] Improvement! Δ=0.000087, new_best=0.665179, reward=2.15
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.015976, new_best=0.709088, reward=8.10
+✓ [SUCCESS] Improvement! Δ=0.119552, new_best=0.665179, reward=15.64
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=13.52
+✓ [SUCCESS] Improvement! Δ=0.016581, new_best=0.713390, reward=7.99
+✓ [SUCCESS] Improvement! Δ=0.023490, new_best=0.574330, reward=6.43
+✓ [SUCCESS] Improvement! Δ=0.027663, new_best=0.601992, reward=5.18
+✓ [SUCCESS] Improvement! Δ=0.014125, new_best=0.601992, reward=4.56
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=6.45
+✓ [SUCCESS] Improvement! Δ=0.015085, new_best=0.665179, reward=5.30
+✓ [SUCCESS] Improvement! Δ=0.185932, new_best=0.665179, reward=34.24
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.033608, new_best=0.665179, reward=12.35
+✓ [SUCCESS] Improvement! Δ=0.059321, new_best=0.665179, reward=18.93
+✓ [SUCCESS] Improvement! Δ=0.075633, new_best=0.665179, reward=15.00
+✓ [SUCCESS] Improvement! Δ=0.097159, new_best=0.762338, reward=21.69
+✓ [SUCCESS] Improvement! Δ=0.082080, new_best=0.601992, reward=19.63
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=21.41
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.073021, new_best=0.665179, reward=17.65
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.18
+✓ [SUCCESS] Improvement! Δ=0.004175, new_best=0.665179, reward=3.37
+✓ [SUCCESS] Improvement! Δ=0.097159, new_best=0.762338, reward=21.01
+✓ [SUCCESS] Improvement! Δ=0.115713, new_best=0.665179, reward=25.48
+✓ [SUCCESS] Improvement! Δ=0.032207, new_best=0.697386, reward=9.54
+✓ [SUCCESS] Improvement! Δ=0.066513, new_best=0.601992, reward=16.31
+✓ [SUCCESS] Improvement! Δ=0.066215, new_best=0.535219, reward=19.94
+✓ [SUCCESS] Improvement! Δ=0.061287, new_best=0.596506, reward=16.78
+✓ [SUCCESS] Improvement! Δ=0.004749, new_best=0.665179, reward=4.34
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=14.24
+✓ [SUCCESS] Improvement! Δ=0.171806, new_best=0.665179, reward=31.77
+✓ [SUCCESS] Improvement! Δ=0.068155, new_best=0.733333, reward=13.22
+✓ [SUCCESS] Improvement! Δ=0.153416, new_best=0.665179, reward=34.73
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.082832, new_best=0.601992, reward=11.74
+✓ [SUCCESS] Improvement! Δ=0.161931, new_best=0.665179, reward=20.35
+✓ [SUCCESS] Improvement! Δ=0.173557, new_best=0.665179, reward=43.19
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=16.00
+✓ [SUCCESS] Improvement! Δ=0.124887, new_best=0.665179, reward=28.67
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.12
+✓ [SUCCESS] Improvement! Δ=0.042412, new_best=0.601992, reward=10.09
+✓ [SUCCESS] Improvement! Δ=0.171204, new_best=0.665179, reward=47.41
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=15.24
+✓ [SUCCESS] Improvement! Δ=0.140915, new_best=0.665179, reward=25.40
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.073633, new_best=0.665179, reward=20.01
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=11.66
+✓ [SUCCESS] Improvement! Δ=0.050420, new_best=0.665179, reward=13.60
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=14.81
+✓ [SUCCESS] Improvement! Δ=0.108105, new_best=0.665179, reward=27.81
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.137279, new_best=0.645983, reward=38.09
+✓ [SUCCESS] Improvement! Δ=0.149084, new_best=0.665179, reward=25.01
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=11.31
+✓ [SUCCESS] Improvement! Δ=0.061065, new_best=0.665179, reward=16.83
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=12.17
+✓ [SUCCESS] Improvement! Δ=0.031223, new_best=0.714894, reward=6.17
+✓ [SUCCESS] Improvement! Δ=0.080473, new_best=0.665179, reward=23.67
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.065067, new_best=0.665179, reward=15.23
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.008119, new_best=0.601992, reward=3.47
+✓ [SUCCESS] Improvement! Δ=0.153229, new_best=0.665179, reward=34.79
+✓ [SUCCESS] Improvement! Δ=0.041802, new_best=0.601992, reward=9.97
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=6.45
+✓ [SUCCESS] Improvement! Δ=0.114339, new_best=0.665179, reward=30.19
+✓ [SUCCESS] Improvement! Δ=0.044756, new_best=0.665179, reward=15.57
+✓ [SUCCESS] Improvement! Δ=0.133532, new_best=0.665179, reward=32.31
+✓ [SUCCESS] Improvement! Δ=0.004703, new_best=0.669882, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.123950, new_best=0.650093, reward=15.80
+✓ [SUCCESS] Improvement! Δ=0.015085, new_best=0.665179, reward=6.28
+✓ [SUCCESS] Improvement! Δ=0.077973, new_best=0.738711, reward=22.47
+✓ [SUCCESS] Improvement! Δ=0.075978, new_best=0.665179, reward=9.13
+✓ [SUCCESS] Improvement! Δ=0.027933, new_best=0.693112, reward=9.69
+✓ [SUCCESS] Improvement! Δ=0.054352, new_best=0.658466, reward=3.77
+✓ [SUCCESS] Improvement! Δ=0.006713, new_best=0.665179, reward=2.07
+✓ [SUCCESS] Improvement! Δ=0.029560, new_best=0.694739, reward=5.99
+✓ [SUCCESS] Improvement! Δ=0.075633, new_best=0.665179, reward=19.60
+✓ [SUCCESS] Improvement! Δ=0.086340, new_best=0.665179, reward=19.45
+✓ [SUCCESS] Improvement! Δ=0.049870, new_best=0.665179, reward=6.64
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=7.05
+✓ [SUCCESS] Improvement! Δ=0.074496, new_best=0.650298, reward=19.97
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.052541, new_best=0.608028, reward=9.53
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.665179, reward=8.83
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.039223, new_best=0.714894, reward=5.46
+✓ [SUCCESS] Improvement! Δ=0.065592, new_best=0.650298, reward=15.81
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=11.69
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.55
+✓ [SUCCESS] Improvement! Δ=0.103169, new_best=0.665179, reward=31.78
+✓ [SUCCESS] Improvement! Δ=0.154723, new_best=0.665179, reward=39.63
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.088179, new_best=0.652730, reward=19.72
+✓ [SUCCESS] Improvement! Δ=0.112835, new_best=0.765636, reward=20.84
+[BUFFER] New global best! Fitness=0.765636, Raw=2.174916
+✓ [SUCCESS] Improvement! Δ=0.061323, new_best=0.601992, reward=13.21
+✓ [SUCCESS] Improvement! Δ=0.061521, new_best=0.665179, reward=15.20
+✓ [SUCCESS] Improvement! Δ=0.008724, new_best=0.665179, reward=3.27
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=9.10
+✓ [SUCCESS] Improvement! Δ=0.093367, new_best=0.730666, reward=12.90
+✓ [SUCCESS] Improvement! Δ=0.018823, new_best=0.601992, reward=3.06
+✓ [SUCCESS] Improvement! Δ=0.012449, new_best=0.665179, reward=4.10
+✓ [SUCCESS] Improvement! Δ=0.006713, new_best=0.665179, reward=2.07
+✓ [SUCCESS] Improvement! Δ=0.004175, new_best=0.665179, reward=3.50
+✓ [SUCCESS] Improvement! Δ=0.033235, new_best=0.584706, reward=11.30
+✓ [SUCCESS] Improvement! Δ=0.080473, new_best=0.665179, reward=21.54
+✓ [SUCCESS] Improvement! Δ=0.031688, new_best=0.714894, reward=5.14
+✓ [SUCCESS] Improvement! Δ=0.059064, new_best=0.714894, reward=13.98
+✓ [SUCCESS] Improvement! Δ=0.065067, new_best=0.665179, reward=18.75
+✓ [SUCCESS] Improvement! Δ=0.104854, new_best=0.665179, reward=18.79
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.140915, new_best=0.665179, reward=25.40
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.142542, new_best=0.665179, reward=22.09
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.042412, new_best=0.601992, reward=10.09
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=18.94
+✓ [SUCCESS] Improvement! Δ=0.119704, new_best=0.713390, reward=37.56
+✓ [SUCCESS] Improvement! Δ=0.048532, new_best=0.650093, reward=10.23
+✓ [SUCCESS] Improvement! Δ=0.015085, new_best=0.665179, reward=7.01
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.103169, new_best=0.665179, reward=22.96
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.033417, new_best=0.709088, reward=13.54
+✓ [SUCCESS] Improvement! Δ=0.118059, new_best=0.665179, reward=18.50
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.113707, new_best=0.665179, reward=27.25
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.145691, new_best=0.665179, reward=33.09
+✓ [SUCCESS] Improvement! Δ=0.061323, new_best=0.601992, reward=13.21
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=12.79
+✓ [SUCCESS] Improvement! Δ=0.010493, new_best=0.675671, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.075850, new_best=0.601992, reward=20.86
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=15.48
+✓ [SUCCESS] Improvement! Δ=0.071492, new_best=0.665179, reward=14.66
+✓ [SUCCESS] Improvement! Δ=0.097662, new_best=0.665179, reward=11.46
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.122007, new_best=0.665179, reward=25.41
+
+================================================================================
+EVALUATION METRICS - Round 1
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.402154
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.765636
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.454297
+  Percentage Improvement: 145.92%
+  Total Unique Sequences Discovered: 128
+  Total Oracle Calls: 3840
+
+  Buffer Status:
+    Best in current pool: 0.765636
+    Global best (tracked): 0.765636
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.765636 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.762338 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.738711 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.733333 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKQFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.730666 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKSFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.715953 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.714894 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.713390 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.712236 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEYNENEWQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.709088 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+[DEBUG] Finished rollout collection — steps: 4096, calls: 0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 16       |
+|    ep_rew_mean     | -36.6    |
+| time/              |          |
+|    fps             | 16       |
+|    iterations      | 1        |
+|    time_elapsed    | 251      |
+|    total_timesteps | 4096     |
+---------------------------------
+[DEBUG] Starting PPO training loop...
+✓ [SUCCESS] Improvement! Δ=0.096003, new_best=0.650093, reward=18.53
+✓ [SUCCESS] Improvement! Δ=0.005171, new_best=0.601992, reward=4.36
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=12.68
+✓ [SUCCESS] Improvement! Δ=0.140623, new_best=0.665179, reward=37.08
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.061323, new_best=0.601992, reward=13.21
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.079813, new_best=0.665179, reward=23.50
+✓ [SUCCESS] Improvement! Δ=0.020156, new_best=0.714894, reward=4.51
+✓ [SUCCESS] Improvement! Δ=0.047444, new_best=0.762338, reward=14.31
+✓ [SUCCESS] Improvement! Δ=0.019195, new_best=0.665179, reward=8.54
+✓ [SUCCESS] Improvement! Δ=0.004175, new_best=0.665179, reward=3.00
+✓ [SUCCESS] Improvement! Δ=0.001154, new_best=0.713390, reward=2.52
+✓ [SUCCESS] Improvement! Δ=0.090766, new_best=0.665179, reward=21.42
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.34
+✓ [SUCCESS] Improvement! Δ=0.117363, new_best=0.665179, reward=13.54
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.109691, new_best=0.665179, reward=22.64
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.094359, new_best=0.665179, reward=16.58
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.133532, new_best=0.665179, reward=26.79
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=9.54
+✓ [SUCCESS] Improvement! Δ=0.060351, new_best=0.665179, reward=4.80
+✓ [SUCCESS] Improvement! Δ=0.123196, new_best=0.665179, reward=15.82
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=12.69
+✓ [SUCCESS] Improvement! Δ=0.004110, new_best=0.650093, reward=1.57
+✓ [SUCCESS] Improvement! Δ=0.015085, new_best=0.665179, reward=7.13
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.046452, new_best=0.601992, reward=13.61
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=19.36
+✓ [SUCCESS] Improvement! Δ=0.050420, new_best=0.665179, reward=14.56
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=5.24
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=9.78
+✓ [SUCCESS] Improvement! Δ=0.064472, new_best=0.665179, reward=14.06
+✓ [SUCCESS] Improvement! Δ=0.102162, new_best=0.665179, reward=23.91
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.121269, new_best=0.714894, reward=23.90
+✓ [SUCCESS] Improvement! Δ=0.010476, new_best=0.665179, reward=5.99
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.005171, new_best=0.601992, reward=4.36
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=21.41
+✓ [SUCCESS] Improvement! Δ=0.006713, new_best=0.665179, reward=2.07
+✓ [SUCCESS] Improvement! Δ=0.035338, new_best=0.665179, reward=5.64
+✓ [SUCCESS] Improvement! Δ=0.095667, new_best=0.665179, reward=18.47
+✓ [SUCCESS] Improvement! Δ=0.048036, new_best=0.640956, reward=16.44
+✓ [SUCCESS] Improvement! Δ=0.077397, new_best=0.665179, reward=12.32
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=11.27
+✓ [SUCCESS] Improvement! Δ=0.105598, new_best=0.665179, reward=29.37
+✓ [SUCCESS] Improvement! Δ=0.101478, new_best=0.665179, reward=26.40
+✓ [SUCCESS] Improvement! Δ=0.032207, new_best=0.697386, reward=10.00
+✓ [SUCCESS] Improvement! Δ=0.017509, new_best=0.714894, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.046452, new_best=0.601992, reward=15.99
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=6.45
+✓ [SUCCESS] Improvement! Δ=0.015085, new_best=0.665179, reward=4.62
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=16.49
+✓ [SUCCESS] Improvement! Δ=0.007321, new_best=0.608028, reward=3.50
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.665179, reward=8.83
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.061323, new_best=0.601992, reward=15.20
+✓ [SUCCESS] Improvement! Δ=0.005171, new_best=0.601992, reward=4.36
+✓ [SUCCESS] Improvement! Δ=0.063026, new_best=0.601992, reward=8.10
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=18.94
+✓ [SUCCESS] Improvement! Δ=0.031223, new_best=0.714894, reward=4.57
+✓ [SUCCESS] Improvement! Δ=0.054897, new_best=0.601992, reward=15.37
+✓ [SUCCESS] Improvement! Δ=0.043991, new_best=0.645983, reward=10.85
+✓ [SUCCESS] Improvement! Δ=0.006746, new_best=0.652730, reward=4.60
+✓ [SUCCESS] Improvement! Δ=0.062782, new_best=0.630299, reward=7.86
+✓ [SUCCESS] Improvement! Δ=0.034880, new_best=0.665179, reward=7.99
+✓ [SUCCESS] Improvement! Δ=0.104854, new_best=0.665179, reward=24.02
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.041802, new_best=0.601992, reward=9.97
+✓ [SUCCESS] Improvement! Δ=0.022923, new_best=0.624915, reward=7.83
+✓ [SUCCESS] Improvement! Δ=0.006713, new_best=0.665179, reward=2.07
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.111671, new_best=0.665179, reward=23.28
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=15.06
+✓ [SUCCESS] Improvement! Δ=0.034880, new_best=0.665179, reward=11.70
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.63
+✓ [SUCCESS] Improvement! Δ=0.029671, new_best=0.650093, reward=6.13
+✓ [SUCCESS] Improvement! Δ=0.002637, new_best=0.652730, reward=3.94
+✓ [SUCCESS] Improvement! Δ=0.012449, new_best=0.665179, reward=5.14
+✓ [SUCCESS] Improvement! Δ=0.042412, new_best=0.601992, reward=10.09
+✓ [SUCCESS] Improvement! Δ=0.117363, new_best=0.665179, reward=22.26
+✓ [SUCCESS] Improvement! Δ=0.019425, new_best=0.684604, reward=2.97
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=4.77
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.067658, new_best=0.665179, reward=15.16
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.100444, new_best=0.665179, reward=18.86
+✓ [SUCCESS] Improvement! Δ=0.035334, new_best=0.650093, reward=5.03
+✓ [SUCCESS] Improvement! Δ=0.014998, new_best=0.665091, reward=4.19
+✓ [SUCCESS] Improvement! Δ=0.031223, new_best=0.714894, reward=4.57
+✓ [SUCCESS] Improvement! Δ=0.089376, new_best=0.665179, reward=26.53
+✓ [SUCCESS] Improvement! Δ=0.064472, new_best=0.665179, reward=13.01
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=5.19
+✓ [SUCCESS] Improvement! Δ=0.075978, new_best=0.665179, reward=15.03
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.033608, new_best=0.665179, reward=12.35
+✓ [SUCCESS] Improvement! Δ=0.027933, new_best=0.693112, reward=8.93
+✓ [SUCCESS] Improvement! Δ=0.024222, new_best=0.665179, reward=10.14
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.104854, new_best=0.665179, reward=27.69
+✓ [SUCCESS] Improvement! Δ=0.030291, new_best=0.714894, reward=7.86
+✓ [SUCCESS] Improvement! Δ=0.074164, new_best=0.665179, reward=11.07
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.074569, new_best=0.713390, reward=22.34
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.100561, new_best=0.665179, reward=7.54
+✓ [SUCCESS] Improvement! Δ=0.012279, new_best=0.709088, reward=6.84
+✓ [SUCCESS] Improvement! Δ=0.061065, new_best=0.665179, reward=16.83
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.081730, new_best=0.660430, reward=25.94
+✓ [SUCCESS] Improvement! Δ=0.004749, new_best=0.665179, reward=3.69
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=15.42
+✓ [SUCCESS] Improvement! Δ=0.122007, new_best=0.665179, reward=25.41
+✓ [SUCCESS] Improvement! Δ=0.021068, new_best=0.645983, reward=9.69
+✓ [SUCCESS] Improvement! Δ=0.019195, new_best=0.665179, reward=6.52
+✓ [SUCCESS] Improvement! Δ=0.101395, new_best=0.665179, reward=28.42
+✓ [SUCCESS] Improvement! Δ=0.097662, new_best=0.665179, reward=20.42
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=14.40
+✓ [SUCCESS] Improvement! Δ=0.065056, new_best=0.665179, reward=12.72
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.060351, new_best=0.665179, reward=4.80
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.039223, new_best=0.714894, reward=5.46
+✓ [SUCCESS] Improvement! Δ=0.071823, new_best=0.617450, reward=10.62
+✓ [SUCCESS] Improvement! Δ=0.097445, new_best=0.714894, reward=18.87
+✓ [SUCCESS] Improvement! Δ=0.030686, new_best=0.665179, reward=11.02
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.030184, new_best=0.713390, reward=11.04
+✓ [SUCCESS] Improvement! Δ=0.033944, new_best=0.714894, reward=9.39
+✓ [SUCCESS] Improvement! Δ=0.111914, new_best=0.665179, reward=15.03
+✓ [SUCCESS] Improvement! Δ=0.032207, new_best=0.697386, reward=9.94
+✓ [SUCCESS] Improvement! Δ=0.017509, new_best=0.714894, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.158313, new_best=0.714894, reward=32.71
+✓ [SUCCESS] Improvement! Δ=0.038749, new_best=0.617450, reward=11.82
+✓ [SUCCESS] Improvement! Δ=0.047729, new_best=0.665179, reward=12.23
+✓ [SUCCESS] Improvement! Δ=0.049870, new_best=0.665179, reward=5.26
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.101478, new_best=0.665179, reward=19.48
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.117625, new_best=0.665179, reward=32.02
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=16.73
+✓ [SUCCESS] Improvement! Δ=0.045483, new_best=0.601992, reward=8.59
+✓ [SUCCESS] Improvement! Δ=0.042389, new_best=0.591854, reward=11.83
+✓ [SUCCESS] Improvement! Δ=0.073324, new_best=0.665179, reward=17.71
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.032775, new_best=0.665179, reward=11.19
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=7.05
+✓ [SUCCESS] Improvement! Δ=0.065056, new_best=0.665179, reward=17.78
+✓ [SUCCESS] Improvement! Δ=0.060261, new_best=0.665179, reward=7.77
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.086060, new_best=0.762338, reward=20.33
+✓ [SUCCESS] Improvement! Δ=0.069840, new_best=0.665179, reward=16.04
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.108597, new_best=0.665179, reward=26.17
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.021144, new_best=0.665179, reward=3.20
+✓ [SUCCESS] Improvement! Δ=0.051620, new_best=0.665179, reward=8.06
+✓ [SUCCESS] Improvement! Δ=0.046452, new_best=0.601992, reward=15.99
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=19.15
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=8.39
+✓ [SUCCESS] Improvement! Δ=0.035338, new_best=0.665179, reward=5.64
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=7.27
+✓ [SUCCESS] Improvement! Δ=0.086340, new_best=0.665179, reward=8.87
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.047729, new_best=0.665179, reward=14.44
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=11.66
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=3.50
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.665179, reward=11.74
+✓ [SUCCESS] Improvement! Δ=0.038617, new_best=0.714894, reward=5.39
+✓ [SUCCESS] Improvement! Δ=0.018085, new_best=0.714894, reward=5.00
+✓ [SUCCESS] Improvement! Δ=0.004110, new_best=0.650093, reward=2.48
+✓ [SUCCESS] Improvement! Δ=0.002637, new_best=0.652730, reward=3.22
+✓ [SUCCESS] Improvement! Δ=0.042412, new_best=0.601992, reward=10.09
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=6.45
+✓ [SUCCESS] Improvement! Δ=0.056007, new_best=0.681699, reward=16.54
+✓ [SUCCESS] Improvement! Δ=0.033195, new_best=0.714894, reward=4.79
+✓ [SUCCESS] Improvement! Δ=0.118059, new_best=0.665179, reward=35.15
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=13.47
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=2.68
+✓ [SUCCESS] Improvement! Δ=0.100444, new_best=0.665179, reward=18.86
+✓ [SUCCESS] Improvement! Δ=0.027933, new_best=0.693112, reward=8.93
+✓ [SUCCESS] Improvement! Δ=0.015976, new_best=0.709088, reward=8.10
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=1.34
+✓ [SUCCESS] Improvement! Δ=0.027814, new_best=0.652730, reward=11.79
+✓ [SUCCESS] Improvement! Δ=0.101395, new_best=0.665179, reward=23.68
+✓ [SUCCESS] Improvement! Δ=0.075524, new_best=0.714894, reward=13.04
+✓ [SUCCESS] Improvement! Δ=0.077878, new_best=0.665179, reward=17.24
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.95
+✓ [SUCCESS] Improvement! Δ=0.033195, new_best=0.714894, reward=6.46
+✓ [SUCCESS] Improvement! Δ=0.109691, new_best=0.665179, reward=13.68
+✓ [SUCCESS] Improvement! Δ=0.111671, new_best=0.665179, reward=28.64
+✓ [SUCCESS] Improvement! Δ=0.051620, new_best=0.665179, reward=7.66
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.064472, new_best=0.665179, reward=14.06
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=12.50
+✓ [SUCCESS] Improvement! Δ=0.006713, new_best=0.665179, reward=2.07
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=16.71
+✓ [SUCCESS] Improvement! Δ=0.027663, new_best=0.601992, reward=5.18
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=19.15
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.043242, new_best=0.758136, reward=11.79
+✓ [SUCCESS] Improvement! Δ=0.073021, new_best=0.665179, reward=5.66
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.073021, new_best=0.665179, reward=14.51
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.081574, new_best=0.665179, reward=26.44
+✓ [SUCCESS] Improvement! Δ=0.071736, new_best=0.665179, reward=9.34
+✓ [SUCCESS] Improvement! Δ=0.032775, new_best=0.665179, reward=7.55
+✓ [SUCCESS] Improvement! Δ=0.010493, new_best=0.675671, reward=5.47
+✓ [SUCCESS] Improvement! Δ=0.033417, new_best=0.709088, reward=11.07
+✓ [SUCCESS] Improvement! Δ=0.011171, new_best=0.624730, reward=2.50
+✓ [SUCCESS] Improvement! Δ=0.040449, new_best=0.665179, reward=7.15
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=2.84
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=12.69
+✓ [SUCCESS] Improvement! Δ=0.080473, new_best=0.665179, reward=19.23
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.17
+✓ [SUCCESS] Improvement! Δ=0.030080, new_best=0.665179, reward=7.65
+✓ [SUCCESS] Improvement! Δ=0.014113, new_best=0.601992, reward=7.10
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=19.36
+✓ [SUCCESS] Improvement! Δ=0.090766, new_best=0.665179, reward=20.63
+✓ [SUCCESS] Improvement! Δ=0.153298, new_best=0.762338, reward=21.48
+✓ [SUCCESS] Improvement! Δ=0.046452, new_best=0.601992, reward=11.27
+✓ [SUCCESS] Improvement! Δ=0.043991, new_best=0.645983, reward=16.84
+✓ [SUCCESS] Improvement! Δ=0.004110, new_best=0.650093, reward=2.39
+✓ [SUCCESS] Improvement! Δ=0.073021, new_best=0.665179, reward=14.51
+✓ [SUCCESS] Improvement! Δ=0.029560, new_best=0.694739, reward=7.26
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=12.13
+✓ [SUCCESS] Improvement! Δ=0.053258, new_best=0.709088, reward=14.69
+✓ [SUCCESS] Improvement! Δ=0.089376, new_best=0.665179, reward=21.12
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=11.01
+✓ [SUCCESS] Improvement! Δ=0.100561, new_best=0.665179, reward=7.54
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.099400, new_best=0.694739, reward=15.12
+✓ [SUCCESS] Improvement! Δ=0.083872, new_best=0.714894, reward=21.48
+✓ [SUCCESS] Improvement! Δ=0.071736, new_best=0.665179, reward=9.34
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=7.77
+✓ [SUCCESS] Improvement! Δ=0.002658, new_best=0.714894, reward=1.65
+✓ [SUCCESS] Improvement! Δ=0.000087, new_best=0.665179, reward=2.15
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.004302, new_best=0.713390, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.089224, new_best=0.665179, reward=17.34
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.047729, new_best=0.665179, reward=9.78
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.000087, new_best=0.665179, reward=2.15
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.129614, new_best=0.709088, reward=31.49
+✓ [SUCCESS] Improvement! Δ=0.003148, new_best=0.712236, reward=2.56
+✓ [SUCCESS] Improvement! Δ=0.051620, new_best=0.665179, reward=11.66
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=16.71
+✓ [SUCCESS] Improvement! Δ=0.048947, new_best=0.762338, reward=14.02
+✓ [SUCCESS] Improvement! Δ=0.018085, new_best=0.714894, reward=3.12
+✓ [SUCCESS] Improvement! Δ=0.004749, new_best=0.665179, reward=4.34
+✓ [SUCCESS] Improvement! Δ=0.101395, new_best=0.665179, reward=28.42
+✓ [SUCCESS] Improvement! Δ=0.108105, new_best=0.665179, reward=27.81
+✓ [SUCCESS] Improvement! Δ=0.125823, new_best=0.709088, reward=32.44
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.047444, new_best=0.762338, reward=6.37
+✓ [SUCCESS] Improvement! Δ=0.004749, new_best=0.665179, reward=4.18
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=11.30
+✓ [SUCCESS] Improvement! Δ=0.000058, new_best=0.585423, reward=2.40
+✓ [SUCCESS] Improvement! Δ=0.079756, new_best=0.665179, reward=27.56
+✓ [SUCCESS] Improvement! Δ=0.019049, new_best=0.665179, reward=6.14
+✓ [SUCCESS] Improvement! Δ=0.079813, new_best=0.665179, reward=10.28
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=8.35
+✓ [SUCCESS] Improvement! Δ=0.051620, new_best=0.665179, reward=7.66
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=4.93
+✓ [SUCCESS] Improvement! Δ=0.064201, new_best=0.665179, reward=15.77
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.665179, reward=8.83
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.108382, new_best=0.709088, reward=26.42
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=2.06
+✓ [SUCCESS] Improvement! Δ=0.020156, new_best=0.714894, reward=2.79
+✓ [SUCCESS] Improvement! Δ=0.060351, new_best=0.665179, reward=4.80
+✓ [SUCCESS] Improvement! Δ=0.008724, new_best=0.665179, reward=5.14
+✓ [SUCCESS] Improvement! Δ=0.097662, new_best=0.665179, reward=18.82
+✓ [SUCCESS] Improvement! Δ=0.032775, new_best=0.665179, reward=7.55
+✓ [SUCCESS] Improvement! Δ=0.094303, new_best=0.665179, reward=19.73
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=13.74
+✓ [SUCCESS] Improvement! Δ=0.056855, new_best=0.650298, reward=12.26
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.90
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.55
+✓ [SUCCESS] Improvement! Δ=0.072258, new_best=0.665179, reward=18.83
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=2.68
+✓ [SUCCESS] Improvement! Δ=0.042104, new_best=0.604114, reward=11.77
+✓ [SUCCESS] Improvement! Δ=0.061065, new_best=0.665179, reward=16.83
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=6.45
+✓ [SUCCESS] Improvement! Δ=0.028554, new_best=0.608028, reward=9.23
+✓ [SUCCESS] Improvement! Δ=0.106866, new_best=0.714894, reward=14.84
+✓ [SUCCESS] Improvement! Δ=0.075633, new_best=0.665179, reward=18.20
+✓ [SUCCESS] Improvement! Δ=0.033944, new_best=0.714894, reward=4.88
+✓ [SUCCESS] Improvement! Δ=0.056139, new_best=0.665179, reward=7.02
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.00
+✓ [SUCCESS] Improvement! Δ=0.029005, new_best=0.591015, reward=7.80
+✓ [SUCCESS] Improvement! Δ=0.074164, new_best=0.665179, reward=20.72
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=2.71
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=13.41
+✓ [SUCCESS] Improvement! Δ=0.040449, new_best=0.665179, reward=7.15
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.089842, new_best=0.665179, reward=13.13
+✓ [SUCCESS] Improvement! Δ=0.092958, new_best=0.758136, reward=22.80
+✓ [SUCCESS] Improvement! Δ=0.062433, new_best=0.650298, reward=17.51
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.050774, new_best=0.715953, reward=10.91
+✓ [SUCCESS] Improvement! Δ=0.021195, new_best=0.665179, reward=7.51
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=12.51
+✓ [SUCCESS] Improvement! Δ=0.004749, new_best=0.665179, reward=4.34
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.008908, new_best=0.714894, reward=2.10
+✓ [SUCCESS] Improvement! Δ=0.034880, new_best=0.665179, reward=7.99
+✓ [SUCCESS] Improvement! Δ=0.016581, new_best=0.713390, reward=8.29
+✓ [SUCCESS] Improvement! Δ=0.056139, new_best=0.665179, reward=8.63
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.077313, new_best=0.665179, reward=18.56
+✓ [SUCCESS] Improvement! Δ=0.015976, new_best=0.709088, reward=3.57
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=3.12
+✓ [SUCCESS] Improvement! Δ=0.001154, new_best=0.713390, reward=1.45
+✓ [SUCCESS] Improvement! Δ=0.034156, new_best=0.665179, reward=12.13
+✓ [SUCCESS] Improvement! Δ=0.040808, new_best=0.705986, reward=11.78
+✓ [SUCCESS] Improvement! Δ=0.013575, new_best=0.665179, reward=5.47
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.004302, new_best=0.713390, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.028734, new_best=0.665179, reward=8.23
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=11.46
+✓ [SUCCESS] Improvement! Δ=0.045013, new_best=0.714894, reward=8.23
+✓ [SUCCESS] Improvement! Δ=0.095667, new_best=0.665179, reward=20.28
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=9.11
+✓ [SUCCESS] Improvement! Δ=0.059321, new_best=0.665179, reward=17.32
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.004749, new_best=0.665179, reward=2.08
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.080639, new_best=0.762338, reward=19.64
+✓ [SUCCESS] Improvement! Δ=0.034880, new_best=0.665179, reward=7.99
+✓ [SUCCESS] Improvement! Δ=0.075978, new_best=0.665179, reward=23.05
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.032682, new_best=0.693112, reward=10.32
+✓ [SUCCESS] Improvement! Δ=0.020278, new_best=0.713390, reward=9.44
+✓ [SUCCESS] Improvement! Δ=0.127968, new_best=0.713390, reward=42.37
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.25
+✓ [SUCCESS] Improvement! Δ=0.094303, new_best=0.665179, reward=19.73
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.090205, new_best=0.665179, reward=17.51
+✓ [SUCCESS] Improvement! Δ=0.031224, new_best=0.645983, reward=11.32
+✓ [SUCCESS] Improvement! Δ=0.019195, new_best=0.665179, reward=6.88
+
+================================================================================
+EVALUATION METRICS - Round 2
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.377351
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.765636
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.454297
+  Percentage Improvement: 145.92%
+  Total Unique Sequences Discovered: 168
+  Total Oracle Calls: 7680
+
+  Buffer Status:
+    Best in current pool: 0.765636
+    Global best (tracked): 0.765636
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.765636 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.762338 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.758136 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.738711 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.733333 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKQFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.730666 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKSFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.715953 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.714894 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.713390 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.712236 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEYNENEWQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+[DEBUG] Finished rollout collection — steps: 4096, calls: 0
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 16          |
+|    ep_rew_mean          | -48.5       |
+| time/                   |             |
+|    fps                  | 16          |
+|    iterations           | 2           |
+|    time_elapsed         | 505         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.016571922 |
+|    clip_fraction        | 0.159       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -22.7       |
+|    explained_variance   | -0.00173    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 158         |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.0196     |
+|    std                  | 0.999       |
+|    value_loss           | 410         |
+-----------------------------------------
+[DEBUG] Starting PPO training loop...
+✓ [SUCCESS] Improvement! Δ=0.086478, new_best=0.665179, reward=19.20
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=7.77
+✓ [SUCCESS] Improvement! Δ=0.048411, new_best=0.665179, reward=11.73
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.092958, new_best=0.758136, reward=23.88
+✓ [SUCCESS] Improvement! Δ=0.005171, new_best=0.601992, reward=3.38
+✓ [SUCCESS] Improvement! Δ=0.020363, new_best=0.704035, reward=3.45
+✓ [SUCCESS] Improvement! Δ=0.005054, new_best=0.709088, reward=4.69
+✓ [SUCCESS] Improvement! Δ=0.008119, new_best=0.601992, reward=3.47
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=18.94
+✓ [SUCCESS] Improvement! Δ=0.100561, new_best=0.665179, reward=19.32
+✓ [SUCCESS] Improvement! Δ=0.138978, new_best=0.713390, reward=31.01
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.081913, new_best=0.665179, reward=21.95
+✓ [SUCCESS] Improvement! Δ=0.077313, new_best=0.665179, reward=24.00
+✓ [SUCCESS] Improvement! Δ=0.023576, new_best=0.617450, reward=8.88
+✓ [SUCCESS] Improvement! Δ=0.095941, new_best=0.713390, reward=31.19
+✓ [SUCCESS] Improvement! Δ=0.085704, new_best=0.665179, reward=18.47
+✓ [SUCCESS] Improvement! Δ=0.000087, new_best=0.665179, reward=2.15
+✓ [SUCCESS] Improvement! Δ=0.073021, new_best=0.665179, reward=5.66
+✓ [SUCCESS] Improvement! Δ=0.042178, new_best=0.635099, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.005858, new_best=0.640956, reward=4.10
+✓ [SUCCESS] Improvement! Δ=0.089842, new_best=0.665179, reward=16.34
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=13.94
+✓ [SUCCESS] Improvement! Δ=0.035338, new_best=0.665179, reward=5.64
+✓ [SUCCESS] Improvement! Δ=0.029560, new_best=0.694739, reward=8.15
+✓ [SUCCESS] Improvement! Δ=0.018652, new_best=0.713390, reward=8.93
+✓ [SUCCESS] Improvement! Δ=0.069840, new_best=0.665179, reward=16.04
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.005171, new_best=0.601992, reward=4.36
+✓ [SUCCESS] Improvement! Δ=0.063186, new_best=0.665179, reward=19.36
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=14.81
+✓ [SUCCESS] Improvement! Δ=0.057485, new_best=0.709088, reward=8.88
+✓ [SUCCESS] Improvement! Δ=0.021782, new_best=0.714894, reward=3.53
+✓ [SUCCESS] Improvement! Δ=0.079813, new_best=0.665179, reward=11.69
+✓ [SUCCESS] Improvement! Δ=0.081913, new_best=0.665179, reward=21.95
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.065056, new_best=0.665179, reward=17.78
+✓ [SUCCESS] Improvement! Δ=0.000431, new_best=0.601992, reward=2.38
+✓ [SUCCESS] Improvement! Δ=0.043991, new_best=0.645983, reward=16.22
+✓ [SUCCESS] Improvement! Δ=0.071736, new_best=0.665179, reward=9.34
+✓ [SUCCESS] Improvement! Δ=0.044422, new_best=0.645983, reward=12.43
+✓ [SUCCESS] Improvement! Δ=0.035338, new_best=0.665179, reward=5.64
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=15.99
+✓ [SUCCESS] Improvement! Δ=0.077397, new_best=0.665179, reward=12.32
+✓ [SUCCESS] Improvement! Δ=0.029560, new_best=0.694739, reward=7.20
+✓ [SUCCESS] Improvement! Δ=0.076073, new_best=0.714894, reward=13.68
+✓ [SUCCESS] Improvement! Δ=0.028399, new_best=0.665179, reward=4.53
+✓ [SUCCESS] Improvement! Δ=0.011491, new_best=0.645983, reward=5.06
+✓ [SUCCESS] Improvement! Δ=0.060261, new_best=0.665179, reward=13.99
+✓ [SUCCESS] Improvement! Δ=0.059283, new_best=0.650298, reward=14.49
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.032207, new_best=0.697386, reward=9.94
+✓ [SUCCESS] Improvement! Δ=0.018085, new_best=0.714894, reward=3.64
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=13.70
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.95
+✓ [SUCCESS] Improvement! Δ=0.021144, new_best=0.665179, reward=7.95
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=12.06
+✓ [SUCCESS] Improvement! Δ=0.060731, new_best=0.665179, reward=18.51
+✓ [SUCCESS] Improvement! Δ=0.079813, new_best=0.665179, reward=11.69
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=9.54
+✓ [SUCCESS] Improvement! Δ=0.073021, new_best=0.665179, reward=5.66
+✓ [SUCCESS] Improvement! Δ=0.012378, new_best=0.665179, reward=4.08
+✓ [SUCCESS] Improvement! Δ=0.032048, new_best=0.665179, reward=3.20
+✓ [SUCCESS] Improvement! Δ=0.024222, new_best=0.665179, reward=8.36
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=12.94
+✓ [SUCCESS] Improvement! Δ=0.074164, new_best=0.665179, reward=11.07
+✓ [SUCCESS] Improvement! Δ=0.005393, new_best=0.670571, reward=3.69
+✓ [SUCCESS] Improvement! Δ=0.073181, new_best=0.788075, reward=25.82
+[BUFFER] New global best! Fitness=0.788075, Raw=2.391504
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+[BUFFER] New global best! Fitness=0.789647, Raw=2.406671
+✓ [SUCCESS] Improvement! Δ=0.070018, new_best=0.665179, reward=19.70
+✓ [SUCCESS] Improvement! Δ=0.008119, new_best=0.601992, reward=1.19
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=10.34
+✓ [SUCCESS] Improvement! Δ=0.004175, new_best=0.665179, reward=2.86
+✓ [SUCCESS] Improvement! Δ=0.005054, new_best=0.709088, reward=4.69
+✓ [SUCCESS] Improvement! Δ=0.010381, new_best=0.665179, reward=2.59
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=2.68
+✓ [SUCCESS] Improvement! Δ=0.077313, new_best=0.665179, reward=24.00
+✓ [SUCCESS] Improvement! Δ=0.029560, new_best=0.694739, reward=7.61
+✓ [SUCCESS] Improvement! Δ=0.081574, new_best=0.665179, reward=26.44
+✓ [SUCCESS] Improvement! Δ=0.048411, new_best=0.665179, reward=11.73
+✓ [SUCCESS] Improvement! Δ=0.009349, new_best=0.665179, reward=4.49
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.030651, new_best=0.635099, reward=4.51
+✓ [SUCCESS] Improvement! Δ=0.139802, new_best=0.788075, reward=45.00
+✓ [SUCCESS] Improvement! Δ=0.010381, new_best=0.665179, reward=2.59
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.69
+✓ [SUCCESS] Improvement! Δ=0.013618, new_best=0.665179, reward=5.02
+✓ [SUCCESS] Improvement! Δ=0.018493, new_best=0.683671, reward=6.36
+✓ [SUCCESS] Improvement! Δ=0.065967, new_best=0.739934, reward=16.15
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.027879, new_best=0.665179, reward=11.38
+✓ [SUCCESS] Improvement! Δ=0.028997, new_best=0.665179, reward=7.40
+✓ [SUCCESS] Improvement! Δ=0.008724, new_best=0.665179, reward=4.65
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=11.36
+✓ [SUCCESS] Improvement! Δ=0.011703, new_best=0.709088, reward=6.77
+✓ [SUCCESS] Improvement! Δ=0.008724, new_best=0.665179, reward=4.39
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.059321, new_best=0.665179, reward=17.32
+✓ [SUCCESS] Improvement! Δ=0.013575, new_best=0.665179, reward=5.01
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=12.68
+✓ [SUCCESS] Improvement! Δ=0.049870, new_best=0.665179, reward=6.16
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=15.46
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.028399, new_best=0.665179, reward=10.88
+✓ [SUCCESS] Improvement! Δ=0.040023, new_best=0.694726, reward=11.08
+✓ [SUCCESS] Improvement! Δ=0.008094, new_best=0.683588, reward=3.16
+✓ [SUCCESS] Improvement! Δ=0.039669, new_best=0.723256, reward=5.51
+✓ [SUCCESS] Improvement! Δ=0.016678, new_best=0.739934, reward=5.41
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=10.30
+✓ [SUCCESS] Improvement! Δ=0.002654, new_best=0.591606, reward=2.90
+✓ [SUCCESS] Improvement! Δ=0.133628, new_best=0.725234, reward=13.50
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=3.40
+✓ [SUCCESS] Improvement! Δ=0.065967, new_best=0.739934, reward=12.87
+✓ [SUCCESS] Improvement! Δ=0.010381, new_best=0.665179, reward=2.59
+✓ [SUCCESS] Improvement! Δ=0.048101, new_best=0.650093, reward=6.45
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.033944, new_best=0.714894, reward=8.58
+✓ [SUCCESS] Improvement! Δ=0.001154, new_best=0.713390, reward=2.38
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.048411, new_best=0.665179, reward=15.03
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.040449, new_best=0.665179, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.008119, new_best=0.601992, reward=3.47
+✓ [SUCCESS] Improvement! Δ=0.050737, new_best=0.652730, reward=16.68
+✓ [SUCCESS] Improvement! Δ=0.016678, new_best=0.739934, reward=1.33
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.031417, new_best=0.675754, reward=8.17
+✓ [SUCCESS] Improvement! Δ=0.064180, new_best=0.739934, reward=15.07
+✓ [SUCCESS] Improvement! Δ=0.028734, new_best=0.665179, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.027879, new_best=0.665179, reward=6.62
+✓ [SUCCESS] Improvement! Δ=0.073633, new_best=0.665179, reward=20.77
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.059100, new_best=0.665316, reward=17.18
+✓ [SUCCESS] Improvement! Δ=0.074619, new_best=0.739934, reward=23.75
+✓ [SUCCESS] Improvement! Δ=0.030080, new_best=0.665179, reward=10.16
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.097445, new_best=0.714894, reward=23.44
+✓ [SUCCESS] Improvement! Δ=0.016678, new_best=0.739934, reward=4.18
+✓ [SUCCESS] Improvement! Δ=0.010476, new_best=0.665179, reward=4.00
+✓ [SUCCESS] Improvement! Δ=0.033781, new_best=0.773715, reward=5.70
+✓ [SUCCESS] Improvement! Δ=0.000804, new_best=0.683588, reward=1.71
+✓ [SUCCESS] Improvement! Δ=0.056346, new_best=0.739934, reward=13.21
+✓ [SUCCESS] Improvement! Δ=0.114109, new_best=0.788075, reward=35.15
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.96
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.739934, reward=11.74
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.036509, new_best=0.640956, reward=6.75
+✓ [SUCCESS] Improvement! Δ=0.064180, new_best=0.739934, reward=15.07
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=12.76
+✓ [SUCCESS] Improvement! Δ=0.148328, new_best=0.739934, reward=33.59
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=11.01
+✓ [SUCCESS] Improvement! Δ=0.058916, new_best=0.709088, reward=15.34
+✓ [SUCCESS] Improvement! Δ=0.001344, new_best=0.713580, reward=2.53
+✓ [SUCCESS] Improvement! Δ=0.014360, new_best=0.788075, reward=7.60
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=2.56
+✓ [SUCCESS] Improvement! Δ=0.065967, new_best=0.739934, reward=17.39
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.105120, new_best=0.739934, reward=23.02
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=7.22
+✓ [SUCCESS] Improvement! Δ=0.038639, new_best=0.665179, reward=10.34
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.045819, new_best=0.639111, reward=10.88
+✓ [SUCCESS] Improvement! Δ=0.029823, new_best=0.668934, reward=7.66
+✓ [SUCCESS] Improvement! Δ=0.025842, new_best=0.694776, reward=6.41
+✓ [SUCCESS] Improvement! Δ=0.039487, new_best=0.665179, reward=11.93
+✓ [SUCCESS] Improvement! Δ=0.064440, new_best=0.739934, reward=8.51
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=15.50
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.075445, new_best=0.739934, reward=16.37
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=15.97
+✓ [SUCCESS] Improvement! Δ=0.027879, new_best=0.665179, reward=11.38
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.065056, new_best=0.665179, reward=19.64
+✓ [SUCCESS] Improvement! Δ=0.043509, new_best=0.713390, reward=16.69
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=2.50
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.044323, new_best=0.714894, reward=6.03
+✓ [SUCCESS] Improvement! Δ=0.016993, new_best=0.790708, reward=4.46
+[BUFFER] New global best! Fitness=0.790708, Raw=2.416916
+✓ [SUCCESS] Improvement! Δ=0.012378, new_best=0.665179, reward=4.08
+✓ [SUCCESS] Improvement! Δ=0.024857, new_best=0.694739, reward=6.08
+✓ [SUCCESS] Improvement! Δ=0.074619, new_best=0.739934, reward=22.14
+✓ [SUCCESS] Improvement! Δ=0.056346, new_best=0.739934, reward=13.21
+✓ [SUCCESS] Improvement! Δ=0.028110, new_best=0.768044, reward=8.97
+✓ [SUCCESS] Improvement! Δ=0.070413, new_best=0.683588, reward=14.44
+✓ [SUCCESS] Improvement! Δ=0.056346, new_best=0.739934, reward=13.21
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.081457, new_best=0.739934, reward=15.98
+✓ [SUCCESS] Improvement! Δ=0.126759, new_best=0.739934, reward=19.81
+✓ [SUCCESS] Improvement! Δ=0.019049, new_best=0.665179, reward=8.23
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=12.37
+✓ [SUCCESS] Improvement! Δ=0.031012, new_best=0.739934, reward=5.10
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.010476, new_best=0.665179, reward=4.94
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=3.40
+✓ [SUCCESS] Improvement! Δ=0.048165, new_best=0.717099, reward=7.82
+✓ [SUCCESS] Improvement! Δ=0.022835, new_best=0.739934, reward=9.08
+✓ [SUCCESS] Improvement! Δ=0.013853, new_best=0.650298, reward=4.37
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=4.35
+✓ [SUCCESS] Improvement! Δ=0.064472, new_best=0.665179, reward=14.06
+✓ [SUCCESS] Improvement! Δ=0.033608, new_best=0.665179, reward=10.57
+✓ [SUCCESS] Improvement! Δ=0.021195, new_best=0.665179, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=14.84
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.55
+✓ [SUCCESS] Improvement! Δ=0.064608, new_best=0.739934, reward=9.81
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.015976, new_best=0.709088, reward=8.10
+✓ [SUCCESS] Improvement! Δ=0.031223, new_best=0.714894, reward=4.57
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=13.69
+✓ [SUCCESS] Improvement! Δ=0.073510, new_best=0.739934, reward=10.98
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.001154, new_best=0.713390, reward=3.48
+✓ [SUCCESS] Improvement! Δ=0.000087, new_best=0.665179, reward=2.15
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=15.27
+✓ [SUCCESS] Improvement! Δ=0.022835, new_best=0.739934, reward=8.33
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.095597, new_best=0.739934, reward=22.44
+✓ [SUCCESS] Improvement! Δ=0.029748, new_best=0.769682, reward=9.75
+✓ [SUCCESS] Improvement! Δ=0.061065, new_best=0.739934, reward=16.83
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=9.35
+✓ [SUCCESS] Improvement! Δ=0.064440, new_best=0.739934, reward=15.82
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.016678, new_best=0.739934, reward=4.18
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.061065, new_best=0.739934, reward=16.83
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=8.12
+✓ [SUCCESS] Improvement! Δ=0.093206, new_best=0.739934, reward=21.94
+✓ [SUCCESS] Improvement! Δ=0.045158, new_best=0.739934, reward=13.99
+✓ [SUCCESS] Improvement! Δ=0.047070, new_best=0.739934, reward=11.15
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=12.76
+✓ [SUCCESS] Improvement! Δ=0.082548, new_best=0.709088, reward=11.78
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.028399, new_best=0.665179, reward=7.64
+✓ [SUCCESS] Improvement! Δ=0.056346, new_best=0.739934, reward=13.21
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.019965, new_best=0.789647, reward=6.83
+✓ [SUCCESS] Improvement! Δ=0.034156, new_best=0.665179, reward=6.69
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.038639, new_best=0.665179, reward=10.34
+✓ [SUCCESS] Improvement! Δ=0.034156, new_best=0.665179, reward=8.96
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.005484, new_best=0.717099, reward=2.76
+✓ [SUCCESS] Improvement! Δ=0.017327, new_best=0.739934, reward=5.26
+✓ [SUCCESS] Improvement! Δ=0.004114, new_best=0.682784, reward=2.26
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.739934, reward=8.83
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.005803, new_best=0.789647, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.032775, new_best=0.665179, reward=7.55
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.111624, new_best=0.739934, reward=33.38
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.016894, new_best=0.739934, reward=5.72
+✓ [SUCCESS] Improvement! Δ=0.179577, new_best=0.789647, reward=28.37
+✓ [SUCCESS] Improvement! Δ=0.024222, new_best=0.665179, reward=8.68
+✓ [SUCCESS] Improvement! Δ=0.000158, new_best=0.739934, reward=2.35
+✓ [SUCCESS] Improvement! Δ=0.050848, new_best=0.668934, reward=9.67
+✓ [SUCCESS] Improvement! Δ=0.009936, new_best=0.678870, reward=5.32
+✓ [SUCCESS] Improvement! Δ=0.046365, new_best=0.725234, reward=11.05
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=3.40
+✓ [SUCCESS] Improvement! Δ=0.031012, new_best=0.739934, reward=5.10
+✓ [SUCCESS] Improvement! Δ=0.074052, new_best=0.739934, reward=15.98
+✓ [SUCCESS] Improvement! Δ=0.018202, new_best=0.758136, reward=6.25
+✓ [SUCCESS] Improvement! Δ=0.073948, new_best=0.789647, reward=16.38
+✓ [SUCCESS] Improvement! Δ=0.062468, new_best=0.739934, reward=18.35
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.016839, new_best=0.711615, reward=5.49
+✓ [SUCCESS] Improvement! Δ=0.004084, new_best=0.715699, reward=4.08
+✓ [SUCCESS] Improvement! Δ=0.018393, new_best=0.788075, reward=8.85
+✓ [SUCCESS] Improvement! Δ=0.020032, new_best=0.788075, reward=9.36
+✓ [SUCCESS] Improvement! Δ=0.099648, new_best=0.739934, reward=23.31
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=12.98
+✓ [SUCCESS] Improvement! Δ=0.046059, new_best=0.692864, reward=13.53
+✓ [SUCCESS] Improvement! Δ=0.047070, new_best=0.739934, reward=14.28
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=13.03
+✓ [SUCCESS] Improvement! Δ=0.034880, new_best=0.665179, reward=9.54
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.072859, new_best=0.739934, reward=9.88
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=8.94
+✓ [SUCCESS] Improvement! Δ=0.081457, new_best=0.739934, reward=21.53
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=13.74
+✓ [SUCCESS] Improvement! Δ=0.004441, new_best=0.665179, reward=2.73
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.063358, new_best=0.789647, reward=15.11
+✓ [SUCCESS] Improvement! Δ=0.031012, new_best=0.739934, reward=5.10
+✓ [SUCCESS] Improvement! Δ=0.001204, new_best=0.741138, reward=2.12
+✓ [SUCCESS] Improvement! Δ=0.028329, new_best=0.668934, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.042681, new_best=0.711615, reward=14.22
+✓ [SUCCESS] Improvement! Δ=0.004084, new_best=0.715699, reward=4.23
+✓ [SUCCESS] Improvement! Δ=0.017496, new_best=0.668934, reward=5.84
+✓ [SUCCESS] Improvement! Δ=0.042681, new_best=0.711615, reward=16.43
+✓ [SUCCESS] Improvement! Δ=0.064440, new_best=0.739934, reward=8.51
+✓ [SUCCESS] Improvement! Δ=0.087435, new_best=0.739934, reward=13.05
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=6.90
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.96
+✓ [SUCCESS] Improvement! Δ=0.013354, new_best=0.640950, reward=5.79
+✓ [SUCCESS] Improvement! Δ=0.095821, new_best=0.783844, reward=27.97
+✓ [SUCCESS] Improvement! Δ=0.004232, new_best=0.788075, reward=4.44
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.739934, reward=8.83
+✓ [SUCCESS] Improvement! Δ=0.074963, new_best=0.739934, reward=8.38
+✓ [SUCCESS] Improvement! Δ=0.047070, new_best=0.739934, reward=14.28
+✓ [SUCCESS] Improvement! Δ=0.064608, new_best=0.739934, reward=13.04
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=12.69
+✓ [SUCCESS] Improvement! Δ=0.034913, new_best=0.739934, reward=4.98
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.002637, new_best=0.652730, reward=3.94
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=2.20
+✓ [SUCCESS] Improvement! Δ=0.032048, new_best=0.665179, reward=7.35
+✓ [SUCCESS] Improvement! Δ=0.027879, new_best=0.665179, reward=11.38
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=7.58
+✓ [SUCCESS] Improvement! Δ=0.020278, new_best=0.713390, reward=8.77
+✓ [SUCCESS] Improvement! Δ=0.026357, new_best=0.665179, reward=8.32
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+
+================================================================================
+EVALUATION METRICS - Round 3
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.426865
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.790708
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.479369
+  Percentage Improvement: 153.97%
+  Total Unique Sequences Discovered: 239
+  Total Oracle Calls: 11520
+
+  Buffer Status:
+    Best in current pool: 0.790708
+    Global best (tracked): 0.790708
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.790708 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.789647 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.788075 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.783844 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.774039 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKPFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.773715 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.769682 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVIISRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.768044 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.765636 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.762338 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+[DEBUG] Finished rollout collection — steps: 4096, calls: 0
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 16          |
+|    ep_rew_mean          | -53.1       |
+| time/                   |             |
+|    fps                  | 16          |
+|    iterations           | 3           |
+|    time_elapsed         | 757         |
+|    total_timesteps      | 12288       |
+| train/                  |             |
+|    approx_kl            | 0.014647082 |
+|    clip_fraction        | 0.153       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -22.7       |
+|    explained_variance   | 0.0685      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 99.4        |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.0189     |
+|    std                  | 0.998       |
+|    value_loss           | 308         |
+-----------------------------------------
+[DEBUG] Starting PPO training loop...
+✓ [SUCCESS] Improvement! Δ=0.032831, new_best=0.739934, reward=12.13
+✓ [SUCCESS] Improvement! Δ=0.025882, new_best=0.709088, reward=11.19
+✓ [SUCCESS] Improvement! Δ=0.004302, new_best=0.713390, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.028329, new_best=0.668934, reward=10.86
+✓ [SUCCESS] Improvement! Δ=0.016678, new_best=0.739934, reward=5.67
+✓ [SUCCESS] Improvement! Δ=0.033944, new_best=0.714894, reward=8.10
+✓ [SUCCESS] Improvement! Δ=0.093300, new_best=0.788075, reward=24.02
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.028734, new_best=0.665179, reward=7.14
+✓ [SUCCESS] Improvement! Δ=0.031692, new_best=0.713390, reward=13.00
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.55
+✓ [SUCCESS] Improvement! Δ=0.038908, new_best=0.788075, reward=9.66
+✓ [SUCCESS] Improvement! Δ=0.004456, new_best=0.739934, reward=2.53
+✓ [SUCCESS] Improvement! Δ=0.001314, new_best=0.714894, reward=2.51
+✓ [SUCCESS] Improvement! Δ=0.074052, new_best=0.739934, reward=15.98
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=12.69
+✓ [SUCCESS] Improvement! Δ=0.004232, new_best=0.788075, reward=4.44
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=2.56
+✓ [SUCCESS] Improvement! Δ=0.034676, new_best=0.783844, reward=11.40
+✓ [SUCCESS] Improvement! Δ=0.004084, new_best=0.715699, reward=4.39
+✓ [SUCCESS] Improvement! Δ=0.001400, new_best=0.717099, reward=1.26
+✓ [SUCCESS] Improvement! Δ=0.013646, new_best=0.739934, reward=5.49
+✓ [SUCCESS] Improvement! Δ=0.050774, new_best=0.790708, reward=10.39
+✓ [SUCCESS] Improvement! Δ=0.074619, new_best=0.739934, reward=22.14
+✓ [SUCCESS] Improvement! Δ=0.048401, new_best=0.788335, reward=11.64
+✓ [SUCCESS] Improvement! Δ=0.009349, new_best=0.665179, reward=4.49
+✓ [SUCCESS] Improvement! Δ=0.087435, new_best=0.739934, reward=13.05
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.062468, new_best=0.739934, reward=8.01
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.073510, new_best=0.739934, reward=17.75
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.026556, new_best=0.667505, reward=4.06
+✓ [SUCCESS] Improvement! Δ=0.013120, new_best=0.680626, reward=7.21
+✓ [SUCCESS] Improvement! Δ=0.021237, new_best=0.739934, reward=8.98
+✓ [SUCCESS] Improvement! Δ=0.023198, new_best=0.739934, reward=3.53
+✓ [SUCCESS] Improvement! Δ=0.035693, new_best=0.711187, reward=10.93
+✓ [SUCCESS] Improvement! Δ=0.028747, new_best=0.739934, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.020410, new_best=0.739934, reward=3.48
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.062468, new_best=0.739934, reward=7.14
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=17.12
+✓ [SUCCESS] Improvement! Δ=0.028787, new_best=0.713390, reward=12.10
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.57
+✓ [SUCCESS] Improvement! Δ=0.001311, new_best=0.789647, reward=1.26
+✓ [SUCCESS] Improvement! Δ=0.028734, new_best=0.665179, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.005393, new_best=0.670571, reward=3.61
+✓ [SUCCESS] Improvement! Δ=0.044323, new_best=0.714894, reward=6.03
+✓ [SUCCESS] Improvement! Δ=0.013618, new_best=0.665179, reward=2.77
+✓ [SUCCESS] Improvement! Δ=0.049716, new_best=0.714894, reward=11.66
+✓ [SUCCESS] Improvement! Δ=0.001058, new_best=0.715953, reward=1.49
+✓ [SUCCESS] Improvement! Δ=0.049803, new_best=0.714894, reward=9.80
+✓ [SUCCESS] Improvement! Δ=0.014659, new_best=0.739934, reward=4.31
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=15.04
+✓ [SUCCESS] Improvement! Δ=0.021603, new_best=0.789647, reward=4.01
+✓ [SUCCESS] Improvement! Δ=0.106059, new_best=0.789647, reward=18.17
+✓ [SUCCESS] Improvement! Δ=0.020090, new_best=0.739934, reward=5.76
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.739934, reward=14.31
+✓ [SUCCESS] Improvement! Δ=0.000372, new_best=0.739934, reward=1.81
+✓ [SUCCESS] Improvement! Δ=0.003716, new_best=0.715953, reward=2.27
+✓ [SUCCESS] Improvement! Δ=0.046937, new_best=0.788075, reward=14.73
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.000372, new_best=0.739934, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.143042, new_best=0.783844, reward=30.74
+✓ [SUCCESS] Improvement! Δ=0.010860, new_best=0.714894, reward=2.31
+✓ [SUCCESS] Improvement! Δ=0.028747, new_best=0.739934, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.029823, new_best=0.668934, reward=7.66
+✓ [SUCCESS] Improvement! Δ=0.072516, new_best=0.739934, reward=11.63
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=5.19
+✓ [SUCCESS] Improvement! Δ=0.077004, new_best=0.739934, reward=25.20
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.064608, new_best=0.739934, reward=17.67
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=14.96
+✓ [SUCCESS] Improvement! Δ=0.016678, new_best=0.739934, reward=5.45
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=13.85
+✓ [SUCCESS] Improvement! Δ=0.000372, new_best=0.739934, reward=2.37
+✓ [SUCCESS] Improvement! Δ=0.010493, new_best=0.750427, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.064180, new_best=0.739934, reward=15.07
+✓ [SUCCESS] Improvement! Δ=0.032811, new_best=0.709088, reward=13.35
+✓ [SUCCESS] Improvement! Δ=0.018085, new_best=0.714894, reward=5.05
+✓ [SUCCESS] Improvement! Δ=0.041551, new_best=0.693112, reward=5.51
+✓ [SUCCESS] Improvement! Δ=0.019039, new_best=0.739934, reward=1.88
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.063096, new_best=0.739934, reward=17.48
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=12.69
+✓ [SUCCESS] Improvement! Δ=0.064440, new_best=0.739934, reward=17.04
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=11.94
+✓ [SUCCESS] Improvement! Δ=0.013575, new_best=0.665179, reward=5.47
+✓ [SUCCESS] Improvement! Δ=0.021144, new_best=0.665179, reward=4.88
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=4.32
+✓ [SUCCESS] Improvement! Δ=0.007848, new_best=0.739934, reward=4.23
+✓ [SUCCESS] Improvement! Δ=0.004175, new_best=0.665179, reward=3.55
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.709088, reward=10.91
+✓ [SUCCESS] Improvement! Δ=0.061211, new_best=0.773715, reward=13.67
+✓ [SUCCESS] Improvement! Δ=0.014360, new_best=0.788075, reward=5.68
+✓ [SUCCESS] Improvement! Δ=0.027430, new_best=0.739934, reward=7.96
+✓ [SUCCESS] Improvement! Δ=0.000158, new_best=0.739934, reward=2.17
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.002010, new_best=0.682784, reward=2.67
+✓ [SUCCESS] Improvement! Δ=0.057150, new_best=0.739934, reward=15.02
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=9.88
+✓ [SUCCESS] Improvement! Δ=0.021603, new_best=0.789647, reward=6.47
+✓ [SUCCESS] Improvement! Δ=0.001061, new_best=0.790708, reward=1.83
+✓ [SUCCESS] Improvement! Δ=0.023289, new_best=0.773715, reward=4.33
+✓ [SUCCESS] Improvement! Δ=0.064608, new_best=0.739934, reward=15.86
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.026556, new_best=0.667505, reward=6.54
+✓ [SUCCESS] Improvement! Δ=0.022323, new_best=0.717099, reward=3.59
+✓ [SUCCESS] Improvement! Δ=0.022835, new_best=0.739934, reward=4.32
+✓ [SUCCESS] Improvement! Δ=0.042113, new_best=0.832822, reward=12.09
+[BUFFER] New global best! Fitness=0.832822, Raw=2.823393
+✓ [SUCCESS] Improvement! Δ=0.004232, new_best=0.788075, reward=3.85
+✓ [SUCCESS] Improvement! Δ=0.014659, new_best=0.739934, reward=3.74
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=8.83
+✓ [SUCCESS] Improvement! Δ=0.061264, new_best=0.739934, reward=15.15
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=15.97
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.062468, new_best=0.739934, reward=15.40
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.014037, new_best=0.788075, reward=5.66
+✓ [SUCCESS] Improvement! Δ=0.093206, new_best=0.739934, reward=19.81
+✓ [SUCCESS] Improvement! Δ=0.018493, new_best=0.758427, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.015931, new_best=0.789647, reward=5.06
+✓ [SUCCESS] Improvement! Δ=0.005803, new_best=0.789647, reward=3.50
+✓ [SUCCESS] Improvement! Δ=0.015976, new_best=0.709088, reward=8.10
+✓ [SUCCESS] Improvement! Δ=0.004302, new_best=0.713390, reward=3.50
+✓ [SUCCESS] Improvement! Δ=0.031012, new_best=0.739934, reward=5.10
+✓ [SUCCESS] Improvement! Δ=0.004456, new_best=0.739934, reward=4.26
+✓ [SUCCESS] Improvement! Δ=0.061065, new_best=0.739934, reward=6.51
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.051911, new_best=0.739934, reward=12.08
+✓ [SUCCESS] Improvement! Δ=0.021144, new_best=0.665179, reward=6.37
+✓ [SUCCESS] Improvement! Δ=0.010493, new_best=0.675671, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.039223, new_best=0.714894, reward=9.25
+✓ [SUCCESS] Improvement! Δ=0.010080, new_best=0.692864, reward=4.01
+✓ [SUCCESS] Improvement! Δ=0.047070, new_best=0.739934, reward=14.28
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.032281, new_best=0.790708, reward=6.99
+✓ [SUCCESS] Improvement! Δ=0.027430, new_best=0.739934, reward=7.98
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=5.51
+✓ [SUCCESS] Improvement! Δ=0.021026, new_best=0.790708, reward=0.56
+✓ [SUCCESS] Improvement! Δ=0.073510, new_best=0.739934, reward=10.98
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.061264, new_best=0.739934, reward=4.86
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.005803, new_best=0.789647, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.043175, new_best=0.832822, reward=5.50
+✓ [SUCCESS] Improvement! Δ=0.025781, new_best=0.739934, reward=4.96
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.019062, new_best=0.739934, reward=4.21
+✓ [SUCCESS] Improvement! Δ=0.013618, new_best=0.665179, reward=2.77
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=2.18
+✓ [SUCCESS] Improvement! Δ=0.005658, new_best=0.650298, reward=3.73
+✓ [SUCCESS] Improvement! Δ=0.014881, new_best=0.665179, reward=3.42
+✓ [SUCCESS] Improvement! Δ=0.048212, new_best=0.713390, reward=18.15
+✓ [SUCCESS] Improvement! Δ=0.038617, new_best=0.714894, reward=13.77
+✓ [SUCCESS] Improvement! Δ=0.048401, new_best=0.763296, reward=12.15
+✓ [SUCCESS] Improvement! Δ=0.015439, new_best=0.739934, reward=4.63
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=14.81
+✓ [SUCCESS] Improvement! Δ=0.018131, new_best=0.725234, reward=6.97
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=3.40
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.012279, new_best=0.709088, reward=4.97
+✓ [SUCCESS] Improvement! Δ=0.005806, new_best=0.714894, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.021144, new_best=0.665179, reward=6.20
+✓ [SUCCESS] Improvement! Δ=0.029560, new_best=0.694739, reward=5.15
+✓ [SUCCESS] Improvement! Δ=0.006713, new_best=0.665179, reward=2.92
+✓ [SUCCESS] Improvement! Δ=0.092958, new_best=0.758136, reward=22.80
+✓ [SUCCESS] Improvement! Δ=0.020410, new_best=0.739934, reward=5.41
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.069378, new_best=0.788075, reward=20.53
+✓ [SUCCESS] Improvement! Δ=0.004441, new_best=0.665179, reward=2.73
+✓ [SUCCESS] Improvement! Δ=0.097159, new_best=0.762338, reward=26.33
+✓ [SUCCESS] Improvement! Δ=0.028319, new_best=0.739934, reward=7.85
+✓ [SUCCESS] Improvement! Δ=0.019062, new_best=0.739934, reward=5.08
+✓ [SUCCESS] Improvement! Δ=0.007848, new_best=0.739934, reward=4.30
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=13.31
+✓ [SUCCESS] Improvement! Δ=0.004232, new_best=0.788075, reward=4.44
+✓ [SUCCESS] Improvement! Δ=0.015931, new_best=0.789647, reward=2.88
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.046937, new_best=0.788075, reward=13.99
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.96
+✓ [SUCCESS] Improvement! Δ=0.019062, new_best=0.739934, reward=6.65
+✓ [SUCCESS] Improvement! Δ=0.064722, new_best=0.714894, reward=15.81
+✓ [SUCCESS] Improvement! Δ=0.033417, new_best=0.783844, reward=13.54
+✓ [SUCCESS] Improvement! Δ=0.019190, new_best=0.739934, reward=3.44
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=14.82
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.027430, new_best=0.739934, reward=6.54
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.004232, new_best=0.788075, reward=3.63
+✓ [SUCCESS] Improvement! Δ=0.019190, new_best=0.739934, reward=5.11
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.015006, new_best=0.665179, reward=5.56
+✓ [SUCCESS] Improvement! Δ=0.052598, new_best=0.788075, reward=17.18
+✓ [SUCCESS] Improvement! Δ=0.015439, new_best=0.739934, reward=5.16
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.030120, new_best=0.739934, reward=12.05
+✓ [SUCCESS] Improvement! Δ=0.033781, new_best=0.773715, reward=7.83
+✓ [SUCCESS] Improvement! Δ=0.021237, new_best=0.739934, reward=5.46
+✓ [SUCCESS] Improvement! Δ=0.021237, new_best=0.739934, reward=3.57
+✓ [SUCCESS] Improvement! Δ=0.031220, new_best=0.789647, reward=4.57
+✓ [SUCCESS] Improvement! Δ=0.025781, new_best=0.739934, reward=4.88
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=3.87
+✓ [SUCCESS] Improvement! Δ=0.020090, new_best=0.739934, reward=7.87
+✓ [SUCCESS] Improvement! Δ=0.073510, new_best=0.739934, reward=16.03
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=7.78
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.01
+✓ [SUCCESS] Improvement! Δ=0.078429, new_best=0.725234, reward=16.22
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=3.40
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=15.27
+✓ [SUCCESS] Improvement! Δ=0.005803, new_best=0.789647, reward=1.42
+✓ [SUCCESS] Improvement! Δ=0.024857, new_best=0.694739, reward=5.87
+✓ [SUCCESS] Improvement! Δ=0.040285, new_best=0.732279, reward=5.58
+✓ [SUCCESS] Improvement! Δ=0.039675, new_best=0.739934, reward=9.98
+✓ [SUCCESS] Improvement! Δ=0.037649, new_best=0.788075, reward=14.86
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.90
+✓ [SUCCESS] Improvement! Δ=0.004084, new_best=0.715699, reward=4.39
+✓ [SUCCESS] Improvement! Δ=0.077004, new_best=0.739934, reward=20.97
+✓ [SUCCESS] Improvement! Δ=0.043509, new_best=0.713390, reward=16.69
+✓ [SUCCESS] Improvement! Δ=0.020278, new_best=0.713390, reward=9.44
+✓ [SUCCESS] Improvement! Δ=0.024423, new_best=0.678870, reward=6.74
+✓ [SUCCESS] Improvement! Δ=0.104974, new_best=0.783844, reward=31.62
+✓ [SUCCESS] Improvement! Δ=0.074052, new_best=0.739934, reward=15.98
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.074394, new_best=0.832822, reward=20.73
+✓ [SUCCESS] Improvement! Δ=0.007848, new_best=0.739934, reward=2.27
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.087435, new_best=0.739934, reward=13.05
+✓ [SUCCESS] Improvement! Δ=0.112749, new_best=0.788075, reward=31.29
+✓ [SUCCESS] Improvement! Δ=0.000158, new_best=0.739934, reward=1.78
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.064608, new_best=0.739934, reward=13.04
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=13.91
+✓ [SUCCESS] Improvement! Δ=0.015439, new_best=0.739934, reward=4.63
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=14.82
+✓ [SUCCESS] Improvement! Δ=0.064180, new_best=0.739934, reward=15.07
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.010269, new_best=0.739934, reward=5.14
+✓ [SUCCESS] Improvement! Δ=0.018652, new_best=0.713390, reward=8.93
+✓ [SUCCESS] Improvement! Δ=0.011844, new_best=0.725234, reward=4.74
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=5.95
+✓ [SUCCESS] Improvement! Δ=0.028110, new_best=0.768044, reward=9.21
+✓ [SUCCESS] Improvement! Δ=0.020410, new_best=0.739934, reward=7.87
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=11.68
+✓ [SUCCESS] Improvement! Δ=0.012279, new_best=0.709088, reward=6.95
+✓ [SUCCESS] Improvement! Δ=0.004302, new_best=0.713390, reward=4.46
+✓ [SUCCESS] Improvement! Δ=0.019062, new_best=0.739934, reward=8.23
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.079154, new_best=0.788075, reward=20.37
+✓ [SUCCESS] Improvement! Δ=0.001571, new_best=0.789647, reward=1.96
+✓ [SUCCESS] Improvement! Δ=0.028747, new_best=0.739934, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.000359, new_best=0.665179, reward=3.05
+✓ [SUCCESS] Improvement! Δ=0.072859, new_best=0.739934, reward=9.88
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=15.21
+✓ [SUCCESS] Improvement! Δ=0.002633, new_best=0.790708, reward=2.19
+✓ [SUCCESS] Improvement! Δ=0.017327, new_best=0.739934, reward=5.26
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.014700, new_best=0.739934, reward=3.40
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=11.76
+✓ [SUCCESS] Improvement! Δ=0.005803, new_best=0.789647, reward=3.26
+✓ [SUCCESS] Improvement! Δ=0.017496, new_best=0.668934, reward=3.78
+✓ [SUCCESS] Improvement! Δ=0.048165, new_best=0.717099, reward=12.43
+✓ [SUCCESS] Improvement! Δ=0.056429, new_best=0.714894, reward=7.05
+✓ [SUCCESS] Improvement! Δ=0.061370, new_best=0.739934, reward=21.92
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=11.29
+✓ [SUCCESS] Improvement! Δ=0.001967, new_best=0.739934, reward=1.48
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.032831, new_best=0.739934, reward=12.13
+✓ [SUCCESS] Improvement! Δ=0.057137, new_best=0.739934, reward=15.09
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=13.74
+✓ [SUCCESS] Improvement! Δ=0.028747, new_best=0.739934, reward=10.97
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=16.81
+✓ [SUCCESS] Improvement! Δ=0.005803, new_best=0.789647, reward=1.75
+✓ [SUCCESS] Improvement! Δ=0.034913, new_best=0.739934, reward=8.24
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=17.03
+✓ [SUCCESS] Improvement! Δ=0.019039, new_best=0.739934, reward=5.89
+✓ [SUCCESS] Improvement! Δ=0.031688, new_best=0.714894, reward=7.06
+✓ [SUCCESS] Improvement! Δ=0.057137, new_best=0.739934, reward=15.09
+✓ [SUCCESS] Improvement! Δ=0.051680, new_best=0.789647, reward=14.31
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.28
+✓ [SUCCESS] Improvement! Δ=0.061065, new_best=0.739934, reward=16.26
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.054169, new_best=0.789647, reward=15.77
+✓ [SUCCESS] Improvement! Δ=0.060601, new_best=0.739934, reward=8.19
+✓ [SUCCESS] Improvement! Δ=0.001967, new_best=0.739934, reward=1.48
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=18.13
+✓ [SUCCESS] Improvement! Δ=0.020090, new_best=0.739934, reward=5.76
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=10.12
+✓ [SUCCESS] Improvement! Δ=0.069136, new_best=0.739934, reward=21.75
+✓ [SUCCESS] Improvement! Δ=0.044746, new_best=0.758136, reward=12.12
+✓ [SUCCESS] Improvement! Δ=0.072516, new_best=0.739934, reward=11.63
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=13.67
+✓ [SUCCESS] Improvement! Δ=0.000158, new_best=0.739934, reward=2.17
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=14.82
+✓ [SUCCESS] Improvement! Δ=0.010043, new_best=0.664489, reward=3.87
+✓ [SUCCESS] Improvement! Δ=0.075445, new_best=0.739934, reward=14.93
+✓ [SUCCESS] Improvement! Δ=0.074052, new_best=0.739934, reward=15.98
+✓ [SUCCESS] Improvement! Δ=0.048141, new_best=0.788075, reward=17.47
+✓ [SUCCESS] Improvement! Δ=0.030184, new_best=0.713390, reward=10.39
+✓ [SUCCESS] Improvement! Δ=0.001504, new_best=0.714894, reward=1.95
+✓ [SUCCESS] Improvement! Δ=0.011635, new_best=0.743914, reward=6.75
+✓ [SUCCESS] Improvement! Δ=0.017327, new_best=0.739934, reward=5.26
+✓ [SUCCESS] Improvement! Δ=0.047070, new_best=0.739934, reward=6.76
+✓ [SUCCESS] Improvement! Δ=0.049713, new_best=0.789647, reward=6.63
+✓ [SUCCESS] Improvement! Δ=0.004441, new_best=0.665179, reward=2.73
+✓ [SUCCESS] Improvement! Δ=0.016678, new_best=0.739934, reward=5.88
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=14.81
+✓ [SUCCESS] Improvement! Δ=0.015439, new_best=0.739934, reward=5.14
+✓ [SUCCESS] Improvement! Δ=0.043910, new_best=0.783844, reward=15.87
+
+================================================================================
+EVALUATION METRICS - Round 4
+================================================================================
+Current Round Statistics:
+  Average Fitness (top-128): -4.439244
+  Diversity: 3.000000
+  Novelty: 1.000000
+  Highest in batch: 3.000000
+
+Global Statistics:
+  Global Maximum Fitness (normalized): 0.832822
+  Initial Maximum Fitness: 0.311339
+  Absolute Improvement: 0.521482
+  Percentage Improvement: 167.50%
+  Total Unique Sequences Discovered: 279
+  Total Oracle Calls: 15360
+
+  Buffer Status:
+    Best in current pool: 0.832822
+    Global best (tracked): 0.832822
+
+Top 10 Discovered Sequences:
+  1. Fitness: 0.832822 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  2. Fitness: 0.790708 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  3. Fitness: 0.789647 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  4. Fitness: 0.788335 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKEFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  5. Fitness: 0.788075 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  6. Fitness: 0.783844 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  7. Fitness: 0.774039 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKPFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  8. Fitness: 0.773715 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  9. Fitness: 0.772128 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  10. Fitness: 0.769682 | Seq: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVIISRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+================================================================================
+
+[DEBUG] Finished rollout collection — steps: 4096, calls: 0
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 16          |
+|    ep_rew_mean          | -60.4       |
+| time/                   |             |
+|    fps                  | 16          |
+|    iterations           | 4           |
+|    time_elapsed         | 1015        |
+|    total_timesteps      | 16384       |
+| train/                  |             |
+|    approx_kl            | 0.015691638 |
+|    clip_fraction        | 0.163       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -22.7       |
+|    explained_variance   | 0.112       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 100         |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.022      |
+|    std                  | 0.996       |
+|    value_loss           | 346         |
+-----------------------------------------
+wandb: 
+wandb: Run history:
+wandb:     Cumulative Best ▁▃▃▃▃▃▅▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▆▆█████████
+wandb:   Cumulative Reward ███████▇▇▇▇▇▆▆▆▆▆▆▆▅▅▅▄▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▁
+wandb:             Fitness ▃▇▇▆▅▁▆▃▄▇▄▇▇▇▆▂▄▂▆▆█▇▃▂▇▆▅▃█▆██▇▃▃█▇▇▇█
+wandb:      eval/diversity ▁▁▁▁
+wandb:        eval/fitness ▁▃▆█
+wandb:           eval/high ▁▁▁▁
+wandb:        eval/novelty ▁▁▁▁
+wandb:          eval/round ▁▃▆█
+wandb:     train/approx_kl █▁▅▇
+wandb: train/clip_fraction ▅▁██
+wandb:                  +7 ...
+wandb: 
+wandb: Run summary:
+wandb:     Cumulative Best 0.83282
+wandb:   Cumulative Reward -50928.59886
+wandb:             Fitness 0.72261
+wandb:      eval/diversity 3
+wandb:        eval/fitness 0.70716
+wandb:           eval/high 3
+wandb:        eval/novelty 1
+wandb:          eval/round 3
+wandb:     train/approx_kl 0.01619
+wandb: train/clip_fraction 0.16414
+wandb:                  +7 ...
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync ~/basework/LatProtRL/wandb/offline-run-20260408_050107-x090goax
+wandb: Find logs at: ./wandb/offline-run-20260408_050107-x090goax/logs
+[DEBUG] Starting PPO training loop...
+
+################################################################################
+FINAL RESEARCH PAPER METRICS - DHFR OPTIMIZATION
+################################################################################
+
+Key Results:
+  Initial Maximum Fitness: 0.311339
+  Global Maximum Fitness Achieved: 0.832822
+  Absolute Improvement: 0.521482
+  Percentage Improvement: 167.50%
+
+Exploration Statistics:
+  Total Rounds Completed: 4
+  Total Oracle Calls: 15360
+  Total Sequences Evaluated: 512
+  Total Unique Sequences: 279
+
+Top 20 Sequences Discovered:
+  Rank 1: Fitness = 0.832822
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 2: Fitness = 0.790708
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 3: Fitness = 0.789647
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 4: Fitness = 0.788335
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKEFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 5: Fitness = 0.788075
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 6: Fitness = 0.783844
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 7: Fitness = 0.774039
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKPFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 8: Fitness = 0.773715
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 9: Fitness = 0.772128
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 10: Fitness = 0.769682
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVIISRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 11: Fitness = 0.768044
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVIMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 12: Fitness = 0.765636
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKNFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 13: Fitness = 0.763296
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKEFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 14: Fitness = 0.762338
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 15: Fitness = 0.758427
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKQFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 16: Fitness = 0.758136
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+  Rank 17: Fitness = 0.750427
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKRFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+  Rank 18: Fitness = 0.749168
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFSEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 19: Fitness = 0.743914
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKKKPLSNRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEWQIISVSDVYTSNNTTLDFIIYKK
+  Rank 20: Fitness = 0.741138
+         Sequence = DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEELIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKK
+
+Global Best Sequence (for validation):
+  Fitness (normalized): 0.832822
+  Full Sequence: DIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFCAVTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTSWESIPKKFKPLSNRINIILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVIYQEFLEKKLIKKIYFTRINSTYECDVFFPEINENEFQIISVSDVYTSNNTTLDFIIYKK
+
+  Final Buffer Status:
+    Best in final pool: 0.832822
+    Global best (tracked): 0.832822 (raw: 2.823393)
+
+Final metrics saved to: results/DHFR_medium_107_ppo_confirmation_verify_05_01_07/final_research_metrics.json
+################################################################################
+

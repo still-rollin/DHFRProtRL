@@ -1,0 +1,45 @@
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in ~/basework/LatProtRL/wandb/offline-run-20260408_051550-0vmilo69
+
+================================================================================
+SAC 4-ROUND CHECK: Entropy=True, Size=True, BLOSUM=True
+================================================================================
+
+📊 Calibrating DHFROracle predictions...
+  ✅ Calibration: target = 0.975722 * pred + -0.0355 (R²=0.8647)
+[BUFFER] Initializing with sequences from 10th percentile
+[BUFFER] Fitness range: [0.2798, 0.3113]
+[BUFFER] Using sequences at indices 3680-3808 out of 4161
+Traceback (most recent call last):
+  File "~/basework/LatProtRL/optimize_sac.py", line 62, in <module>
+    env = SingleOpt(cfg, seed=args.seed)
+  File "~/basework/LatProtRL/net/envr.py", line 388, in __init__
+    model = VED(seq_cfg, pretrained=config.seq_pretrained)
+  File "~/basework/LatProtRL/net/seq_lm.py", line 41, in __init__
+    self.load_state_dict(self.load_ckpt(pretrained))
+  File "~/basework/LatProtRL/net/seq_lm.py", line 55, in load_ckpt
+    model_data = torch.load(pretrained, map_location=self.device)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 1360, in load
+    return _load(
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 1848, in _load
+    result = unpickler.load()
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 1812, in persistent_load
+    typed_storage = load_tensor(
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 1784, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 1685, in restore_location
+    return default_restore_location(storage, map_location)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 601, in default_restore_location
+    result = fn(storage, location)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/serialization.py", line 540, in _deserialize
+    return obj.to(device=device)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/storage.py", line 279, in to
+    return _to(self, device, non_blocking)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/_utils.py", line 88, in _to
+    untyped_storage = torch.UntypedStorage(self.size(), device=device)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 26.00 MiB. GPU 2 has a total capacity of 47.53 GiB of which 12.69 MiB is free. Process 1188871 has 31.21 GiB memory in use. Process 1612095 has 5.47 GiB memory in use. Process 1616463 has 5.43 GiB memory in use. Including non-PyTorch memory, this process has 5.39 GiB memory in use. Of the allocated memory 4.96 GiB is allocated by PyTorch, and 125.71 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[1;34mwandb[0m: 
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync ~/basework/LatProtRL/wandb/offline-run-20260408_051550-0vmilo69[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/offline-run-20260408_051550-0vmilo69/logs[0m

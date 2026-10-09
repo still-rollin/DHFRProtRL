@@ -1,0 +1,39 @@
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in ~/basework/LatProtRL/wandb/offline-run-20260408_051550-lwho4nsz
+
+================================================================================
+MODE: Entropy=True, Size=True, BLOSUM=True
+================================================================================
+
+📊 Calibrating DHFROracle predictions...
+  ✅ Calibration: target = 0.992872 * pred + -0.0472 (R²=0.8876)
+[BUFFER] Initializing with sequences from 10th percentile
+[BUFFER] Fitness range: [0.2798, 0.3113]
+[BUFFER] Using sequences at indices 3680-3808 out of 4161
+Traceback (most recent call last):
+  File "~/basework/LatProtRL/optimize.py", line 79, in <module>
+    env = SingleOpt(cfg, seed=args.seed)
+  File "~/basework/LatProtRL/net/envr.py", line 391, in __init__
+    self.model.set_wt_tokens(REFSEQ[self.protein][self.config.level])
+  File "~/basework/LatProtRL/net/seq_lm.py", line 68, in set_wt_tokens
+    encoded = self.encoder(tokens, set([self.esm_num_layers]))
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/esm/model/esm2.py", line 112, in forward
+    x, attn = layer(
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/esm/modules.py", line 138, in forward
+    x = gelu(self.fc1(x))
+  File "~/miniconda3/envs/latprotrl/lib/python3.9/site-packages/esm/modules.py", line 24, in gelu
+    return x * 0.5 * (1.0 + torch.erf(x / math.sqrt(2.0)))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 2 has a total capacity of 47.53 GiB of which 10.69 MiB is free. Process 1188871 has 31.21 GiB memory in use. Process 1612095 has 5.47 GiB memory in use. Including non-PyTorch memory, this process has 5.43 GiB memory in use. Process 1616462 has 5.39 GiB memory in use. Of the allocated memory 5.01 GiB is allocated by PyTorch, and 122.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[1;34mwandb[0m: 
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync ~/basework/LatProtRL/wandb/offline-run-20260408_051550-lwho4nsz[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/offline-run-20260408_051550-lwho4nsz/logs[0m

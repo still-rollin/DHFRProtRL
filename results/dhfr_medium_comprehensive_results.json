@@ -1,0 +1,62 @@
+{
+  "checkpoint": "~/basework/LatProtRL/ckpt/DHFR/medium.ckpt",
+  "data_file": "data/DHFR/medium.csv",
+  "correlation": {
+    "pearson_r": 0.8668179650706727,
+    "pearson_p": 0.0,
+    "spearman_r": 0.8746772863426354,
+    "spearman_p": 0.0,
+    "kendall_tau": 0.7048820263759895,
+    "kendall_p": 0.0
+  },
+  "error": {
+    "mae": 115.40528706072077,
+    "mse": 25701.897408632474,
+    "rmse": 160.31811316452198,
+    "r2": -11916.455438835379,
+    "median_ae": 74.23445642739534,
+    "mape": 40229.93582657633,
+    "nmae": 11.957183247995513,
+    "nrmse": 16.610617294097295
+  },
+  "ranking": {
+    "precision": 0.6033653846153846,
+    "recall": 0.6033653846153846,
+    "f1": 0.6033653846153846,
+    "overlap": 251.0,
+    "overlap_ratio": 0.6033653846153846,
+    "ndcg": 0.8768933993664091,
+    "topk_accuracy": 0.6033653846153846,
+    "n_top": 416.0,
+    "top_actual_mean": 1.928856513534601,
+    "top_pred_mean": -14.782862663269043,
+    "bottom_actual_mean": -3.0615050786962876,
+    "bottom_pred_mean": -322.5970153808594,
+    "separation": 307.81414794921875
+  },
+  "distribution": {
+    "ks_statistic": 0.9577024753664984,
+    "ks_p_value": 0.0,
+    "actual_mean": -0.19469205681879204,
+    "actual_std": 1.4685570567680049,
+    "predicted_mean": -115.03659057617188,
+    "predicted_std": 113.1331558227539,
+    "mean_diff": -114.84189851935308,
+    "std_ratio": 77.03694950180346,
+    "actual_skew": -0.5359049479811984,
+    "pred_skew": -1.0964328371384657,
+    "actual_kurtosis": -0.15637068692848288,
+    "pred_kurtosis": 0.5635182325777981
+  },
+  "data_info": {
+    "n_sequences": 4161,
+    "actual_range": [
+      -5.21475076675415,
+      4.436793804168701
+    ],
+    "predicted_range": [
+      -631.5282592773438,
+      224.25985717773438
+    ]
+  }
+}

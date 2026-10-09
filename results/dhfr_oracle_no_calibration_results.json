@@ -1,0 +1,20 @@
+{
+  "calibration_applied": false,
+  "sample_size": 4161,
+  "pearson_correlation": 0.9350966835121626,
+  "spearman_correlation": 0.9343983680112721,
+  "mae": 0.2653742645775066,
+  "rmse": 0.5222989562493052,
+  "r2": 0.8735098618553391,
+  "concordance_index": 0.915065065065065,
+  "actual_range": [
+    -5.21475076675415,
+    4.436793804168701
+  ],
+  "predicted_range": [
+    -5.543607234954834,
+    4.36160135269165
+  ],
+  "effect_size": 5.593244067814185,
+  "issues": []
+}
