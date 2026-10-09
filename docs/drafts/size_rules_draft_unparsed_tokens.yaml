@@ -1,0 +1,145 @@
+# Side-chain size/shape similarity
+# cost: none | mild | moderate | severe
+# Conservative swaps keep side-chain volume/shape similar (good packing, minimal steric clash)
+# Penalized swaps are much larger/smaller or break packing (ring ↔ non-ring, β-branching changes, etc.)
+
+
+A:  # Alanine (small, nonpolar)
+  no_cost:   [G, S]        # tiny/very small side chains
+  mild:      [V, T, C]     # slightly larger or polar OH/thiol
+  moderate:  [L, I, M, P]  # bigger aliphatic or ring (Pro)
+  severe:    [F, Y, W, D, E, K, R, H, N, Q]  # bulky/aromatic or charged/polar
+  notes: "Core A→large bulky often overpacks; A→G reduces packing; A→S minimal."
+
+G:  # Glycine (tiny, flexible, no side chain)
+  no_cost:   []
+  mild:      [A, S]
+  moderate:  [C, T]
+  severe:    [V, I, L, M, F, Y, W, P, D, E, K, R, H, N, Q]
+  notes: "Gly gives backbone freedom; replacing with bulk restricts φ/ψ—risky in tight turns."
+
+S:  # Serine (small, polar OH)
+  no_cost:   [T, A]        # Thr is Ser+CH3; A removes OH
+  mild:      [C, N]        # thiol swap; amide introduces larger polar
+  moderate:  [V, G, Q]     # size/chemistry drift
+  severe:    [I, L, M, F, Y, W, P, D, E, K, R, H]
+  notes: "S↔T common; S→A modest if H-bond not essential."
+
+T:  # Threonine (β-branched, polar OH)
+  no_cost:   [S]
+  mild:      [A, V]        # loses OH or keeps β-branch
+  moderate:  [I, N, C]
+  severe:    [L, M, F, Y, W, P, D, E, K, R, H, Q, G]
+  notes: "β-branching matters in β-sheets; T→V keeps branching but loses OH."
+
+C:  # Cysteine (small, polarizable thiol)
+  no_cost:   []
+  mild:      [S, A]
+  moderate:  [T, V]
+  severe:    [I, L, M, F, Y, W, P, D, E, K, R, H, N, Q, G]
+  notes: "C can form disulfide/metal bonds; loss may disrupt structure."
+
+V:  # Valine (β-branched hydrophobe)
+  no_cost:   [I, L]        # similar size hydrophobes
+  mild:      [T, A, M]
+  moderate:  [F, Y]
+  severe:    [W, P, D, E, K, R, H, S, N, Q, C, G]
+  notes: "β-branch important in sheets; V↔I/L conservative."
+
+I:  # Isoleucine (β-branched hydrophobe)
+  no_cost:   [V, L]
+  mild:      [M, T]
+  moderate:  [F, Y]
+  severe:    [W, P, D, E, K, R, H, S, N, Q, C, G, A]
+  notes: "Keep β-branch; large/aromatic can overpack."
+
+L:  # Leucine (hydrophobe)
+  no_cost:   [I, V, M]
+  mild:      [F, Y]
+  moderate:  [A, T]
+  severe:    [W, P, D, E, K, R, H, S, N, Q, C, G]
+  notes: "Leu↔Ile/Val most conservative; ring adds bulk."
+
+M:  # Methionine (largish hydrophobe, flexible)
+  no_cost:   [L, I]
+  mild:      [V, F, Y]
+  moderate:  [A, T, Q]     # polar amide differs
+  severe:    [W, P, D, E, K, R, H, S, N, C, G]
+  notes: "M often tolerates swaps to other hydrophobes."
+
+F:  # Phenylalanine (aromatic)
+  no_cost:   [Y]           # adds OH but similar ring
+  mild:      [W, L]        # larger ring or large hydrophobe
+  moderate:  [I, V, M]
+  severe:    [A, G, P, D, E, K, R, H, S, T, N, Q, C]
+  notes: "Aromatic stacking matters; losing ring can destabilize."
+
+Y:  # Tyrosine (aromatic + OH)
+  no_cost:   [F]
+  mild:      [W, H]        # aromatic; H different pKa
+  moderate:  [L, I, V, M]
+  severe:    [A, G, P, D, E, K, R, S, T, N, Q, C]
+  notes: "Y OH can H-bond; Y↔F conservative if H-bond not needed."
+
+W:  # Tryptophan (largest aromatic)
+  no_cost:   []
+  mild:      [F, Y]
+  moderate:  [H, L, I, M]
+  severe:    [V, A, G, P, D, E, K, R, S, T, N, Q, C]
+  notes: "Huge; replacing with small residues creates cavity."
+
+P:  # Proline (ring locks backbone)
+  no_cost:   []
+  mild:      [A]           # smallest disruption
+  moderate:  [V, L]
+  severe:    [others]
+  notes: "Pro breaks helices; non-Pro→Pro or Pro→non-Pro can kink."
+
+N:  # Asparagine (polar amide)
+  no_cost:   [Q, D]        # Q larger amide; D is acidic (charge differs)
+  mild:      [S, T]
+  moderate:  [H, E]
+  severe:    [hydrophobes, aromatics, strong bases K/R]
+  notes: "Asn participates in H-bonding; N↔Q common."
+
+Q:  # Glutamine (polar amide, larger)
+  no_cost:   [N]
+  mild:      [E, H]
+  moderate:  [S, T, D]
+  severe:    [hydrophobes, aromatics, K, R, C, G, A]
+  notes: "Q↔N common; size matters."
+
+D:  # Aspartate (negatively charged)
+  no_cost:   [E]           # same charge longer
+  mild:      [N]           # amide of D (charge loss)
+  moderate:  [H]           # pH-dependent interactions
+  severe:    [hydrophobes, aromatics, K, R]
+  notes: "Maintain negative charge if salt bridge present."
+
+E:  # Glutamate (negatively charged)
+  no_cost:   [D]
+  mild:      [Q]
+  moderate:  [H]
+  severe:    [hydrophobes, aromatics, K, R]
+  notes: "E↔D conservative; length can matter in salt bridge geometry."
+
+K:  # Lysine (positively charged, long)
+  no_cost:   [R]           # same charge
+  mild:      [H, Q]        # partial/base; polar amide
+  moderate:  [E]           # flips charge (functional context)
+  severe:    [hydrophobes, aromatics, D]
+  notes: "K↔R common; avoid losing positive charge at binding sites."
+
+R:  # Arginine (positively charged, guanidinium)
+  no_cost:   [K]
+  mild:      [H, Q]
+  moderate:  [E]
+  severe:    [hydrophobes, aromatics, D]
+  notes: "Arg makes multiple H-bonds; K sometimes insufficient."
+
+H:  # Histidine (aromatic, pKa ~6, partial positive)
+  no_cost:   []
+  mild:      [K, R, Y]     # preserve cation/π; Y aromatic
+  moderate:  [Q, N]
+  severe:    [hydrophobes, D, E]
+  notes: "Histidine often catalytic; treat cautiously."

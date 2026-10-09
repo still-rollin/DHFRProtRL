@@ -1,0 +1,13 @@
+entropy_bins:
+  highly_conserved:   {max: 0.30, penalty: severe}     # near-invariant
+  conserved:          {max: 0.70, penalty: moderate}
+  medium:             {max: 1.50, penalty: mild}
+  variable:           {max: 10.0, penalty: none}       # everything above
+
+continuous_weighting:
+  enabled: true
+  formula: "penalty_scale = (e_max - e_pos) / (e_max - e_min)"
+  e_min: 0.0
+  e_max: 2.2
+  clamp: [0,1]
+notes: "Use binned penalties OR continuous weighting (not both)."

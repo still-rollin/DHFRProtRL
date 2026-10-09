@@ -1,0 +1,18 @@
+active_sites: [5, 6, 7, 37, 45, 46, 48, 49, 99, 102, 103, 155, 161, 176]
+
+default_penalty:
+  non_active_site: base   # no extra
+  active_site_protected: severe
+  active_site_mutation_known: moderate  # positions 7,99,155
+
+overrides:
+  7:   {penalty: moderate, notes: "documented variants; still caution"}
+  99:  {penalty: moderate}
+  155: {penalty: moderate}
+
+biochemistry_guardrails:
+  # preserve essential chemistry at active sites
+  keep_charge: true        # penalize loss/gain of charge at active sites (severe)
+  keep_polar_group: true   # e.g., Y OH, H imidazole, catalytic D/E
+  keep_aromatic_if_present: true
+  size_limit: "no big jumps"  # enforce ≤1 size tier change at active sites
