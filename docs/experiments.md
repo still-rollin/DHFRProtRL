@@ -45,7 +45,7 @@ In all nine rows with saved metrics, the final value in the log equals the saved
 
 ![best fitness by evaluation](../figures/experiments/ppo_sac_curves.png)
 
-## 3. Logs with no completed evaluation
+## 3. Logs without evaluation blocks
 
 | Log | Evaluation blocks | Last `new_best` printed |
 |--|--|--|

@@ -40,8 +40,8 @@ Input: one-hot sequence, 20 channels × 219. Layers: Conv1d 20→128 (kernel 3, 
 | Data | the 4,161 rows of the dataset |
 | Split | `train_test_split(test_size=0.15, random_state=42)`, then 15% of the remainder for validation: train 3,005, validation 531, test 625 |
 | Optimizer / loss | Adam, learning rate 1e-3, weight decay 1e-5, MSE, batch size 32 |
-| Epochs | up to 300; the patience counter does not stop training |
-| Saved model | `best_state = model.state_dict()` references the live weights, so the saved model is the final-epoch model |
+| Epochs | 300; validation loss is computed each epoch |
+| Saved model | final-epoch weights (`best_state = model.state_dict()` references the live weights) |
 | Checkpoint | `ckpt/DHFR/oracle.ckpt` equals `dhfr_Oracle/model/dhfr_oracle.pt` (same file) |
 
 ### 3.3 Accuracy of the checkpoint (`analysis/oracle_true_holdout.py`)
@@ -60,7 +60,7 @@ The values reported in `Findings.docx` (Pearson 0.935, Spearman 0.934, R² 0.874
 | Predicted range / actual range (raw) | −5.544 to 4.361 / −5.215 to 4.437 | recomputed |
 | Concordance index (all 4,161) | 0.915 | `oracle/oracle_validation_results.json`, recorded |
 | Effect size (Cohen's d of predictions, top 10% vs bottom 10% by actual) | 5.59 | recomputed (5.589) |
-| "Relative accuracy" (share of predictions with `|error| / actual < 0.1`) | 73.66% | recomputed (73.66%); the formula has no absolute value on `actual`, so all 48.3% of variants with a negative target count as within tolerance; with `|actual|` the value is 45.30% |
+| "Relative accuracy" (share of predictions with `|error| / actual < 0.1`) | 73.66% | recomputed: 73.66% with the script's formula, 45.30% with `|actual|` in the denominator (48.3% of variants have a negative target) |
 
 ## 4. Reward function (`net/envr.py`)
 For a step that produces sequence `s` with normalized oracle fitness `f` and episode best `f_best`, with `Δ = f − f_best`:

@@ -58,7 +58,7 @@ def main():
         return s
 
     # label-additive expectation: ref_label + sum of single-mutant effects. The reference label is not
-    # in the data, so the oracle's estimate of it is used (documented limitation).
+    # in the data, so the oracle's estimate of it is used.
     ref_oracle_raw = float(slope * raw(ref[None])[0] + icpt)
     eff = {(int(p), int(c)): float(t) for p, c, t in zip(pos, aa, y)}
     additive = lambda muts: ref_oracle_raw + sum(eff[(p, c)] - ref_oracle_raw for p, c in muts)

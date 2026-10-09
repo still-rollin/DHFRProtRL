@@ -85,7 +85,7 @@ w("\nIn all nine rows with saved metrics, the final value in the log equals the 
 w("![best fitness by evaluation](../figures/experiments/ppo_sac_curves.png)\n")
 
 # 3 no evaluations
-w("## 3. Logs with no completed evaluation\n")
+w("## 3. Logs without evaluation blocks\n")
 w("| Log | Evaluation blocks | Last `new_best` printed |")
 w("|--|--|--|")
 for log in ["ppo_cold_start_109.log", "ppo_cold_start_109_v2.log", "ppo_unconstrained_110.log", "ppo_hard_112.log",
