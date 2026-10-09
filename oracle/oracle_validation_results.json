@@ -1,0 +1,27 @@
+{
+  "sample_size": 4161,
+  "pearson_correlation": 0.9350966855564371,
+  "spearman_correlation": 0.9343982674049985,
+  "mae": 0.26537430004699736,
+  "rmse": 0.522298961707622,
+  "r2": 0.8735098592115534,
+  "mape": 112.91093594544552,
+  "relative_accuracy": 73.66017784186494,
+  "concordance_index": 0.9151558329122799,
+  "actual_range": [
+    -5.21475076675415,
+    4.436793804168701
+  ],
+  "predicted_range": [
+    -5.543606758117676,
+    4.361600875854492
+  ],
+  "normalized_reward_range": [
+    -3.642292736702213,
+    3.102564460587427
+  ],
+  "pct_rewards_above_1": 13.290074501321797,
+  "random_overlap_pct": 0.0,
+  "effect_size": 5.593244178755247,
+  "issues": []
+}
