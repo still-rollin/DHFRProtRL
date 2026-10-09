@@ -4,7 +4,7 @@
 
 **Result.** The RL runs reach a predicted fitness of 0.77 to 0.87 (0–1 scale). A plain scan of the same surrogate model over all single mutants reaches 0.98 with fewer model calls, so RL does not beat simple search here. The surrogate is also less accurate on unseen variants (Pearson 0.74) than the 0.935 first reported, and nothing is validated beyond the model.
 
-Facts from the original findings document: [docs/findings.md](docs/findings.md). Per-run results from the logs: [docs/experiments.md](docs/experiments.md). Checks and limitations: [docs/checks.md](docs/checks.md).
+Facts from the original findings document: [docs/findings.md](docs/findings.md). Per-run results from the logs, including the no-RL baselines: [docs/experiments.md](docs/experiments.md).
 
 ## Layout
 ```
