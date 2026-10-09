@@ -6,3 +6,4 @@ Produced by the scripts in `analysis/` and the earlier oracle validation. Read t
 - `ablation_*.png`, `gravy_*.png` and `instability_*.png` come from single runs per setting and use sequence-level proxies (GRAVY, instability index). They do not measure stability or activity.
 - `dhfr_medium_*.png` summarize one earlier checkpoint-testing session; the model they used is not recorded.
 - `calibration_debug.png` is from the oracle calibration debugging.
+- `experiments/` holds the three figures used in `docs/experiments.md`, drawn by `analysis/experiments_figures.py` from `results/experiments/*.csv`.
